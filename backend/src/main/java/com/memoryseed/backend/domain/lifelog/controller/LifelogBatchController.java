@@ -2,6 +2,7 @@ package com.memoryseed.backend.domain.lifelog.controller;
 
 import com.memoryseed.backend.domain.lifelog.dto.BatchUploadRequest;
 import com.memoryseed.backend.domain.lifelog.service.LifelogBatchService;
+import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,7 +19,10 @@ public class LifelogBatchController {
     }
 
     @PostMapping("/batch")
-    public ResponseEntity<?> upload(@RequestParam Long userId, @RequestBody BatchUploadRequest req) {
+    public ResponseEntity<?> upload(
+            @RequestHeader("X-USER-ID") Long userId,
+            @Valid BatchUploadRequest req
+    ) {
         Long runId = lifelogBatchService.upload(userId, req);
         return ResponseEntity.ok(Map.of("runId", runId));
     }

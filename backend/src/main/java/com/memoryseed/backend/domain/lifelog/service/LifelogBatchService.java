@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.time.ZoneId;
+import java.time.LocalDateTime;
 
 @Service
 public class LifelogBatchService {
@@ -43,6 +45,11 @@ public class LifelogBatchService {
     public Long upload(Long userId, BatchUploadRequest req) {
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new IllegalArgumentException("user not found: " + userId));
+
+        // 서버가 기본 runAt을 결정 (클라 값 믿지 말기)
+        LocalDateTime runAt = (req.runAt() != null)
+                ? req.runAt()
+                : LocalDateTime.now(ZoneId.of("Asia/Seoul"));
 
         // 1) run 생성
         CollectionRun run = runRepository.save(new CollectionRun(user, req.runAt()));
