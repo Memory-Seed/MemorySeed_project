@@ -21,7 +21,7 @@ public class LifelogBatchController {
     @PostMapping("/batch")
     public ResponseEntity<?> upload(
             @RequestHeader("X-USER-ID") Long userId,
-            @Valid BatchUploadRequest req
+            @Valid @RequestBody BatchUploadRequest req
     ) {
         Long runId = lifelogBatchService.upload(userId, req);
         return ResponseEntity.ok(Map.of("runId", runId));

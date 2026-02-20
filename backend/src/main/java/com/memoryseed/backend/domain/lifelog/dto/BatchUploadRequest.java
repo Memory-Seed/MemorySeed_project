@@ -1,6 +1,8 @@
 package com.memoryseed.backend.domain.lifelog.dto;
 
 import jakarta.validation.Valid;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 
 import java.time.LocalDateTime;
@@ -9,6 +11,10 @@ import java.util.List;
 public record BatchUploadRequest(
         @NotNull(message = "runAt은 필수입니다.")
         LocalDateTime runAt,
+
+        @Valid
+        @NotNull(message = "location은 필수입니다.")
+        LocationDto location,
 
         @Valid List<StepDto> steps,
         @Valid List<SleepDto> sleeps,
@@ -70,5 +76,17 @@ public record BatchUploadRequest(
 
             String merchant,
             String rawMessage
+    ) {}
+
+    public record LocationDto(
+            @NotNull(message = "location.lat은 필수입니다.")
+            @Min(value = -90, message = "location.lat 범위가 올바르지 않습니다.")
+            @Max(value = 90, message = "location.lat 범위가 올바르지 않습니다.")
+            Double lat,
+
+            @NotNull(message = "location.lon은 필수입니다.")
+            @Min(value = -180, message = "location.lon 범위가 올바르지 않습니다.")
+            @Max(value = 180, message = "location.lon 범위가 올바르지 않습니다.")
+            Double lon
     ) {}
 }
