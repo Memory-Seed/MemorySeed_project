@@ -4,6 +4,8 @@ import com.memoryseed.backend.domain.user.entity.User;
 import com.memoryseed.backend.global.entity.BaseTimeEntity;
 import jakarta.persistence.*;
 
+import lombok.*; // lombok.* 로 퉁쳐서 import 해도 됩니다.
+import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
@@ -13,6 +15,10 @@ import java.time.LocalDateTime;
                 @Index(name="idx_tx_user_time", columnList="user_id, timestamp")
         }
 )
+@Getter
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class TransactionEvent extends BaseTimeEntity {
 
     @Id
@@ -38,8 +44,6 @@ public class TransactionEvent extends BaseTimeEntity {
 
     @Column(columnDefinition = "TEXT")
     private String rawMessage;
-
-    protected TransactionEvent() {}
 
     public TransactionEvent(User user, CollectionRun run, LocalDateTime timestamp,
                             Integer amountKrw, String merchant, String rawMessage) {

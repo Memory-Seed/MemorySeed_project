@@ -5,6 +5,8 @@ import com.memoryseed.backend.domain.lifelog.entity.*;
 import com.memoryseed.backend.domain.lifelog.repository.*;
 import com.memoryseed.backend.domain.user.entity.User;
 import com.memoryseed.backend.domain.user.repository.UserRepository;
+import lombok.RequiredArgsConstructor; // Lombok의 RequiredArgsConstructor 사용
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -12,7 +14,9 @@ import java.util.List;
 import java.time.ZoneId;
 import java.time.LocalDateTime;
 
+@Slf4j // Lombok의 Slf4j 사용
 @Service
+@RequiredArgsConstructor // 생성자 주입을 Lombok으로 처리
 public class LifelogBatchService {
 
     private final UserRepository userRepository;
@@ -23,23 +27,7 @@ public class LifelogBatchService {
     private final WeatherTimeseriesRepository weatherRepository;
     private final TransactionEventRepository txRepository;
 
-    public LifelogBatchService(
-            UserRepository userRepository,
-            CollectionRunRepository runRepository,
-            StepTimeseriesRepository stepRepository,
-            SleepSessionRepository sleepRepository,
-            ScreenTimeSessionRepository screenRepository,
-            WeatherTimeseriesRepository weatherRepository,
-            TransactionEventRepository txRepository
-    ) {
-        this.userRepository = userRepository;
-        this.runRepository = runRepository;
-        this.stepRepository = stepRepository;
-        this.sleepRepository = sleepRepository;
-        this.screenRepository = screenRepository;
-        this.weatherRepository = weatherRepository;
-        this.txRepository = txRepository;
-    }
+    private final WeatherIngestService weatherIngestService;
 
     @Transactional
     public Long upload(Long userId, BatchUploadRequest req) {
@@ -52,7 +40,12 @@ public class LifelogBatchService {
                 : LocalDateTime.now(ZoneId.of("Asia/Seoul"));
 
         // 1) run 생성
-        CollectionRun run = runRepository.save(new CollectionRun(user, req.runAt()));
+        CollectionRun run = CollectionRun.builder()
+                .user(user)
+                .runAt(runAt)
+                .status(RunStatus.SUCCESS)
+                .build();
+        runRepository.save(run);
 
         // 2) 각 데이터 저장 (null 안전 처리)
         if (req.steps() != null && !req.steps().isEmpty()) {
@@ -85,9 +78,26 @@ public class LifelogBatchService {
 
         if (req.transactions() != null && !req.transactions().isEmpty()) {
             List<TransactionEvent> txs = req.transactions().stream()
-                    .map(t -> new TransactionEvent(user, run, t.timestamp(), t.amountKrw(), t.merchant(), t.rawMessage()))
+                    .map(t -> new TransactionEvent(
+                            user,
+                            run,
+                            t.timestamp(),
+                            t.amountKrw(),
+                            t.merchant(),
+                            t.rawMessage()
+                    ))
                     .toList();
+
             txRepository.saveAll(txs);
+        }
+
+        if (req.location() != null) { // 날씨 정보는 location이 있을 때만 시도
+            try {
+                weatherIngestService.fetchAndSaveWeather(user, run, req.location());
+            } catch (Exception e) {
+                // 날씨 저장이 실패해도 메인 데이터(Run) 저장은 성공해야 함 -> 로그만 남김
+                log.error("Batch upload 중 날씨 저장 실패: {}", e.getMessage());
+            }
         }
 
         return run.getId();

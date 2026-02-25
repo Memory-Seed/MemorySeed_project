@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/../../backend/build/generated/sources/annotationProcessor/java/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../backend/build/generated/sources/annotationProcessor/java/main" isTestSource="false" generated="true" />
+    </content>
+  </component>
+  <component name="AppEngineStandardGradleModuleComponent">
+    <option name="gradleBuildDir" value="C:\Users\rlaeh\Desktop\인천대학교\캡스톤 디자인\MemorySeed_project\backend\build" />
+    <option name="gradleModuleDir" value="C:\Users\rlaeh\Desktop\인천대학교\캡스톤 디자인\MemorySeed_project\backend" />
+  </component>
+</module>

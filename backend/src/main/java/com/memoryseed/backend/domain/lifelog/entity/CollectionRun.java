@@ -4,6 +4,7 @@ import com.memoryseed.backend.domain.user.entity.User;
 import com.memoryseed.backend.global.entity.BaseTimeEntity;
 import jakarta.persistence.*;
 
+import java.sql.ConnectionBuilder;
 import java.time.LocalDateTime;
 
 @Entity
@@ -39,6 +40,40 @@ public class CollectionRun extends BaseTimeEntity {
         this.runAt = runAt;
         this.status = RunStatus.SUCCESS;
     }
+
+    public static CollectionRunBuilder builder() {
+        return new CollectionRunBuilder();
+    }
+
+    public static class CollectionRunBuilder {
+        private User user;
+        private LocalDateTime runAt;
+        private RunStatus status = RunStatus.SUCCESS;
+
+        public CollectionRunBuilder user(User user) {
+            this.user = user;
+            return this;
+        }
+
+        public CollectionRunBuilder runAt(LocalDateTime runAt) {
+            this.runAt = runAt;
+            return this;
+        }
+
+        public CollectionRunBuilder status(RunStatus status) {
+            this.status = status;
+            return this;
+        }
+
+        public CollectionRun build() {
+            CollectionRun collectionRun = new CollectionRun();
+            collectionRun.user = this.user;
+            collectionRun.runAt = this.runAt;
+            collectionRun.status = this.status;
+            return collectionRun;
+        }
+    }
+
 
     public Long getId() { return id; }
     public User getUser() { return user; }
