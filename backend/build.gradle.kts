@@ -24,6 +24,8 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-validation")
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("com.google.cloud:google-cloud-vertexai:1.7.0")
+	implementation("io.github.cdimascio:dotenv-java:3.0.0")
 	runtimeOnly("org.postgresql:postgresql")
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
