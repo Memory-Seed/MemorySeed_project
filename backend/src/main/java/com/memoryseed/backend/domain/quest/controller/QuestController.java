@@ -1,5 +1,6 @@
 package com.memoryseed.backend.domain.quest.controller;
 
+import com.memoryseed.backend.domain.quest.dto.AiQuestCreateRequest;
 import com.memoryseed.backend.domain.quest.dto.QuestCreateRequest;
 import com.memoryseed.backend.domain.quest.dto.QuestResponse;
 import com.memoryseed.backend.domain.quest.service.QuestService;
@@ -18,12 +19,23 @@ public class QuestController {
 
     private final QuestService questService;
 
-    @PostMapping
-    public ResponseEntity<QuestResponse> createQuest(
+    // 1. 사용자 직접 생성 API
+    @PostMapping("/custom")
+    public ResponseEntity<QuestResponse> createCustomQuest(
             @RequestHeader("X-USER-ID") Long userId,
             @Valid @RequestBody QuestCreateRequest request
     ) {
-        QuestResponse response = questService.createQuest(userId, request);
+        QuestResponse response = questService.createCustomQuest(userId, request);
+        return ResponseEntity.status(HttpStatus.CREATED).body(response);
+    }
+
+    // 2. AI 추천 퀘스트 생성 API
+    @PostMapping("/ai-recommend")
+    public ResponseEntity<QuestResponse> createAiQuest(
+            @RequestHeader("X-USER-ID") Long userId,
+            @Valid @RequestBody AiQuestCreateRequest request
+    ) {
+        QuestResponse response = questService.createAiQuest(userId, request);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 

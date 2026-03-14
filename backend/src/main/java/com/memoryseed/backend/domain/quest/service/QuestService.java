@@ -1,7 +1,9 @@
 package com.memoryseed.backend.domain.quest.service;
 
+import com.memoryseed.backend.domain.quest.dto.AiQuestCreateRequest;
 import com.memoryseed.backend.domain.quest.dto.QuestCreateRequest;
 import com.memoryseed.backend.domain.quest.dto.QuestResponse;
+import com.memoryseed.backend.domain.quest.entity.QuestCategory;
 import com.memoryseed.backend.domain.quest.entity.QuestStatus;
 import com.memoryseed.backend.domain.quest.entity.QuestTemplate;
 import com.memoryseed.backend.domain.quest.entity.UserQuest;
@@ -30,22 +32,33 @@ public class QuestService {
     private final UserWalletRepository userWalletRepository;
 
     private static final int USER_CREATED_QUEST_REWARD = 10; // 사용자 생성 퀘스트 고정 보상
+    private static final int MANUAL_QUEST_REWARD = 10;
+    private static final int AI_QUEST_REWARD = 15;
 
-    public QuestResponse createQuest(Long userId, QuestCreateRequest request) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("User not found"));
+        // 1. 사용자 직접 생성 로직
+    public QuestResponse createCustomQuest(Long userId, QuestCreateRequest request) {
+       User user = getUser(userId);
 
-        // 사용자 생성 퀘스트를 위한 동적 QuestTemplate 생성
-        QuestTemplate template = new QuestTemplate(
-                "USER_" + UUID.randomUUID(), // 유니크 코드 생성
-                request.title(),
-                request.description(),
-                request.category(),
-                USER_CREATED_QUEST_REWARD
-        );
-        questTemplateRepository.save(template);
+       // 'MANUAL_QUEST'라는 공통 템플릿을 가져오거나 없으면 생성
+       QuestTemplate template = getOrCreateGenericTemplate("MANUAL_QUEST", "사용자 생성 퀘스트", QuestCategory.ETC, MANUAL_QUEST_REWARD);
 
-        UserQuest userQuest = new UserQuest(user, template, LocalDate.now(), LocalDate.now().plusDays(1));
+       // UserQuest에 유저가 직접 입력한 제목과 설명을 저장
+        UserQuest userQuest = new UserQuest(user, template, LocalDate.now(), LocalDate.now().plusDays(1), request.title(), request.description());
+        userQuestRepository.save(userQuest);
+
+        return QuestResponse.from(userQuest);
+    }
+
+        // 2. AI 추천 퀘스트 생성 로직
+    public QuestResponse createAiQuest(Long userId, AiQuestCreateRequest request) {
+        User user = getUser(userId);
+        QuestTemplate template = getOrCreateGenericTemplate("AI_QUEST", "AI 추천 퀘스트", request.category(), AI_QUEST_REWARD);
+       // TODO: 외부 AI API(OpenAI, Gemini 등) 호출 로직 구현 위치
+       // 임시 Mock 데이터 (추후 AI 응답값으로 대체)
+        String aiGeneratedTitle = "[AI 추천] " + request.category().name() + " 마스터하기!";
+        String aiGeneratedDesc = "AI가 유저의 최근 활동을 분석하여 추천하는 맞춤형 퀘스트입니다.";
+
+        UserQuest userQuest = new UserQuest(user, template, LocalDate.now(), LocalDate.now().plusDays(1), aiGeneratedTitle, aiGeneratedDesc);
         userQuestRepository.save(userQuest);
 
         return QuestResponse.from(userQuest);
@@ -62,7 +75,6 @@ public class QuestService {
     public QuestResponse completeQuest(Long userId, Long questId) {
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new IllegalArgumentException("User not found"));
-
         UserQuest userQuest = userQuestRepository.findById(questId)
                 .orElseThrow(() -> new IllegalArgumentException("Quest not found"));
 
@@ -90,5 +102,18 @@ public class QuestService {
         }
 
         return QuestResponse.from(userQuest);
+    }
+
+    // --- 헬퍼 메서드 ---
+    private User getUser(Long userId) {
+        return userRepository.findById(userId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found"));
+    }
+
+    private QuestTemplate getOrCreateGenericTemplate(String code, String defaultTitle, QuestCategory category, int rewardCoin) {
+        return questTemplateRepository.findByCode(code)
+                .orElseGet(() -> questTemplateRepository.save(
+                        new QuestTemplate(code, defaultTitle, "시스템 기본 템플릿", category, rewardCoin)
+                ));
     }
 }

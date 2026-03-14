@@ -17,10 +17,13 @@ public record QuestResponse(
         LocalDate dueDate
 ) {
     public static QuestResponse from(UserQuest userQuest) {
+        String displayTitle = userQuest.getCustomTitle() != null ? userQuest.getCustomTitle() : userQuest.getTemplate().getTitle();
+        String displayDescription = userQuest.getCustomDescription() != null ? userQuest.getCustomDescription() : userQuest.getTemplate().getDescription();
+
         return new QuestResponse(
                 userQuest.getId(),
-                userQuest.getTemplate().getTitle(),
-                userQuest.getTemplate().getDescription(),
+                displayTitle,
+                displayDescription,
                 userQuest.getTemplate().getCategory(),
                 userQuest.getTemplate().getRewardCoin(),
                 userQuest.getStatus(),

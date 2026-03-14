@@ -50,13 +50,21 @@ public class UserQuest extends BaseTimeEntity {
     @Column(nullable = false)
     private Boolean rewardGranted = false;
 
-    public UserQuest(User user, QuestTemplate template, LocalDate assignedDate, LocalDate dueDate) {
+    @Column(length = 100)
+    private String customTitle;
+
+    @Column(columnDefinition = "TEXT")
+    private String customDescription;
+
+    public UserQuest(User user, QuestTemplate template, LocalDate assignedDate, LocalDate dueDate, String customTitle, String customDescription) {
         this.user = user;
         this.template = template;
         this.assignedDate = assignedDate;
         this.dueDate = dueDate;
         this.status = QuestStatus.ASSIGNED;
         this.rewardGranted = false;
+        this.customTitle = customTitle;
+        this.customDescription = customDescription;
     }
 
     public void completeNow() {
