@@ -50,7 +50,13 @@ public class QuestService {
         questTemplateRepository.save(template);
 
         // UserQuest 저장
-        UserQuest userQuest = new UserQuest(user, template, LocalDate.now(), LocalDate.now().plusDays(1), request.title(), request.description());
+        UserQuest userQuest = new UserQuest(
+                user,
+                template,
+                LocalDate.now(),       // assignedDate (할당일은 오늘)
+                request.dueDate(),     // dueDate (마감일은 유저가 정한 날짜)
+                request.title(),
+                request.description());
         userQuestRepository.save(userQuest);
 
         return QuestResponse.from(userQuest);
