@@ -35,14 +35,21 @@ public class QuestService {
     private static final int MANUAL_QUEST_REWARD = 10;
     private static final int AI_QUEST_REWARD = 15;
 
-        // 1. 사용자 직접 생성 로직
+    // 1. 사용자 직접 생성 로직
     public QuestResponse createCustomQuest(Long userId, QuestCreateRequest request) {
-       User user = getUser(userId);
+        User user = getUser(userId);
 
-       // 'MANUAL_QUEST'라는 공통 템플릿을 가져오거나 없으면 생성
-       QuestTemplate template = getOrCreateGenericTemplate("MANUAL_QUEST", "사용자 생성 퀘스트", QuestCategory.ETC, MANUAL_QUEST_REWARD);
+        // 커스텀 퀘스트는 하루에 여러 개 만들 수 있도록 매번 고유한 템플릿(UUID)으로 생성합니다.
+        QuestTemplate template = new QuestTemplate(
+                "USER_" + java.util.UUID.randomUUID().toString(), // 겹치지 않는 랜덤 코드
+                request.title(),
+                request.description(),
+                request.category(),
+                10 // 커스텀 퀘스트 보상 (MANUAL_QUEST_REWARD 변수가 없다면 10 등 숫자로 대체)
+        );
+        questTemplateRepository.save(template);
 
-       // UserQuest에 유저가 직접 입력한 제목과 설명을 저장
+        // UserQuest 저장
         UserQuest userQuest = new UserQuest(user, template, LocalDate.now(), LocalDate.now().plusDays(1), request.title(), request.description());
         userQuestRepository.save(userQuest);
 

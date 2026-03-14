@@ -44,4 +44,15 @@ public class GlobalExceptionHandler {
                 fe.getDefaultMessage()
         );
     }
+
+    // DB 중복 제약 조건 위반 (예: 하루에 같은 퀘스트 중복 할당)
+    @ExceptionHandler(org.springframework.dao.DataIntegrityViolationException.class)
+    public ResponseEntity<ErrorResponse> handleDataIntegrityViolationException(org.springframework.dao.DataIntegrityViolationException e) {
+        ErrorResponse response = ErrorResponse.of(
+                HttpStatus.CONFLICT.value(),
+                "DUPLICATE_QUEST",
+                "이미 오늘 할당된 퀘스트이거나 중복된 데이터입니다."
+        );
+        return ResponseEntity.status(HttpStatus.CONFLICT).body(response);
+    }
 }
