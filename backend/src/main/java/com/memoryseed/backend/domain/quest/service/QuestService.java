@@ -38,25 +38,27 @@ public class QuestService {
     // 1. 사용자 직접 생성 로직
     public QuestResponse createCustomQuest(Long userId, QuestCreateRequest request) {
         User user = getUser(userId);
-
-        // 커스텀 퀘스트는 하루에 여러 개 만들 수 있도록 매번 고유한 템플릿(UUID)으로 생성합니다.
         QuestTemplate template = new QuestTemplate(
-                "USER_" + java.util.UUID.randomUUID().toString(), // 겹치지 않는 랜덤 코드
+                "USER_" + java.util.UUID.randomUUID().toString(),
                 request.title(),
                 request.description(),
                 request.category(),
-                10 // 커스텀 퀘스트 보상 (MANUAL_QUEST_REWARD 변수가 없다면 10 등 숫자로 대체)
+                10, // 커스텀 퀘스트 보상 코인
+                5,  // 호감도 보상 (고정값)
+                request.targetValue() // 프론트가 보낸 목표 수치
         );
         questTemplateRepository.save(template);
 
-        // UserQuest 저장
+        // UserQuest 생성자에 targetValue 추가
         UserQuest userQuest = new UserQuest(
                 user,
                 template,
-                LocalDate.now(),       // assignedDate (할당일은 오늘)
-                request.dueDate(),     // dueDate (마감일은 유저가 정한 날짜)
+                LocalDate.now(),
+                request.dueDate(),
                 request.title(),
-                request.description());
+                request.description(),
+                request.targetValue()
+        );
         userQuestRepository.save(userQuest);
 
         return QuestResponse.from(userQuest);
@@ -71,7 +73,15 @@ public class QuestService {
         String aiGeneratedTitle = "[AI 추천] " + request.category().name() + " 마스터하기!";
         String aiGeneratedDesc = "AI가 유저의 최근 활동을 분석하여 추천하는 맞춤형 퀘스트입니다.";
 
-        UserQuest userQuest = new UserQuest(user, template, LocalDate.now(), LocalDate.now().plusDays(1), aiGeneratedTitle, aiGeneratedDesc);
+        UserQuest userQuest = new UserQuest(
+                user,
+                template,
+                LocalDate.now(),
+                LocalDate.now().plusDays(1),
+                aiGeneratedTitle,
+                aiGeneratedDesc,
+                1 // 임시 목표 수치 (나중에 AI가 주는 값으로 교체)
+        );
         userQuestRepository.save(userQuest);
 
         return QuestResponse.from(userQuest);
@@ -126,7 +136,15 @@ public class QuestService {
     private QuestTemplate getOrCreateGenericTemplate(String code, String defaultTitle, QuestCategory category, int rewardCoin) {
         return questTemplateRepository.findByCode(code)
                 .orElseGet(() -> questTemplateRepository.save(
-                        new QuestTemplate(code, defaultTitle, "시스템 기본 템플릿", category, rewardCoin)
+                        new QuestTemplate(
+                                code,
+                                defaultTitle,
+                                "시스템 기본 템플릿",
+                                category,
+                                rewardCoin,
+                                5, // affinityReward (기본값)
+                                1  // targetValue (기본값)
+                        )
                 ));
     }
 }

@@ -4,6 +4,7 @@ public enum QuestCategory {
     SLEEP,
     STUDY,
     EXERCISE,
+    HEALTH,
     DIGITAL_DETOX,
     ETC
 }

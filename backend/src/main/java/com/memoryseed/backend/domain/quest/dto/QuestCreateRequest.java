@@ -21,6 +21,9 @@ public record QuestCreateRequest(
         LocalDate dueDate,
 
         @NotNull(message = "카테고리는 필수입니다.")
-        QuestCategory category
+        QuestCategory category,
+
+        @NotNull(message = "목표 수치는 필수입니다. (없는 경우 0을 보내주세요)")
+        Integer targetValue
 ) {
 }

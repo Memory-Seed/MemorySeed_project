@@ -39,12 +39,20 @@ public class QuestTemplate extends BaseTimeEntity {
     @Column(nullable = false)
     private Boolean active = true;
 
-    public QuestTemplate(String code, String title, String description, QuestCategory category, int rewardCoin) {
+    @Column(nullable = false)
+    private Integer affinityReward = 0;
+
+    @Column(nullable = false)
+    private Integer targetValue = 0;
+
+    public QuestTemplate(String code, String title, String description, QuestCategory category, int rewardCoin, int affinityReward, int targetValue) {
         this.code = code;
         this.title = title;
         this.description = description;
         this.category = category;
         this.rewardCoin = rewardCoin;
+        this.affinityReward = affinityReward;
+        this.targetValue = targetValue;
         this.active = true;
     }
 
