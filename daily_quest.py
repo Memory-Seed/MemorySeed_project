@@ -14,6 +14,19 @@ from src.prompt_builder   import PromptBuilder
 from src.constants        import COIN_REWARD
 
 
+# 내부 카테고리 → 팀원 API 카테고리 매핑
+CATEGORY_MAP = {
+    "수면":      "SLEEP",
+    "운동":      "EXERCISE",
+    "스크린타임": "DIGITAL_DETOX",
+    "생산성":    "STUDY",
+    "건강":      "HEALTH",
+    "지출":      "ETC",
+    "일정":      "STUDY",
+    "날씨":      "WEATHER",
+}
+
+
 @dataclass
 class Quest:
     id:                  str
@@ -27,6 +40,17 @@ class Quest:
     target_unit:         str   | None = None
     reason:              str   = ""
     is_completed:        bool  = False
+
+    def to_api_format(self) -> dict:
+        """팀원 Flutter API 형식으로 변환"""
+        return {
+            "title":       self.title,
+            "description": self.description,
+            "category":    CATEGORY_MAP.get(self.category, "ETC"),
+            "targetValue": int(self.target_value) if self.target_value else None,
+            "difficulty":  self.difficulty.upper(),
+            "coinReward":  self.coin_reward,
+        }
 
 
 @dataclass
@@ -52,6 +76,15 @@ class DailyQuestResult:
                     f"    -> {q.description}"
                 )
         return "\n".join(lines)
+
+    def to_api_format(self) -> dict:
+        """전체 결과를 팀원 Flutter API 형식으로 변환"""
+        return {
+            "date":    self.date,
+            "greeting": self.greeting,
+            "quests":  [q.to_api_format() for q in self.quests],
+            "hiddenQuests": [q.to_api_format() for q in self.hidden_quests],
+        }
 
 
 class DailyQuestGenerator:
@@ -165,3 +198,11 @@ if __name__ == "__main__":
     caller = MockLLMCaller() if USE_MOCK else LLMCaller()
     result = DailyQuestGenerator(pp, caller).generate(TARGET)
     print(result.summary())
+
+    # JSON 저장
+    out_dir  = os.path.join(os.path.dirname(__file__), "output")
+    os.makedirs(out_dir, exist_ok=True)
+    out_path = os.path.join(out_dir, f"daily_quest_{TARGET}.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(result.to_api_format(), f, ensure_ascii=False, indent=2)
+    #print(f"\n저장됨 → {out_path}")

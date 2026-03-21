@@ -64,7 +64,7 @@ class MockLLMCaller:
                 "description": "어제 거의 만보 채웠잖아멍! 오늘은 꼭 완성해멍!",
                 "target_value": 10000, "target_unit": "보",
                 "difficulty": "normal", "coin_reward": 25,
-                "is_anomaly_recovery": False,
+                "is_recovery": False,
                 "reason": "어제 9,963보라 거의 다 왔어멍!",
             },
             {
@@ -73,7 +73,7 @@ class MockLLMCaller:
                 "description": "오늘은 12시 전에 누워보자멍! 내일 더 개운할거야멍!",
                 "target_value": None, "target_unit": None,
                 "difficulty": "easy", "coin_reward": 10,
-                "is_anomaly_recovery": False,
+                "is_recovery": False,
                 "reason": "규칙적인 수면이 최고멍!",
             },
             {
@@ -82,7 +82,7 @@ class MockLLMCaller:
                 "description": "음악 들으면서 공부하는 거 좋지만 너무 길면 집중 안되멍!",
                 "target_value": 120, "target_unit": "분",
                 "difficulty": "hard", "coin_reward": 50,
-                "is_anomaly_recovery": False,
+                "is_recovery": False,
                 "reason": "어제 Apple Music 131분 사용했어멍!",
             },
         ],
@@ -137,11 +137,11 @@ class MockLLMCaller:
         "overall_score": 65,
         "dog_comment": "이번 주 3일이나 컨디션이 안 좋았어멍... 많이 힘들었지? 멍코치가 걱정했어멍.",
         "items": {
-            "sleep":      {"trend": "stable",    "data": "평균 6.9h, 평균 취침 23:25, 기상 08:14", "feedback": "수면은 안정적이야멍! 취침 시간 조금 더 앞당겨보자멍!"},
-            "steps":      {"trend": "improving", "data": "주간 총 66,689보, 일평균 9,527보, 만보 달성 2일", "feedback": "걸음수 늘고 있어멍! 만보 달성일 더 늘려보자멍!"},
-            "screentime": {"trend": "declining", "data": "일평균 304분, 상위: SoundCloud, PUBG", "feedback": "게임 시간이 좀 많아멍! 조금만 줄여보자멍!"},
-            "spending":   {"trend": "stable",    "data": "주간 총 지출 집계", "feedback": "적당하게 잘 쓰고 있어멍!"},
-            "schedule":   {"trend": "stable",    "data": "총 19개 일정, 수업 6회, 약속 3회", "feedback": "바쁜 한 주였구나멍! 잘 소화했어멍!"},
+            "sleep":      {"score": 65, "data": "평균 6.9h, 평균 취침 00:22, 기상 07:15", "feedback": "수면 조금 부족해멍! 7시간 채워보자멍!"},
+            "steps":      {"score": 70, "data": "주간 총 66,689보, 일평균 9,527보, 만보 달성 2일", "feedback": "만보 달성일 늘려보자멍! 이번 주는 3일 도전멍!"},
+            "screentime": {"score": 75, "data": "일평균 304분, 상위: SoundCloud, PUBG", "feedback": "게임 시간 조금 줄여보자멍!"},
+            "spending":   {"score": 30, "data": "주간 총 1,552,200원, 일평균 221,743원 (서브웨이, 네이버페이, 롯데마트)", "feedback": "지출이 너무 많아멍! 이번 주는 줄여보자멍!"},
+            "schedule":   {"score": 80, "data": "총 19개 일정, 수업 6회, 약속 3회", "feedback": "바쁜 한 주였구나멍! 잘 소화했어멍!"},
         },
         "best_day": "2025-12-10",
         "anomaly_summary": "3일 컨디션 저조했어멍. 특히 수면 시간이 불규칙했어멍.",
@@ -149,7 +149,7 @@ class MockLLMCaller:
     }
 
     def call(self, system: str, user: str) -> str:
-        if "일간 퀘스트" in user or "일일 퀘스트" in user:
+        if "퀘스트" in user and "주간" not in user:
             return json.dumps(self.MOCK_DAILY_QUEST,  ensure_ascii=False)
         if "주간 퀘스트" in user:
             return json.dumps(self.MOCK_WEEKLY_QUEST, ensure_ascii=False)

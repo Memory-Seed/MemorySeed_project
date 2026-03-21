@@ -1,0 +1,24 @@
+{
+  "date": "2025-12-10",
+  "greeting": "어제는 열심히 했나봐, 멍!",
+  "quests": [
+    {
+      "title": "오늘은 꼭 필요한 것만 사자멍!",
+      "description": "어제 500800원 지출했으니 오늘은 6만원 이내로 줄여보자멍!",
+      "category": "ETC",
+      "targetValue": 60000,
+      "difficulty": "NORMAL",
+      "coinReward": 25
+    }
+  ],
+  "hiddenQuests": [
+    {
+      "title": "우산 챙기자멍!",
+      "description": "오늘 비 예보 있으니 절대 잊지말고 우산 챙겨봐멍!",
+      "category": "WEATHER",
+      "targetValue": 1,
+      "difficulty": "HIDDEN",
+      "coinReward": 5
+    }
+  ]
+}

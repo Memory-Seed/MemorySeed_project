@@ -44,9 +44,10 @@ class WeeklyReportResult:
         for key in ["sleep", "steps", "screentime", "spending", "schedule"]:
             item = self.items.get(key, {})
             if item:
-                data = item.get("data", "")
-                fb   = item.get("feedback", "")
-                lines.append(f"  [{names.get(key, key)}] {data}")
+                score = item.get("score", "-")
+                data  = item.get("data", "")
+                fb    = item.get("feedback", "")
+                lines.append(f"  [{names.get(key, key)} / {score}점] {data}")
                 if fb:
                     lines.append(f"    → {fb}")
         if self.best_day:

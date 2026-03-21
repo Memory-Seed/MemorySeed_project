@@ -19,7 +19,7 @@ from src.preprocessor     import LifeDataPreprocessor
 from src.anomaly_detector import AnomalyDetector
 from src.prompt_builder   import PromptBuilder
 from src.constants        import COIN_REWARD
-from daily_quest import Quest, _parse_json
+from daily_quest import Quest, CATEGORY_MAP, _parse_json
 
 
 # ── 결과 모델 ────────────────────────────────
@@ -41,6 +41,14 @@ class WeeklyQuestResult:
                 f"    → {q.description}"
             )
         return "\n".join(lines)
+
+    def to_api_format(self) -> dict:
+        """전체 결과를 팀원 Flutter API 형식으로 변환"""
+        return {
+            "period":  self.period,
+            "greeting": self.weekly_greeting,
+            "quests":  [q.to_api_format() for q in self.quests],
+        }
 
 
 # ── 메인 기능 클래스 ─────────────────────────
@@ -125,3 +133,11 @@ if __name__ == "__main__":
     caller = MockLLMCaller() if USE_MOCK else LLMCaller()
     result = WeeklyQuestGenerator(pp, caller).generate(WEEK_START, WEEK_END)
     print(result.summary())
+
+    # JSON 저장
+    out_dir  = os.path.join(os.path.dirname(__file__), "output")
+    os.makedirs(out_dir, exist_ok=True)
+    out_path = os.path.join(out_dir, f"weekly_quest_{WEEK_START}_{WEEK_END}.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(result.to_api_format(), f, ensure_ascii=False, indent=2)
+    #print(f"\n저장됨 → {out_path}")
