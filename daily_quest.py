@@ -41,15 +41,19 @@ class Quest:
     reason:              str   = ""
     is_completed:        bool  = False
 
-    def to_api_format(self) -> dict:
-        """팀원 Flutter API 형식으로 변환"""
+    def to_api_format(self, idx: int = 0, period: str = "daily") -> dict:
+        """백엔드 API 명세 형식으로 변환"""
         return {
-            "title":       self.title,
-            "description": self.description,
-            "category":    CATEGORY_MAP.get(self.category, "ETC"),
-            "targetValue": int(self.target_value) if self.target_value else None,
-            "difficulty":  self.difficulty.upper(),
-            "coinReward":  self.coin_reward,
+            "id":              idx,
+            "text":            self.title,
+            "description":     self.description,
+            "isDone":          False,
+            "coinReward":      self.coin_reward,
+            "affinityReward":  5,
+            "type":            CATEGORY_MAP.get(self.category, "ETC").lower(),
+            "period":          period,
+            "targetValue":     int(self.target_value) if self.target_value else None,
+            "difficulty":      self.difficulty.upper(),
         }
 
 
@@ -78,13 +82,16 @@ class DailyQuestResult:
         return "\n".join(lines)
 
     def to_api_format(self) -> dict:
-        """전체 결과를 팀원 Flutter API 형식으로 변환"""
+        """전체 결과를 백엔드 API 명세 형식으로 변환"""
         return {
-            "date":    self.date,
-            "greeting": self.greeting,
-            "quests":  [q.to_api_format() for q in self.quests],
-            "hiddenQuests": [q.to_api_format() for q in self.hidden_quests],
+            "date":         self.date,
+            "greeting":     self.greeting,
+            "quests":       [q.to_api_format(idx=i+1, period="daily")
+                             for i, q in enumerate(self.quests)],
+            "hiddenQuests": [q.to_api_format(idx=i+1, period="daily")
+                             for i, q in enumerate(self.hidden_quests)],
         }
+
 
 
 class DailyQuestGenerator:

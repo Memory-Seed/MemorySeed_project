@@ -3,31 +3,43 @@
     "start": "2026-03-09",
     "end": "2026-03-15"
   },
-  "greeting": "지난주 일평균 0보를 넘었으니 이번주는 만보 달성에 도전해봐멍!",
+  "greeting": "이번 주는 만보를 달성하고 일정을 세우며 공부 시간도 늘려볼게멍!",
   "quests": [
     {
-      "title": "만보 달성 이벤트",
-      "description": "지난주 0보를 넘어서 이번 주는 일평균 8,000보 도전해봐멍!",
-      "category": "EXERCISE",
-      "targetValue": 8000,
-      "difficulty": "NORMAL",
-      "coinReward": 25
+      "id": 1,
+      "text": "만보 달성하기",
+      "description": "지난주 0보였으니 이번 주는 목표 5일 만보 달성해볼게멍!",
+      "isDone": false,
+      "coinReward": 25,
+      "affinityReward": 5,
+      "type": "exercise",
+      "period": "weekly",
+      "targetValue": 5,
+      "difficulty": "NORMAL"
     },
     {
-      "title": "하루 3개 일정 만들기",
-      "description": "지난 주 일정 없었으니 이번 주는 하루에 최소 3개의 일정을 만들어보자멍!",
-      "category": "ETC",
+      "id": 2,
+      "text": "일정 관리하기",
+      "description": "지난주 일정 없었으니 이번 주는 하루 3개 이상 일정 설정해보자멍!",
+      "isDone": false,
+      "coinReward": 10,
+      "affinityReward": 5,
+      "type": "study",
+      "period": "weekly",
       "targetValue": 3,
-      "difficulty": "NORMAL",
-      "coinReward": 25
+      "difficulty": "EASY"
     },
     {
-      "title": "첫 공부 일정 추가",
-      "description": "이번 주에는 새로운 스터디 일정을 만들어보자멍! 오늘은 바로 시작해볼게요!",
-      "category": "ETC",
+      "id": 3,
+      "text": "공부 일정 만들기",
+      "description": "이번 주는 공부 시간도 1회 이상 계획해볼게멍! 꼭 필요한 것만 보자멍!",
+      "isDone": false,
+      "coinReward": 10,
+      "affinityReward": 5,
+      "type": "etc",
+      "period": "weekly",
       "targetValue": 1,
-      "difficulty": "EASY",
-      "coinReward": 10
+      "difficulty": "EASY"
     }
   ]
 }

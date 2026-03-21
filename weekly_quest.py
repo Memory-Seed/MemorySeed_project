@@ -43,12 +43,14 @@ class WeeklyQuestResult:
         return "\n".join(lines)
 
     def to_api_format(self) -> dict:
-        """전체 결과를 팀원 Flutter API 형식으로 변환"""
+        """전체 결과를 백엔드 API 명세 형식으로 변환"""
         return {
-            "period":  self.period,
+            "period":   self.period,
             "greeting": self.weekly_greeting,
-            "quests":  [q.to_api_format() for q in self.quests],
+            "quests":   [q.to_api_format(idx=i+1, period="weekly")
+                         for i, q in enumerate(self.quests)],
         }
+
 
 
 # ── 메인 기능 클래스 ─────────────────────────
