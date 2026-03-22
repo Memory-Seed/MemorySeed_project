@@ -33,7 +33,7 @@ public class QuestService {
 
     private static final int USER_CREATED_QUEST_REWARD = 10; // 사용자 생성 퀘스트 고정 보상
     private static final int MANUAL_QUEST_REWARD = 10;
-    private static final int AI_QUEST_REWARD = 15;
+    private static final int AI_QUEST_REWARD = 20;
 
     // 1. 사용자 직접 생성 로직
     public QuestResponse createCustomQuest(Long userId, QuestCreateRequest request) {

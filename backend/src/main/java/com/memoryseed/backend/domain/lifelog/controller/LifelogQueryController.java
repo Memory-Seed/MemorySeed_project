@@ -1,5 +1,6 @@
 package com.memoryseed.backend.domain.lifelog.controller;
 
+import com.memoryseed.backend.domain.lifelog.dto.LifelogRawResponse;
 import com.memoryseed.backend.domain.lifelog.dto.TodaySummaryResponse;
 import com.memoryseed.backend.domain.lifelog.service.LifelogQueryService;
 import org.springframework.http.ResponseEntity;
@@ -27,6 +28,16 @@ public class LifelogQueryController {
         return lifelogQueryService.getTodaySummary(userId, target)
                 .<ResponseEntity<?>>map(ResponseEntity::ok)
                 .orElseGet(() -> ResponseEntity.noContent().build());
+    }
+
+    @GetMapping("/raw")
+    public ResponseEntity<LifelogRawResponse> getRawLifelogs(
+            @RequestHeader("X-USER-ID") Long userId,
+            @RequestParam("startDate") LocalDate startDate,
+            @RequestParam("endDate") LocalDate endDate
+    ) {
+        LifelogRawResponse response = lifelogQueryService.getRawLifelogs(userId, startDate, endDate);
+        return ResponseEntity.ok(response);
     }
 }
 
