@@ -23,17 +23,21 @@ public class QuestScheduler {
     @Scheduled(cron = "0 0 0 * * *")
     @Transactional
     public void handleExpiredQuests() {
-        // 엔티티 타입에 맞게 LocalDate.now() 사용!
+        System.out.println("⏰ [Scheduler] 스케줄러 작동 시작 - " + LocalDate.now() + " 기준");
+
         List<UserQuest> expiredQuests = userQuestRepository.findByStatusAndDueDateBefore(
                 QuestStatus.ASSIGNED, LocalDate.now()
         );
+
+        // 검색된 개수를 무조건 출력하게 설정! (0개면 0개라고 뜰 겁니다)
+        System.out.println("🔍 [Scheduler] 조건에 맞는 퀘스트 개수: " + expiredQuests.size());
 
         for (UserQuest quest : expiredQuests) {
             quest.changeStatus(QuestStatus.SKIPPED);
         }
 
         if (!expiredQuests.isEmpty()) {
-            System.out.println("[Scheduler] 마감일이 지난 퀘스트 " + expiredQuests.size() + "개를 FAILED 처리했습니다.");
+            System.out.println("✅ [Scheduler] 총 " + expiredQuests.size() + "개를 SKIPPED 처리 완료!");
         }
     }
 }
