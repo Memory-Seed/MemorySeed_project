@@ -45,6 +45,10 @@ public class UserQuest extends BaseTimeEntity {
     @Column(length = 20, nullable = false)
     private QuestStatus status = QuestStatus.ASSIGNED;
 
+    public void changeStatus(QuestStatus newStatus) {
+        this.status = newStatus;
+    }
+
     private LocalDateTime completedAt;
 
     @Column(nullable = false)
