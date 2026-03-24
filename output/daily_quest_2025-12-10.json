@@ -1,11 +1,11 @@
 {
   "date": "2025-12-10",
-  "greeting": "오늘도 좋은 하루 보내셨나봐요? 어제 수면 시간이 잘 지켜졌네요!",
+  "greeting": "어제는 참 열심히 했구나멍! 오늘은 좀 더 조절해서 살아보자멍!",
   "quests": [
     {
       "id": 1,
-      "text": "투썸플레이스 절약해보기",
-      "description": "어제 50만원 넘게 썼는데 오늘은 꼭 필요한 것만 사봐요! 왈왈!",
+      "text": "오늘은 지갑 닫아봐요",
+      "description": "어제 500,800원 썼으니 오늘은 꼭 필요한 것만 사자멍! 오늘 지불액 60,000원 이내로 하면 좋겠네멍!",
       "isDone": false,
       "coinReward": 25,
       "affinityReward": 5,
@@ -13,25 +13,13 @@
       "period": "daily",
       "targetValue": 60000,
       "difficulty": "NORMAL"
-    },
-    {
-      "id": 2,
-      "text": "19:00 여자친구 약속 전 공부시간 확보",
-      "description": "오늘은 13:00 실습 끝나면 곧바로 19:00까지 공부 시간 확보해볼까? 멍!",
-      "isDone": false,
-      "coinReward": 25,
-      "affinityReward": 5,
-      "type": "etc",
-      "period": "daily",
-      "targetValue": 6,
-      "difficulty": "NORMAL"
     }
   ],
   "hiddenQuests": [
     {
       "id": 1,
       "text": "우산 챙기기",
-      "description": "오늘은 비 예상을 하고 있으니, 우산을 꼭 가져가봐요!",
+      "description": "오늘 날씨가 약간 빗방울이 있을 것 같아 우산을 꼭 챙겨보세요멍!",
       "isDone": false,
       "coinReward": 5,
       "affinityReward": 5,

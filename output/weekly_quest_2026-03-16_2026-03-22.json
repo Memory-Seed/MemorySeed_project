@@ -1,0 +1,45 @@
+{
+  "period": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "greeting": "지난주 만보도 별로 못 걸었구나... 이번에는 힘내봐멍!",
+  "quests": [
+    {
+      "id": 1,
+      "text": "7일 만보 달성",
+      "description": "지난주 만보도 별로 못 걸었으니 이번 주는 7일 만보 달성해봐멍! 꼭 해보자.memo!",
+      "isDone": false,
+      "coinReward": 25,
+      "affinityReward": 5,
+      "type": "etc",
+      "period": "weekly",
+      "targetValue": 7,
+      "difficulty": "NORMAL"
+    },
+    {
+      "id": 2,
+      "text": "3개 일정 추가",
+      "description": "지난 주 일정이 없었으니 이번 주는 3가지를 반드시 세워보자멍! 꼭 필요한 것만 해봐memo!",
+      "isDone": false,
+      "coinReward": 10,
+      "affinityReward": 5,
+      "type": "etc",
+      "period": "weekly",
+      "targetValue": 3,
+      "difficulty": "EASY"
+    },
+    {
+      "id": 3,
+      "text": "1회 공부 일정 추가",
+      "description": "공부 일정이 없었으니 이번 주는 1번 공부 일정을 추가해봐멍! 꼭 필요한 것만 해봐memo!",
+      "isDone": false,
+      "coinReward": 10,
+      "affinityReward": 5,
+      "type": "etc",
+      "period": "weekly",
+      "targetValue": 1,
+      "difficulty": "EASY"
+    }
+  ]
+}

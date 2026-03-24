@@ -286,10 +286,19 @@ class PromptBuilder:
 1. 일반 퀘스트: 부족했던 항목 + 일정 힌트 포함해서 총 1~2개
 2. 히든 퀘스트: 날씨 히든 퀘스트 조건 있을 때만 추가 (없으면 hidden_quests 빈 배열)
 3. description에 어제 수치 직접 언급하며 오늘 목표 구체적으로 제시
-4. target_value는 반드시 구체적인 숫자로
+4. target_value는 반드시 구체적인 숫자로, description에 언급한 목표 수치와 반드시 일치시켜줘
+   (예: description에 "10,000보 도전" → target_value: 10000 / "60,000원 이내" → target_value: 60000)
 5. 일반 퀘스트는 2개 절대 넘기지 마
 
 코인: Easy={COIN_REWARD['easy']}코인 / Normal={COIN_REWARD['normal']}코인 / Hard={COIN_REWARD['hard']}코인 / 히든={COIN_REWARD['hidden']}코인
+
+[targetValue 기준 — 반드시 아래 단위에 맞게 숫자로]
+  - 수면: 목표 수면시간 (단위: 시간, 예: 7)
+  - 운동/걸음수: 목표 걸음수 (단위: 보, 예: 10000)
+  - 스크린타임: 목표 최대 사용시간 (단위: 분, 예: 360)
+  - 지출: 목표 최대 지출액 (단위: 원, 예: 60000)
+  - 일정/생산성/건강: 달성 횟수 (단위: 회, 예: 1)
+  - 히든(날씨): 1 고정
 
 반드시 아래 JSON 형식으로만 응답:
 {{
@@ -299,9 +308,9 @@ class PromptBuilder:
       "id": "q1",
       "category": "수면|운동|스크린타임|생산성|건강|지출|일정",
       "title": "퀘스트 제목 (12자 이내)",
-      "description": "어제 수치 언급 + 오늘 목표 멍코치 말투 (45자 이내)",
-      "target_value": 반드시 숫자,
-      "target_unit": "단위",
+      "description": "어제 수치 언급 + 오늘 목표 수치 직접 언급 멍코치 말투 (45자 이내, 예: '어제 500,800원 썼으니 오늘은 60,000원 이내로 줄여보자멍!')",
+      "target_value": 위 기준에 맞는 숫자,
+      "target_unit": "시간|보|분|원|회",
       "difficulty": "easy|normal|hard",
       "coin_reward": {COIN_REWARD['easy']}|{COIN_REWARD['normal']}|{COIN_REWARD['hard']},
       "is_recovery": true|false,
@@ -401,10 +410,19 @@ class PromptBuilder:
 반드시 아래 규칙을 지켜:
 1. 부족했던 항목들 중에서 3가지를 골라 퀘스트를 뽑아줘 (부족 항목이 3개 미만이면 성장 퀘스트로 채워줘)
 2. description에 지난 주 수치를 직접 언급하며 이번 주 목표를 구체적으로 제시해 (예: "지난주 만보 달성 2일이었으니 이번 주는 4일 도전멍!")
-3. target_value는 반드시 구체적인 숫자로
+3. target_value는 반드시 구체적인 숫자로, description에 언급한 목표 수치와 반드시 일치시켜줘
+   (예: description에 "4일 도전" → target_value: 4 / "3개 일정" → target_value: 3)
 4. 퀘스트는 반드시 3개
 
 코인: Easy={COIN_REWARD['easy']}코인 / Normal={COIN_REWARD['normal']}코인 / Hard={COIN_REWARD['hard']}코인
+
+[targetValue 기준 — 반드시 아래 단위에 맞게 숫자로]
+  - 수면: 목표 평균 수면시간 (단위: 시간, 예: 7)
+  - 운동/걸음수: 만보 달성 목표 일수 (단위: 일, 예: 4)
+  - 스크린타임: 목표 일평균 최대 사용시간 (단위: 분, 예: 360)
+  - 지출: 목표 일평균 최대 지출액 (단위: 원, 예: 60000)
+  - 일정: 목표 일정 개수 (단위: 개, 예: 3)
+  - 생산성/건강/공부: 달성 횟수 (단위: 회, 예: 1)
 
 반드시 아래 JSON 형식으로만 응답:
 {{
@@ -412,11 +430,11 @@ class PromptBuilder:
   "quests": [
     {{
       "id": "wq1",
-      "category": "수면|운동|스크린타임|생산성|건강|지출",
+      "category": "수면|운동|스크린타임|생산성|건강|지출|일정",
       "title": "주간 퀘스트 제목 (12자 이내)",
-      "description": "지난 주 수치 언급 + 이번 주 목표 멍코치 말투 (50자 이내)",
-      "target_value": 반드시 숫자,
-      "target_unit": "단위",
+      "description": "지난 주 수치 언급 + 이번 주 목표 수치 직접 언급 멍코치 말투 (50자 이내, 예: '지난주 만보 달성 2일이었으니 이번 주는 4일 도전멍!')",
+      "target_value": 위 기준에 맞는 숫자,
+      "target_unit": "시간|일|분|원|개|회",
       "difficulty": "easy|normal|hard",
       "coin_reward": {COIN_REWARD['easy']}|{COIN_REWARD['normal']}|{COIN_REWARD['hard']},
       "reason": "지난 주 데이터 기반 추천 이유 (20자 이내)"

@@ -68,15 +68,17 @@ class DailyQuestResult:
         lines = [f"[{self.date} 일일 퀘스트]", self.greeting]
         for q in self.quests:
             tag = " 회복" if q.is_anomaly_recovery else ""
+            target = f" (목표: {int(q.target_value)}{q.target_unit})" if q.target_value and q.target_unit else ""
             lines.append(
-                f"  [{q.difficulty.upper()} / {q.coin_reward}코인]{tag} {q.title}\n"
+                f"  [{q.difficulty.upper()} / {q.coin_reward}코인]{tag} {q.title}{target}\n"
                 f"    -> {q.description}"
             )
         if self.hidden_quests:
             lines.append("  [히든 퀘스트]")
             for q in self.hidden_quests:
+                target = f" (목표: {int(q.target_value)}{q.target_unit})" if q.target_value and q.target_unit else ""
                 lines.append(
-                    f"  [HIDDEN / {q.coin_reward}코인] {q.title}\n"
+                    f"  [HIDDEN / {q.coin_reward}코인] {q.title}{target}\n"
                     f"    -> {q.description}"
                 )
         return "\n".join(lines)
