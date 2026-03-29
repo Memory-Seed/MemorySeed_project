@@ -34,6 +34,25 @@ class DailyReportResult:
     tomorrow_weather: str = ""
     tomorrow_comment: str = ""
 
+    def to_api_format(self) -> dict:
+        """Flutter API 형식으로 변환"""
+        return {
+            "date":            self.date,
+            "overallScore":    self.overall_score,
+            "dogComment":      self.dog_comment,
+            "items": {
+                key: {
+                    "score":    item.get("score"),
+                    "data":     item.get("data"),
+                    "feedback": item.get("feedback"),
+                }
+                for key, item in self.items.items()
+            },
+            "anomalyAlert":    self.anomaly_alert,
+            "tomorrowWeather": self.tomorrow_weather,
+            "tomorrowComment": self.tomorrow_comment,
+        }
+
     def summary(self) -> str:
         icons = {"sleep": "수면", "steps": "걸음수", "screentime": "스크린타임", "spending": "지출", "schedule": "일정"}
         lines = [
@@ -128,3 +147,10 @@ if __name__ == "__main__":
     caller = MockLLMCaller() if USE_MOCK else LLMCaller()
     result = DailyReportGenerator(pp, caller).generate(TARGET)
     print(result.summary())
+
+    # JSON 저장
+    out_dir  = os.path.join(os.path.dirname(__file__), "output")
+    os.makedirs(out_dir, exist_ok=True)
+    out_path = os.path.join(out_dir, f"daily_report_{TARGET}.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(result.to_api_format(), f, ensure_ascii=False, indent=2)

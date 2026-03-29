@@ -34,6 +34,25 @@ class WeeklyReportResult:
     anomaly_summary:  Optional[str] = None
     next_week_advice: str = ""
 
+    def to_api_format(self) -> dict:
+        """Flutter API 형식으로 변환"""
+        return {
+            "period":         self.period,
+            "overallScore":   self.overall_score,
+            "dogComment":     self.dog_comment,
+            "items": {
+                key: {
+                    "score":    item.get("score"),
+                    "data":     item.get("data"),
+                    "feedback": item.get("feedback"),
+                }
+                for key, item in self.items.items()
+            },
+            "bestDay":        self.best_day,
+            "anomalySummary": self.anomaly_summary,
+            "nextWeekAdvice": self.next_week_advice,
+        }
+
     def summary(self) -> str:
         names = {"sleep": "수면", "steps": "걸음수", "screentime": "스크린타임", "spending": "지출", "schedule": "일정"}
         lines = [
@@ -125,3 +144,10 @@ if __name__ == "__main__":
     caller = MockLLMCaller() if USE_MOCK else LLMCaller()
     result = WeeklyReportGenerator(pp, caller).generate(WEEK_START, WEEK_END)
     print(result.summary())
+
+    # JSON 저장
+    out_dir  = os.path.join(os.path.dirname(__file__), "output")
+    os.makedirs(out_dir, exist_ok=True)
+    out_path = os.path.join(out_dir, f"weekly_report_{WEEK_START}_{WEEK_END}.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(result.to_api_format(), f, ensure_ascii=False, indent=2)
