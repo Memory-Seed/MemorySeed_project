@@ -62,8 +62,8 @@ python run_weekly_llm_report.py
 - `data/interim/daily_records.json` — 일별 통합 레코드
 - `data/processed/weekly_summary.json` — 주별 요약
 - `data/processed/baseline.json` — 전체 기간 기준 개인 평균
-- `summaries/daily/YYYY-MM-DD.txt` — 일별 자연어 요약
-- `summaries/weekly/YYYY-WXX.txt` — 주별 자연어 요약
+- `summaries/daily/YYYY-MM-DD.json` — 일별 자연어 요약
+- `summaries/weekly/YYYY-WXX.json` — 주별 자연어 요약
 
 ### Step 2 — LLM 분석 + 점수 계산
 
