@@ -26,7 +26,7 @@ CD_HARU/
 ├── summaries/
 │   ├── daily/                     # 일별 자연어 요약 텍스트
 │   │   └── YYYY-MM-DD.txt
-│   └── weekly/                    # 주별 자연어 요약 텍스트
+│   └── weekly/                    # 주별 자연어 요약 텍스트(백엔드 전달용)
 │       └── YYYY-WXX.txt
 │
 ├── weekly_reports/                # LLM 분석 결과
@@ -79,7 +79,7 @@ python run_llm_analysis_with_score.py --all-weeks
 ```
 
 **출력 파일:**
-- `weekly_reports/weekly_YYYY-WXX.txt` — 점수 블록 + LLM 리포트
+- `weekly_reports/weekly_YYYY-WXX.json` — 점수 블록 + LLM 리포트(백엔드 전달용)
 - `weekly_reports/weekly_YYYY-WXX.json` — 리포트 JSON (백엔드 전달용)
 - `data/processed/weekly_score.json` — 전체 주차 점수 누적 JSON (백엔드 전달용)
 
