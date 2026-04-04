@@ -55,4 +55,13 @@ public class QuestController {
         QuestResponse response = questService.completeQuest(userId, questId);
         return ResponseEntity.ok(response);
     }
+
+    @DeleteMapping("/{questId}")
+    public ResponseEntity<Void> deleteQuest(
+            @RequestHeader("X-USER-ID") Long userId,
+            @PathVariable Long questId
+    ) {
+        questService.deleteQuest(userId, questId);
+        return ResponseEntity.noContent().build();
+    }
 }

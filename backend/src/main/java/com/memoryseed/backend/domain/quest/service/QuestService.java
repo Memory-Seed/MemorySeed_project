@@ -19,6 +19,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.UUID;
 
 @Service
@@ -146,5 +147,16 @@ public class QuestService {
                                 1  // targetValue (기본값)
                         )
                 ));
+    }
+
+    public void deleteQuest(Long userId, Long questId) {
+        com.memoryseed.backend.domain.quest.entity.UserQuest userQuest = userQuestRepository.findById(questId)
+                .orElseThrow(() -> new NoSuchElementException("Quest not found with id: " + questId));
+
+        if (!userQuest.getUser().getId().equals(userId)) {
+            throw new IllegalArgumentException("Unauthorized: User does not own this quest.");
+        }
+
+        userQuestRepository.delete(userQuest);
     }
 }
