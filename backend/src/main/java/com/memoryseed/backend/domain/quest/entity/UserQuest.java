@@ -45,18 +45,34 @@ public class UserQuest extends BaseTimeEntity {
     @Column(length = 20, nullable = false)
     private QuestStatus status = QuestStatus.ASSIGNED;
 
+    public void changeStatus(QuestStatus newStatus) {
+        this.status = newStatus;
+    }
+
     private LocalDateTime completedAt;
 
     @Column(nullable = false)
     private Boolean rewardGranted = false;
 
-    public UserQuest(User user, QuestTemplate template, LocalDate assignedDate, LocalDate dueDate) {
+    @Column(length = 100)
+    private String customTitle;
+
+    @Column(columnDefinition = "TEXT")
+    private String customDescription;
+
+    @Column
+    private Integer customTargetValue;
+
+    public UserQuest(User user, QuestTemplate template, LocalDate assignedDate, LocalDate dueDate, String customTitle, String customDescription, Integer customTargetValue) {
         this.user = user;
         this.template = template;
         this.assignedDate = assignedDate;
         this.dueDate = dueDate;
         this.status = QuestStatus.ASSIGNED;
         this.rewardGranted = false;
+        this.customTitle = customTitle;
+        this.customDescription = customDescription;
+        this.customTargetValue = customTargetValue;
     }
 
     public void completeNow() {

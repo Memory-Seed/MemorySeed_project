@@ -4,34 +4,39 @@ import com.memoryseed.backend.domain.shop.dto.PurchaseRequest;
 import com.memoryseed.backend.domain.shop.dto.PurchaseResponse;
 import com.memoryseed.backend.domain.shop.dto.ShopItemResponse;
 import com.memoryseed.backend.domain.shop.service.ShopService;
+import com.memoryseed.backend.global.response.Response;
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@RequiredArgsConstructor
 @RequestMapping("/api/shop")
 public class ShopController {
 
     private final ShopService shopService;
 
-    public ShopController(ShopService shopService) {
-        this.shopService = shopService;
-    }
-
-    // 상점 아이템 목록
     @GetMapping("/items")
-    public ResponseEntity<List<ShopItemResponse>> items() {
-        return ResponseEntity.ok(shopService.listActiveItems());
+    public ResponseEntity<Response<List<ShopItemResponse>>> getShopItems(
+            Authentication authentication
+    ) {
+        String providerId = authentication.getName();
+        List<ShopItemResponse> shopItems = shopService.listShopItemsWithPurchaseStatus(providerId);
+        return ResponseEntity.ok(Response.success(shopItems));
     }
 
-    // 구매 (중복구매 불가 + 코인 차감 + 인벤토리 추가)
     @PostMapping("/purchase")
-    public ResponseEntity<PurchaseResponse> purchase(
-            @RequestHeader("X-USER-ID") Long userId,
+    public ResponseEntity<Response<PurchaseResponse>> purchaseItem(
+            Authentication authentication,
             @Valid @RequestBody PurchaseRequest req
     ) {
-        return ResponseEntity.ok(shopService.purchase(userId, req));
+        String providerId = authentication.getName();
+        PurchaseResponse purchaseResponse = shopService.purchase(providerId, req);
+        return ResponseEntity.status(HttpStatus.CREATED).body(Response.success(purchaseResponse));
     }
 }

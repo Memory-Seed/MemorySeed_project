@@ -39,14 +39,14 @@ public class PetService {
     }
 
     @Transactional(readOnly = true)
-    public PetResponse getPet(Long userId) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("user not found: " + userId));
+    public PetResponse getPet(String providerId) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
 
         Pet pet = petRepository.findByUser(user)
-                .orElseThrow(() -> new IllegalStateException("pet not found for user: " + userId));
+                .orElseThrow(() -> new IllegalStateException("pet not found for user: " + user.getId()));
 
-        PetCustomization c = customizationRepository.findById(userId)
+        PetCustomization c = customizationRepository.findById(user.getId())
                 .orElse(null);
 
         return new PetResponse(
@@ -62,14 +62,14 @@ public class PetService {
     }
 
     @Transactional
-    public PetResponse applyCustomization(Long userId, CustomizationRequest req) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("user not found: " + userId));
+    public PetResponse applyCustomization(String providerId, CustomizationRequest req) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
 
         Pet pet = petRepository.findByUser(user)
-                .orElseThrow(() -> new IllegalStateException("pet not found for user: " + userId));
+                .orElseThrow(() -> new IllegalStateException("pet not found for user: " + user.getId()));
 
-        PetCustomization c = customizationRepository.findById(userId)
+        PetCustomization c = customizationRepository.findById(user.getId())
                 .orElseGet(() -> customizationRepository.save(new PetCustomization(user)));
 
         // 기존 값 가져오기

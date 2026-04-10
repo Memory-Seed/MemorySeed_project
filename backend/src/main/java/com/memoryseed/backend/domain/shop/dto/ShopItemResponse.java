@@ -9,16 +9,18 @@ public record ShopItemResponse(
         String name,
         ItemCategory category,
         Integer priceCoin,
-        String assetKey
+        String assetKey,
+        boolean isBought
 ) {
-    public static ShopItemResponse from(ShopItem item) {
+    public static ShopItemResponse from(ShopItem item, boolean isBought) {
         return new ShopItemResponse(
                 item.getId(),
                 item.getCode(),
                 item.getName(),
                 item.getCategory(),
                 item.getPriceCoin(),
-                item.getAssetKey()
+                item.getAssetKey(),
+                isBought
         );
     }
 }

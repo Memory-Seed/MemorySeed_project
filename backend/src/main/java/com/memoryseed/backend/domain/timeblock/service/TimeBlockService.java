@@ -26,9 +26,9 @@ public class TimeBlockService {
     }
 
     @Transactional
-    public TimeBlockResponse create(Long userId, TimeBlockCreateRequest req) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("user not found: " + userId));
+    public TimeBlockResponse create(String providerId, TimeBlockCreateRequest req) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
 
         TimeBlock tb = new TimeBlock(user, req.startTime(), req.endTime(), req.type());
         timeBlockRepository.save(tb);
@@ -36,9 +36,9 @@ public class TimeBlockService {
     }
 
     @Transactional(readOnly = true)
-    public List<TimeBlockResponse> list(Long userId, LocalDate from, LocalDate to, TimeBlockType type) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("user not found: " + userId));
+    public List<TimeBlockResponse> list(String providerId, LocalDate from, LocalDate to, TimeBlockType type) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
 
         LocalDateTime start = from.atStartOfDay();
         LocalDateTime end = to.plusDays(1).atStartOfDay();
@@ -51,14 +51,14 @@ public class TimeBlockService {
     }
 
     @Transactional
-    public void delete(Long userId, Long timeBlockId) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("user not found: " + userId));
+    public void delete(String providerId, Long timeBlockId) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
 
         TimeBlock tb = timeBlockRepository.findById(timeBlockId)
                 .orElseThrow(() -> new IllegalArgumentException("timeBlock not found: " + timeBlockId));
 
-        if (!tb.getUser().getId().equals(user.getId())) {
+        if (!tb.getUser().getProviderId().equals(user.getProviderId())) {
             throw new IllegalStateException("not your timeBlock");
         }
 
