@@ -1,0 +1,38 @@
+{
+  "period": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "overallScore": 72,
+  "dogComment": "이번 주는 코스모와 함께 좀 더 건강하고 금전적 측면에서 힘든 시기를 겪었는데 멍코치가 응원해줄게멍!",
+  "items": {
+    "sleep": {
+      "score": 68,
+      "data": "평균 수면시간 6.9h, 평균 취침 00:22, 기상 07:15",
+      "feedback": "평균 수면이 7h 미만이라 좀 더 자는 시간을 늘려보자멍!"
+    },
+    "steps": {
+      "score": 84,
+      "data": "주간 총 걸음수 66,689보, 일평균 9,527보, 만보 달성 2일",
+      "feedback": "만보를 잘 달성했어! 계속해서 활동량을 늘려봐멍!"
+    },
+    "screentime": {
+      "score": 60,
+      "data": "일평균 스크린타임 304분, 주요 앱: com.apple.android.music, com.soundcloud.android, com.discord, com.google.android.youtube",
+      "feedback": "오락성 앱 시간이 많아서 조금 줄여보는 게 좋을 것 같아멍!"
+    },
+    "spending": {
+      "score": 48,
+      "data": "주간 총 지출 1,552,200원, 일평균 지출 221,743원 (자주 쓴 곳: 서브웨이, 네이버페이, 롯데마트)",
+      "feedback": "지출이 많이 나갔네... 좀 더 신중히 사용해보자멍!"
+    },
+    "schedule": {
+      "score": 78,
+      "data": "총 일정 수 19개 (키워드: 수업 6회, 약속 3회)",
+      "feedback": "일정이 많아서 잘 관리하고 있구나! 다음 주에는 좀 더 효율적으로 보내보자멍!"
+    }
+  },
+  "bestDay": "2025-12-14",
+  "anomalySummary": null,
+  "nextWeekAdvice": "다음 주는 좀 더 적절한 수면과 스크린타임, 지출을 관리해보자멍! 그리고 신년 계획 세우면서 열심히 준비해봐요!"
+}
