@@ -7,6 +7,7 @@ import com.memoryseed.backend.domain.timeblock.service.TimeBlockService;
 import jakarta.validation.Valid;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
@@ -24,28 +25,31 @@ public class TimeBlockController {
 
     @PostMapping
     public ResponseEntity<TimeBlockResponse> create(
-            @RequestHeader("X-USER-ID") Long userId,
+            Authentication authentication,
             @Valid @RequestBody TimeBlockCreateRequest req
     ) {
-        return ResponseEntity.ok(timeBlockService.create(userId, req));
+        String providerId = authentication.getName();
+        return ResponseEntity.ok(timeBlockService.create(providerId, req));
     }
 
     @GetMapping
     public ResponseEntity<List<TimeBlockResponse>> list(
-            @RequestHeader("X-USER-ID") Long userId,
+            Authentication authentication,
             @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate from,
             @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate to,
             @RequestParam(required = false) TimeBlockType type
     ) {
-        return ResponseEntity.ok(timeBlockService.list(userId, from, to, type));
+        String providerId = authentication.getName();
+        return ResponseEntity.ok(timeBlockService.list(providerId, from, to, type));
     }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<?> delete(
-            @RequestHeader("X-USER-ID") Long userId,
+            Authentication authentication,
             @PathVariable Long id
     ) {
-        timeBlockService.delete(userId, id);
+        String providerId = authentication.getName();
+        timeBlockService.delete(providerId, id);
         return ResponseEntity.noContent().build();
     }
 }

@@ -4,6 +4,7 @@ import com.memoryseed.backend.domain.pet.dto.CustomizationRequest;
 import com.memoryseed.backend.domain.pet.dto.PetResponse;
 import com.memoryseed.backend.domain.pet.service.PetService;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -18,16 +19,18 @@ public class PetController {
 
     @GetMapping
     public ResponseEntity<PetResponse> getPet(
-            @RequestHeader("X-USER-ID") Long userId
+            Authentication authentication
     ) {
-        return ResponseEntity.ok(petService.getPet(userId));
+        String providerId = authentication.getName();
+        return ResponseEntity.ok(petService.getPet(providerId));
     }
 
     @PutMapping("/customization")
     public ResponseEntity<PetResponse> apply(
-            @RequestHeader("X-USER-ID") Long userId,
+            Authentication authentication,
             @RequestBody CustomizationRequest req
     ) {
-        return ResponseEntity.ok(petService.applyCustomization(userId, req));
+        String providerId = authentication.getName();
+        return ResponseEntity.ok(petService.applyCustomization(providerId, req));
     }
 }

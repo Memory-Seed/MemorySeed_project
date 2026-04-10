@@ -30,9 +30,9 @@ public class LifelogBatchService {
     private final WeatherIngestService weatherIngestService;
 
     @Transactional
-    public Long upload(Long userId, BatchUploadRequest req) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("user not found: " + userId));
+    public Long upload(String providerId, BatchUploadRequest req) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
 
         // 서버가 기본 runAt을 결정 (클라 값 믿지 말기)
         LocalDateTime runAt = (req.runAt() != null)

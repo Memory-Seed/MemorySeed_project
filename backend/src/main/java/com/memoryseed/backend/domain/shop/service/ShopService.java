@@ -17,6 +17,8 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 @Service
 public class ShopService {
@@ -40,17 +42,35 @@ public class ShopService {
 
     @Transactional(readOnly = true)
     public List<ShopItemResponse> listActiveItems() {
-        // active 컬럼이 있다면 findAll() 후 필터링 or 쿼리메서드 추가 가능
+        // This method will now use the new from() method with isBought = false by default
         return shopItemRepository.findAll().stream()
                 .filter(ShopItem::getActive)
-                .map(ShopItemResponse::from)
+                .map(item -> ShopItemResponse.from(item, false)) // Default to false for general listing
+                .toList();
+    }
+
+    @Transactional(readOnly = true)
+    public List<ShopItemResponse> listShopItemsWithPurchaseStatus(String providerId) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
+
+        List<ShopItem> activeShopItems = shopItemRepository.findAll().stream()
+                .filter(ShopItem::getActive)
+                .toList();
+
+        Set<Long> purchasedItemIds = userInventoryRepository.findAllByUser(user).stream()
+                .map(userInventory -> userInventory.getItem().getId())
+                .collect(Collectors.toSet());
+
+        return activeShopItems.stream()
+                .map(item -> ShopItemResponse.from(item, purchasedItemIds.contains(item.getId())))
                 .toList();
     }
 
     @Transactional
-    public PurchaseResponse purchase(Long userId, PurchaseRequest req) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("user not found: " + userId));
+    public PurchaseResponse purchase(String providerId, PurchaseRequest req) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
 
         ShopItem item = shopItemRepository.findByCode(req.itemCode())
                 .orElseThrow(() -> new IllegalArgumentException("item not found: " + req.itemCode()));
