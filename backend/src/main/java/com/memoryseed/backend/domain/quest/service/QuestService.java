@@ -37,8 +37,8 @@ public class QuestService {
     private static final int AI_QUEST_REWARD = 20;
 
     // 1. 사용자 직접 생성 로직
-    public QuestResponse createCustomQuest(Long userId, QuestCreateRequest request) {
-        User user = getUser(userId);
+    public QuestResponse createCustomQuest(String providerId, QuestCreateRequest request) {
+        User user = getUser(providerId);
         QuestTemplate template = new QuestTemplate(
                 "USER_" + java.util.UUID.randomUUID().toString(),
                 request.title(),
@@ -66,8 +66,8 @@ public class QuestService {
     }
 
         // 2. AI 추천 퀘스트 생성 로직
-    public QuestResponse createAiQuest(Long userId, AiQuestCreateRequest request) {
-        User user = getUser(userId);
+    public QuestResponse createAiQuest(String providerId, AiQuestCreateRequest request) {
+        User user = getUser(providerId);
         QuestTemplate template = getOrCreateGenericTemplate("AI_QUEST", "AI 추천 퀘스트", request.category(), AI_QUEST_REWARD);
        // TODO: 외부 AI API(OpenAI, Gemini 등) 호출 로직 구현 위치
        // 임시 Mock 데이터 (추후 AI 응답값으로 대체)
@@ -89,20 +89,21 @@ public class QuestService {
     }
 
     @Transactional(readOnly = true)
-    public List<QuestResponse> getActiveQuests(Long userId) {
-        return userQuestRepository.findByUserIdAndStatusWithTemplate(userId, QuestStatus.ASSIGNED)
+    public List<QuestResponse> getActiveQuests(String providerId) {
+        User user = getUser(providerId);
+        return userQuestRepository.findByUserAndStatusWithTemplate(user, QuestStatus.ASSIGNED)
                 .stream()
                 .map(QuestResponse::from)
                 .toList();
     }
 
-    public QuestResponse completeQuest(Long userId, Long questId) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("User not found"));
+    public QuestResponse completeQuest(String providerId, Long questId) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
         UserQuest userQuest = userQuestRepository.findById(questId)
                 .orElseThrow(() -> new IllegalArgumentException("Quest not found"));
 
-        if (!userQuest.getUser().getId().equals(userId)) {
+        if (!userQuest.getUser().getProviderId().equals(providerId)) {
             throw new IllegalStateException("This quest does not belong to the user");
         }
 
@@ -129,9 +130,9 @@ public class QuestService {
     }
 
     // --- 헬퍼 메서드 ---
-    private User getUser(Long userId) {
-        return userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("User not found"));
+    private User getUser(String providerId) {
+        return userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
     }
 
     private QuestTemplate getOrCreateGenericTemplate(String code, String defaultTitle, QuestCategory category, int rewardCoin) {
@@ -149,11 +150,12 @@ public class QuestService {
                 ));
     }
 
-    public void deleteQuest(Long userId, Long questId) {
+    public void deleteQuest(String providerId, Long questId) {
+        User user = getUser(providerId);
         com.memoryseed.backend.domain.quest.entity.UserQuest userQuest = userQuestRepository.findById(questId)
                 .orElseThrow(() -> new NoSuchElementException("Quest not found with id: " + questId));
 
-        if (!userQuest.getUser().getId().equals(userId)) {
+        if (!userQuest.getUser().getProviderId().equals(providerId)) {
             throw new IllegalArgumentException("Unauthorized: User does not own this quest.");
         }
 

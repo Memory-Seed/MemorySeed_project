@@ -46,9 +46,9 @@ public class LifelogQueryService {
     }
 
     @Transactional(readOnly = true)
-    public Optional<TodaySummaryResponse> getTodaySummary(Long userId, LocalDate date) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("user not found: " + userId));
+    public Optional<TodaySummaryResponse> getTodaySummary(String providerId, LocalDate date) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
 
         LocalDateTime start = date.atStartOfDay();
         LocalDateTime end = date.plusDays(1).atStartOfDay();
@@ -104,34 +104,34 @@ public class LifelogQueryService {
     }
 
     @Transactional(readOnly = true)
-    public LifelogRawResponse getRawLifelogs(Long userId, LocalDate startDate, LocalDate endDate) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("User not found: " + userId));
+    public LifelogRawResponse getRawLifelogs(String providerId, LocalDate startDate, LocalDate endDate) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
 
         LocalDateTime startDateTime = startDate.atStartOfDay();
         LocalDateTime endDateTime = endDate.atTime(23, 59, 59);
 
-        List<LifelogRawResponse.TransactionEventDto> transactionEvents = txRepository.findByUserIdAndTimestampBetween(userId, startDateTime, endDateTime)
+        List<LifelogRawResponse.TransactionEventDto> transactionEvents = txRepository.findByUserAndTimestampBetween(user, startDateTime, endDateTime)
                 .stream()
                 .map(LifelogRawResponse.TransactionEventDto::from)
                 .toList();
 
-        List<LifelogRawResponse.ScreenTimeSessionDto> screenTimeSessions = screenRepository.findByUserIdAndStartTimeBetween(userId, startDateTime, endDateTime)
+        List<LifelogRawResponse.ScreenTimeSessionDto> screenTimeSessions = screenRepository.findByUserAndStartTimeBetween(user, startDateTime, endDateTime)
                 .stream()
                 .map(LifelogRawResponse.ScreenTimeSessionDto::from)
                 .toList();
 
-        List<LifelogRawResponse.SleepSessionDto> sleepSessions = sleepRepository.findByUserIdAndStartTimeBetween(userId, startDateTime, endDateTime)
+        List<LifelogRawResponse.SleepSessionDto> sleepSessions = sleepRepository.findByUserAndStartTimeBetween(user, startDateTime, endDateTime)
                 .stream()
                 .map(LifelogRawResponse.SleepSessionDto::from)
                 .toList();
 
-        List<LifelogRawResponse.StepTimeseriesDto> stepTimeseries = stepRepository.findByUserIdAndTimeBetween(userId, startDateTime, endDateTime)
+        List<LifelogRawResponse.StepTimeseriesDto> stepTimeseries = stepRepository.findByUserAndTimeBetween(user, startDateTime, endDateTime)
                 .stream()
                 .map(LifelogRawResponse.StepTimeseriesDto::from)
                 .toList();
 
-        List<LifelogRawResponse.WeatherTimeseriesDto> weatherTimeseries = weatherRepository.findByUserIdAndTimeBetween(userId, startDateTime, endDateTime)
+        List<LifelogRawResponse.WeatherTimeseriesDto> weatherTimeseries = weatherRepository.findByUserAndTimeBetween(user, startDateTime, endDateTime)
                 .stream()
                 .map(LifelogRawResponse.WeatherTimeseriesDto::from)
                 .toList();

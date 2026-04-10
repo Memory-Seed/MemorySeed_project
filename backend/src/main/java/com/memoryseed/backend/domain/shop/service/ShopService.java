@@ -50,9 +50,9 @@ public class ShopService {
     }
 
     @Transactional(readOnly = true)
-    public List<ShopItemResponse> listShopItemsWithPurchaseStatus(Long userId) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("User not found with ID: " + userId));
+    public List<ShopItemResponse> listShopItemsWithPurchaseStatus(String providerId) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
 
         List<ShopItem> activeShopItems = shopItemRepository.findAll().stream()
                 .filter(ShopItem::getActive)
@@ -68,9 +68,9 @@ public class ShopService {
     }
 
     @Transactional
-    public PurchaseResponse purchase(Long userId, PurchaseRequest req) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("user not found: " + userId));
+    public PurchaseResponse purchase(String providerId, PurchaseRequest req) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
 
         ShopItem item = shopItemRepository.findByCode(req.itemCode())
                 .orElseThrow(() -> new IllegalArgumentException("item not found: " + req.itemCode()));

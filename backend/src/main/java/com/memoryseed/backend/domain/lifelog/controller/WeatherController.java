@@ -9,6 +9,7 @@ import com.memoryseed.backend.domain.user.entity.User;
 import com.memoryseed.backend.domain.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
@@ -27,12 +28,13 @@ public class WeatherController {
     // GET /api/lifelog/weather/current?lat=37.5&lon=127.0
     @GetMapping("/current")
     public ResponseEntity<WeatherResponseDto> getCurrentWeather(
-            @RequestHeader("X-USER-ID") Long userId,
+            Authentication authentication,
             @RequestParam Double lat,
             @RequestParam Double lon
     ) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("User not found: " + userId));
+        String providerId = authentication.getName();
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
 
         // run을 생성해서 weather 저장을 안정화
         LocalDateTime runAt = LocalDateTime.now(ZoneId.of("Asia/Seoul"));

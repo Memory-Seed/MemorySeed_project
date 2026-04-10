@@ -21,24 +21,35 @@ spring:
         jdbc:
           time_zone: Asia/Seoul
 
-  # OAuth2 ??? ??? ??
+  # OAuth2
   security:
     oauth2:
       client:
         registration:
           kakao:
-            client-id: 35707e5e434ed1b62b5720eb8e9c4cfd  # ??? ??????? ??? REST API ?
-            client-secret: PCmESJAekA99GJBl5UycV0jo8YlcWaxg # ??? ??????? ??? Client Secret
+            client-id: ENC(카카오)
+            client-secret: ENC(카카오)
             client-name: Kakao
             authorization-grant-type: authorization_code
             redirect-uri: "{baseUrl}/login/oauth2/code/kakao"
             client-authentication-method: client_secret_post
+          google:
+            client-id: ENC(구글)
+            client-secret: ENC(구글)
+            scope: profile, email
+
         provider:
           kakao:
             authorization-uri: https://kauth.kakao.com/oauth/authorize
             token-uri: https://kauth.kakao.com/oauth/token
             user-info-uri: https://kapi.kakao.com/v2/user/me
             user-name-attribute: id
+
+# JWT 설정
+jwt:
+  secret: "MemorySeedProjectSecretKeyWhichIsVeryLongAndSecureForJwtTokenAuthentication123456789"
+  # 토큰 만료 시간 (밀리초 단위, 86400000 = 24시간)
+  expiration: 86400000
 
 # ?? API (AccuWeather) ??
 accuweather:

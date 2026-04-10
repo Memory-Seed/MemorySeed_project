@@ -23,9 +23,9 @@ public class UserCalendarService {
     private final UserRepository userRepository; // 유저 확인용
 
     @Transactional
-    public void syncGoogleCalendar(Long userId, GoogleCalendarRequest request) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("해당 유저가 없습니다. id=" + userId));
+    public void syncGoogleCalendar(String providerId, GoogleCalendarRequest request) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
 
         List<UserCalendar> calendars = request.getItems().stream()
                 .map(item -> UserCalendar.builder()

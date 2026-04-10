@@ -20,9 +20,9 @@ public class WalletService {
     }
 
     @Transactional(readOnly = true)
-    public WalletResponse getWallet(Long userId) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new IllegalArgumentException("user not found: " + userId));
+    public WalletResponse getWallet(String providerId) {
+        User user = userRepository.findByProviderId(providerId)
+                .orElseThrow(() -> new IllegalArgumentException("user not found: " + providerId));
 
         UserWallet wallet = walletRepository.findById(user.getId())
                 .orElseGet(() -> walletRepository.save(new UserWallet(user)));

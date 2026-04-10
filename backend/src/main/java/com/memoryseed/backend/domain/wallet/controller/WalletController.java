@@ -3,6 +3,7 @@ package com.memoryseed.backend.domain.wallet.controller;
 import com.memoryseed.backend.domain.wallet.dto.WalletResponse;
 import com.memoryseed.backend.domain.wallet.service.WalletService;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -17,8 +18,9 @@ public class WalletController {
 
     @GetMapping
     public ResponseEntity<WalletResponse> get(
-            @RequestHeader("X-USER-ID") Long userId
+            Authentication authentication
     ) {
-        return ResponseEntity.ok(walletService.getWallet(userId));
+        String providerId = authentication.getName();
+        return ResponseEntity.ok(walletService.getWallet(providerId));
     }
 }

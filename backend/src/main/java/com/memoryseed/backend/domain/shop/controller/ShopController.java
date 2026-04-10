@@ -9,6 +9,7 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -22,18 +23,20 @@ public class ShopController {
 
     @GetMapping("/items")
     public ResponseEntity<Response<List<ShopItemResponse>>> getShopItems(
-            @RequestHeader("X-USER-ID") Long userId
+            Authentication authentication
     ) {
-        List<ShopItemResponse> shopItems = shopService.listShopItemsWithPurchaseStatus(userId);
+        String providerId = authentication.getName();
+        List<ShopItemResponse> shopItems = shopService.listShopItemsWithPurchaseStatus(providerId);
         return ResponseEntity.ok(Response.success(shopItems));
     }
 
     @PostMapping("/purchase")
     public ResponseEntity<Response<PurchaseResponse>> purchaseItem(
-            @RequestHeader("X-USER-ID") Long userId,
+            Authentication authentication,
             @Valid @RequestBody PurchaseRequest req
     ) {
-        PurchaseResponse purchaseResponse = shopService.purchase(userId, req);
+        String providerId = authentication.getName();
+        PurchaseResponse purchaseResponse = shopService.purchase(providerId, req);
         return ResponseEntity.status(HttpStatus.CREATED).body(Response.success(purchaseResponse));
     }
 }
