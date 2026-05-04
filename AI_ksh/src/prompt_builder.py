@@ -149,9 +149,151 @@ def weekly_to_text(summary: dict) -> str:
     return "\n".join(lines)
 
 
+def monthly_to_text(summary: dict) -> str:
+    p = summary["period"]
+    lines = [f"[{p['year']}년 {p['month']}월 월간 라이프 데이터 ({p['start']} ~ {p['end']})]"]
+
+    sl = summary.get("sleep", {})
+    if sl:
+        lines.append(
+            f"수면: 평균 {sl['avg_duration_hours']}h "
+            f"(최소 {sl['min_duration_hours']}h / 최대 {sl['max_duration_hours']}h), "
+            f"평균 취침 {sl['avg_bedtime']}, 기상 {sl['avg_wakeup']}"
+        )
+
+    st = summary.get("steps", {})
+    lines.append(
+        f"걸음수: 월간 총 {st.get('total', 0):,}보, "
+        f"일평균 {st.get('daily_avg', 0):,}보, "
+        f"만보 달성 {st.get('days_over_10000', 0)}일"
+    )
+
+    sc   = summary.get("screentime", {})
+    tops = sc.get("top_apps", [])
+    app_str = ", ".join(f"{a['package']} {a['minutes']}분" for a in tops[:5])
+    lines.append(f"스크린타임: 일평균 {sc.get('daily_avg_min', 0)}분")
+    if app_str:
+        lines.append(f"  월간 상위앱: {app_str}")
+
+    cal = summary.get("calendar", {})
+    kws = cal.get("keyword_counts", {})
+    kw_str = ", ".join(f"{k} {v}회" for k, v in kws.items()) if kws else "없음"
+    lines.append(f"일정: 총 {cal.get('total_events', 0)}개 (키워드: {kw_str})")
+
+    w = summary.get("weather", {})
+    if w:
+        lines.append(
+            f"날씨: 평균 {w['avg_min_temp_c']}~{w['avg_max_temp_c']}°C, "
+            f"강수확률 {w['avg_precip_pct']}%"
+        )
+
+    sp = summary.get("spending", {})
+    if sp.get("total_spent", 0) > 0:
+        merchants = ", ".join(sp["top_merchants"][:3]) if sp["top_merchants"] else ""
+        lines.append(
+            f"지출: 월간 총 {sp['total_spent']:,}원, "
+            f"일평균 {sp['daily_avg_spent']:,}원, "
+            f"주평균 {sp.get('weekly_avg_spent', 0):,}원 (자주 쓴 곳: {merchants})"
+        )
+    else:
+        lines.append("지출: 기록 없음")
+
+    wb = summary.get("weekly_breakdown", [])
+    if wb:
+        lines.append("\n[주차별 요약]")
+        for wd in wb:
+            sleep_str = f"수면 {wd['sleep_avg_hours']}h" if wd["sleep_avg_hours"] else "수면 기록없음"
+            lines.append(
+                f"  {wd['week']}주차 ({wd['start']}~{wd['end']}): "
+                f"{sleep_str}, "
+                f"걸음 일평균 {wd['steps_daily_avg']:,}보, "
+                f"스크린 일평균 {wd['screentime_daily_avg_min']}분, "
+                f"지출 {wd['spending_total']:,}원"
+            )
+
+    return "\n".join(lines)
+
+
 # ── 프롬프트 빌더 ────────────────────────────
 
 class PromptBuilder:
+
+    @staticmethod
+    def monthly_report(
+        monthly_summary: dict,
+        anomaly_reports: list[AnomalyReport],
+    ) -> dict:
+        data_text    = monthly_to_text(monthly_summary)
+        anomaly_days = sum(1 for r in anomaly_reports if r.has_anomaly)
+        anomaly_text = f"컨디션 저조 일수: {anomaly_days}일 / {monthly_summary['days_count']}일"
+
+        sp           = monthly_summary.get("spending", {})
+        total_spent  = sp.get("total_spent", 0)
+        daily_avg    = sp.get("daily_avg_spent", 0)
+        weekly_avg   = sp.get("weekly_avg_spent", 0)
+        merchants    = ", ".join(sp.get("top_merchants", [])[:3])
+        overspend_thr = ANOMALY_THRESHOLDS["spending"]["overspend_threshold"]
+        if total_spent > 0:
+            overspend_flag = "과소비 주의!" if daily_avg > overspend_thr else "적정 지출 수준"
+            spending_hint = (
+                f"[지출 분석용] 월간 총 지출 {total_spent:,}원, "
+                f"일평균 {daily_avg:,}원, 주평균 {weekly_avg:,}원 "
+                f"(과소비 기준: 일 {overspend_thr:,}원), "
+                f"자주 쓴 곳: {merchants} → {overspend_flag}"
+            )
+        else:
+            spending_hint = "[지출 분석용] 이번 달 지출 기록 없음"
+
+        p = monthly_summary["period"]
+
+        return {
+            "system": DOG_SYSTEM_PROMPT,
+            "user": f"""{data_text}
+
+{anomaly_text}
+{spending_hint}
+
+위 {p['year']}년 {p['month']}월 월간 데이터를 멍코치 말투로 항목별로 분석해서 월간 리포트를 작성해줘.
+각 항목마다 이번 달 데이터를 직접 언급하며 잘한 점은 칭찬, 부족한 점은 간단한 피드백을 줘.
+주차별 데이터를 보고 어떤 주차가 가장 좋았는지도 언급해줘.
+지출 항목은 반드시 월간 총액, 일평균, 자주 쓴 곳을 data에 직접 써줘.
+
+반드시 아래 JSON 형식으로만 응답:
+{{
+  "overall_score": 0~100 정수,
+  "dog_comment": "이번 달 총평 멍코치 말투 1~2문장",
+  "items": {{
+    "sleep": {{
+      "score": 0~100 정수 (평균 7~9h면 높은 점수, 미만/초과면 낮음, 늦은 취침이면 감점),
+      "data": "평균 수면시간, 평균 취침/기상 시각 직접 언급",
+      "feedback": "멍코치 말투 피드백 (40자 이내)"
+    }},
+    "steps": {{
+      "score": 0~100 정수 (만보 달성일 많을수록 높음, 10일 이상이면 80+),
+      "data": "월간 총 걸음수, 일평균, 만보 달성일수 직접 언급",
+      "feedback": "멍코치 말투 피드백 (40자 이내)"
+    }},
+    "screentime": {{
+      "score": 0~100 정수 (일평균 6시간 이하면 높음),
+      "data": "일평균 스크린타임, 자주 쓴 앱 언급",
+      "feedback": "멍코치 말투 피드백 (40자 이내)"
+    }},
+    "spending": {{
+      "score": 0~100 정수 (일평균 6만원 이하면 높음),
+      "data": "월간 총 지출과 일평균, 자주 쓴 곳 반드시 직접 언급. 지출 기록 없으면 '지출 기록 없음'",
+      "feedback": "멍코치 말투 피드백 (지출 기록 없으면 null)"
+    }},
+    "schedule": {{
+      "score": 0~100 정수 (일평균 3개 이상이면 높음, 스터디/운동 포함이면 보너스),
+      "data": "총 일정 수, 주요 활동 언급",
+      "feedback": "멍코치 말투 피드백 (40자 이내)"
+    }}
+  }},
+  "best_week": "가장 좋았던 주차 (예: '2주차 (12/8~12/14)')",
+  "trend_summary": "이번 달 전반적인 트렌드 멍코치 말투로 언급 (있을 때만, 없으면 null)",
+  "next_month_advice": "다음 달 응원 + 개선 포인트 멍코치 말투 (60자 이내)"
+}}""",
+        }
 
     @staticmethod
     def daily_quest(

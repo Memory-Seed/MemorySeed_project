@@ -4,8 +4,8 @@
     "postTime": 1764119776000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 11/26 10:16 695002-**-***734 이서연 FBS입금 50,000 잔액1,487,341",
+      "android.text": "입금 220,000원",
+      "android.bigText": "입금 220,000원\n김*현님 11/26 10:16 695002-**-***734 이서연 FBS입금 220,000 잔액970,000",
       "android.subText": null,
       "android.infoText": null
     }
@@ -15,30 +15,8 @@
     "postTime": 1764123593000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 11/26 11:19 695002-**-***734 쿠팡 FBS출금 2,500 잔액1,484,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764123809000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 11/26 11:23 695002-**-***734 이마트 FBS출금 4,500 잔액1,480,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764155328000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 11/26 20:08 695002-**-***734 서브웨이 FBS출금 4,900 잔액1,475,441",
+      "android.text": "출금 17,991원",
+      "android.bigText": "출금 17,991원\n김*현님 11/26 11:19 695002-**-***734 쿠팡 FBS출금 17,991 잔액952,009",
       "android.subText": null,
       "android.infoText": null
     }
@@ -48,8 +26,8 @@
     "postTime": 1764232941000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 11/27 17:42 695002-**-***734 메가박스 FBS출금 1,350 잔액1,474,091",
+      "android.text": "출금 13,121원",
+      "android.bigText": "출금 13,121원\n김*현님 11/27 17:42 695002-**-***734 메가박스 FBS출금 13,121 잔액938,888",
       "android.subText": null,
       "android.infoText": null
     }
@@ -59,8 +37,8 @@
     "postTime": 1764233229000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 11/27 17:47 695002-**-***734 야키토리잔잔마곡점 FBS출금 4,900 잔액1,469,191",
+      "android.text": "출금 14,322원",
+      "android.bigText": "출금 14,322원\n김*현님 11/27 17:47 695002-**-***734 홍콩반점0410 FBS출금 14,322 잔액924,566",
       "android.subText": null,
       "android.infoText": null
     }
@@ -70,74 +48,8 @@
     "postTime": 1764233633000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 11/27 17:53 695002-**-***734 김정현 FBS입금 50,000 잔액1,519,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764233643000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 11/27 17:54 695002-**-***734 쿠팡 FBS출금 9,800 잔액1,509,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764237760000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 11/27 19:02 695002-**-***734 네이버페이 FBS출금 1,350 잔액1,508,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764240678000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 11/27 19:51 695002-**-***734 롯데마트 FBS출금 3,900 잔액1,504,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764244739000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 11/27 20:58 695002-**-***734 스타벅스 FBS출금 9,800 잔액1,494,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764247771000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 11/27 21:49 695002-**-***734 다이소 FBS출금 2,500 잔액1,491,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764255273000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 11/27 23:54 695002-**-***734 서울버스 FBS출금 32,000 잔액1,459,841",
+      "android.text": "입금 230,000원",
+      "android.bigText": "입금 230,000원\n김*현님 11/27 17:53 695002-**-***734 김정현 FBS입금 230,000 잔액1,154,566",
       "android.subText": null,
       "android.infoText": null
     }
@@ -147,8 +59,8 @@
     "postTime": 1764283783000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 11/28 07:49 695002-**-***734 11번가 FBS출금 8,900 잔액1,450,941",
+      "android.text": "출금 12,763원",
+      "android.bigText": "출금 12,763원\n김*현님 11/28 07:49 695002-**-***734 11번가 FBS출금 12,763 잔액1,141,803",
       "android.subText": null,
       "android.infoText": null
     }
@@ -158,85 +70,8 @@
     "postTime": 1764289244000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 11/28 09:20 695002-**-***734 치킨집 FBS출금 8,900 잔액1,442,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764306183000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 11/28 14:03 695002-**-***734 이디야커피 FBS출금 9,800 잔액1,432,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764307460000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 5,000원",
-      "android.bigText": "입금 5,000원\n김*현님 11/28 14:24 695002-**-***734 환급 FBS입금 5,000 잔액1,437,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764321227000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 11/28 18:13 695002-**-***734 롯데마트 FBS출금 55,000 잔액1,382,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764328494000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 11/28 20:14 695002-**-***734 택시 FBS출금 79,000 잔액1,303,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764328773000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 11/28 20:19 695002-**-***734 치킨집 FBS출금 9,800 잔액1,293,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764329401000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 11/28 20:30 695002-**-***734 롯데마트 FBS출금 8,900 잔액1,284,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764335627000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 11/28 22:13 695002-**-***734 회사급여 FBS입금 50,000 잔액1,334,541",
+      "android.text": "출금 23,551원",
+      "android.bigText": "출금 23,551원\n김*현님 11/28 09:20 695002-**-***734 야키토리잔잔마곡점 FBS출금 23,551 잔액1,118,252",
       "android.subText": null,
       "android.infoText": null
     }
@@ -246,118 +81,8 @@
     "postTime": 1764370918000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 11/29 08:01 695002-**-***734 버거킹 FBS출금 15,900 잔액1,318,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764380339000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 11/29 10:38 695002-**-***734 맥도날드 FBS출금 17,700 잔액1,300,941",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764398483000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 11/29 15:41 695002-**-***734 최준호 FBS입금 10,000 잔액1,310,941",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764398545000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 11/29 15:42 695002-**-***734 치킨집 FBS출금 4,500 잔액1,306,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764405134000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 11/29 17:32 695002-**-***734 이마트 FBS출금 4,500 잔액1,301,941",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764405144000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 11/29 17:32 695002-**-***734 네이버페이 FBS출금 7,900 잔액1,294,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764407536000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 11/29 18:12 695002-**-***734 배달의민족 FBS출금 2,500 잔액1,291,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764408398000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 30,000원",
-      "android.bigText": "입금 30,000원\n김*현님 11/29 18:26 695002-**-***734 회사급여 FBS입금 30,000 잔액1,321,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764409537000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 11/29 18:45 695002-**-***734 이디야커피 FBS출금 15,900 잔액1,305,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764418476000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 11/29 21:14 695002-**-***734 올리브영 FBS출금 6,500 잔액1,299,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764419044000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 11/29 21:24 695002-**-***734 넷플릭스 FBS출금 9,800 잔액1,289,341",
+      "android.text": "출금 19,900원",
+      "android.bigText": "출금 19,900원\n김*현님 11/29 08:01 695002-**-***734 편백찜 FBS출금 19,900 잔액1,098,352",
       "android.subText": null,
       "android.infoText": null
     }
@@ -367,8 +92,8 @@
     "postTime": 1764432665000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 11/30 01:11 695002-**-***734 메가박스 FBS출금 4,500 잔액1,284,841",
+      "android.text": "출금 12,888원",
+      "android.bigText": "출금 12,888원\n김*현님 11/30 01:11 695002-**-***734 메가박스 FBS출금 12,888 잔액1,085,464",
       "android.subText": null,
       "android.infoText": null
     }
@@ -378,129 +103,8 @@
     "postTime": 1764459681000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 11/30 08:41 695002-**-***734 택시 FBS출금 4,500 잔액1,280,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764460813000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 11/30 09:00 695002-**-***734 (주)우아한형제들 FBS출금 4,500 잔액1,275,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764462733000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 250,000원",
-      "android.bigText": "출금 250,000원\n김*현님 11/30 09:32 695002-**-***734 맥도날드 FBS출금 250,000 잔액1,025,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764466949000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 500,000원",
-      "android.bigText": "입금 500,000원\n김*현님 11/30 10:42 695002-**-***734 김성현 FBS입금 500,000 잔액1,525,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764474277000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 11/30 12:44 695002-**-***734 11번가 FBS출금 3,900 잔액1,521,941",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764490766000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 11/30 17:19 695002-**-***734 지하철 FBS출금 15,900 잔액1,506,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764492960000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 700,000원",
-      "android.bigText": "입금 700,000원\n김*현님 11/30 17:56 695002-**-***734 오지훈 FBS입금 700,000 잔액2,206,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764494064000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 11/30 18:14 695002-**-***734 병원 FBS출금 4,500 잔액2,201,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764502680000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 2,000원",
-      "android.bigText": "입금 2,000원\n김*현님 11/30 20:38 695002-**-***734 중고거래 FBS입금 2,000 잔액2,203,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764502722000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 11/30 20:38 695002-**-***734 지하철 FBS출금 4,900 잔액2,198,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764503253000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 11/30 20:47 695002-**-***734 스타벅스 강남점 FBS출금 79,000 잔액2,119,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764503894000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 11/30 20:58 695002-**-***734 교보문고 FBS출금 32,000 잔액2,087,641",
+      "android.text": "출금 6,206원",
+      "android.bigText": "출금 6,206원\n김*현님 11/30 08:41 695002-**-***734 택시 FBS출금 6,206 잔액1,079,258",
       "android.subText": null,
       "android.infoText": null
     }
@@ -510,8 +114,8 @@
     "postTime": 1764541315000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "입금 500,000원",
-      "android.bigText": "입금 500,000원\n김*현님 12/01 07:21 695002-**-***734 ABC급여 FBS입금 500,000 잔액2,587,641",
+      "android.text": "입금 210,000원",
+      "android.bigText": "입금 210,000원\n김*현님 12/01 07:21 695002-**-***734 ABC급여 FBS입금 210,000 잔액1,289,258",
       "android.subText": null,
       "android.infoText": null
     }
@@ -521,19 +125,8 @@
     "postTime": 1764542848000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 12/01 07:47 695002-**-***734 스타벅스 FBS출금 79,000 잔액2,508,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764544677000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/01 08:17 695002-**-***734 배달의민족 FBS출금 17,700 잔액2,490,941",
+      "android.text": "출금 8,614원",
+      "android.bigText": "출금 8,614원\n김*현님 12/01 07:47 695002-**-***734 스타벅스 FBS출금 8,614 잔액1,280,644",
       "android.subText": null,
       "android.infoText": null
     }
@@ -543,74 +136,8 @@
     "postTime": 1764549823000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "입금 2,500,000원",
-      "android.bigText": "입금 2,500,000원\n김*현님 12/01 09:43 695002-**-***734 ABC급여 FBS입금 2,500,000 잔액4,990,941",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764559593000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 12/01 12:26 695002-**-***734 세븐일레븐 FBS출금 9,800 잔액4,981,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764560455000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/01 12:40 695002-**-***734 메가박스 FBS출금 22,000 잔액4,959,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764562216000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 12/01 13:10 695002-**-***734 ABC급여 FBS입금 300,000 잔액5,259,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764578430000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/01 17:40 695002-**-***734 스타벅스 FBS출금 22,000 잔액5,237,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764582654000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 12/01 18:50 695002-**-***734 쿠팡이츠 FBS출금 8,900 잔액5,228,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764595448000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 12/01 22:24 695002-**-***734 통신요금 FBS출금 2,000 잔액5,226,241",
+      "android.text": "입금 240,000원",
+      "android.bigText": "입금 240,000원\n김*현님 12/01 09:43 695002-**-***734 ABC급여 FBS입금 240,000 잔액1,500,000",
       "android.subText": null,
       "android.infoText": null
     }
@@ -620,19 +147,8 @@
     "postTime": 1764647174000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 180,000원",
-      "android.bigText": "출금 180,000원\n김*현님 12/02 12:46 695002-**-***734 카카오페이 FBS출금 180,000 잔액5,046,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764649006000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 200,000원",
-      "android.bigText": "입금 200,000원\n김*현님 12/02 13:16 695002-**-***734 김성현 FBS입금 200,000 잔액5,246,241",
+      "android.text": "출금 6,205원",
+      "android.bigText": "출금 6,205원\n김*현님 12/02 12:46 695002-**-***734 카카오페이 FBS출금 6,205 잔액1,493,795",
       "android.subText": null,
       "android.infoText": null
     }
@@ -642,85 +158,8 @@
     "postTime": 1764650019000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/02 13:33 695002-**-***734 스타벅스 FBS출금 55,000 잔액5,191,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764651493000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 12/02 13:58 695002-**-***734 11번가 FBS출금 12,900 잔액5,178,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764652668000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 12/02 14:17 695002-**-***734 치킨집 FBS출금 4,500 잔액5,173,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764676081000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/02 20:48 695002-**-***734 치킨집 FBS출금 55,000 잔액5,118,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764677205000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 12/02 21:06 695002-**-***734 무신사 FBS출금 7,900 잔액5,110,941",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764684272000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 12/02 23:04 695002-**-***734 맥도날드 FBS출금 15,900 잔액5,095,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764685636000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/02 23:27 695002-**-***734 네이버페이 FBS출금 1,350 잔액5,093,691",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764687559000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/02 23:59 695002-**-***734 CU FBS출금 1,350 잔액5,092,341",
+      "android.text": "출금 5,961원",
+      "android.bigText": "출금 5,961원\n김*현님 12/02 13:33 695002-**-***734 스타벅스 FBS출금 5,961 잔액1,487,834",
       "android.subText": null,
       "android.infoText": null
     }
@@ -730,96 +169,8 @@
     "postTime": 1764717243000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 250,000원",
-      "android.bigText": "출금 250,000원\n김*현님 12/03 08:14 695002-**-***734 CGV FBS출금 250,000 잔액4,842,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764719812000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 12/03 08:56 695002-**-***734 지하철 FBS출금 3,900 잔액4,838,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764722564000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/03 09:42 695002-**-***734 넷플릭스 FBS출금 17,700 잔액4,820,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764726909000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 12/03 10:55 695002-**-***734 현희경 FBS입금 300,000 잔액5,120,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764737327000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 12/03 13:48 695002-**-***734 (주)우아한형제들 FBS출금 6,500 잔액5,114,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764752601000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 12/03 18:03 695002-**-***734 쿠팡 FBS출금 3,900 잔액5,110,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764753910000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 12/03 18:25 695002-**-***734 스타벅스 FBS출금 2,000 잔액5,108,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764758445000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 12/03 19:40 695002-**-***734 맥도날드 FBS출금 15,900 잔액5,092,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764762371000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/03 20:46 695002-**-***734 GS25 FBS출금 22,000 잔액5,070,441",
+      "android.text": "출금 23,173원",
+      "android.bigText": "출금 23,173원\n김*현님 12/03 08:14 695002-**-***734 CGV FBS출금 23,173 잔액1,464,661",
       "android.subText": null,
       "android.infoText": null
     }
@@ -829,52 +180,8 @@
     "postTime": 1764780456000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 12/04 01:47 695002-**-***734 세븐일레븐 FBS출금 15,900 잔액5,054,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764817678000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 12/04 12:07 695002-**-***734 네이버페이 FBS출금 6,500 잔액5,048,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764838686000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 12/04 17:58 695002-**-***734 이디야커피 FBS출금 2,500 잔액5,045,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764852252000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 70,000원",
-      "android.bigText": "입금 70,000원\n김*현님 12/04 21:44 695002-**-***734 홍길동 FBS입금 70,000 잔액5,115,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764858294000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/04 23:24 695002-**-***734 이디야커피 FBS출금 17,700 잔액5,097,841",
+      "android.text": "출금 7,625원",
+      "android.bigText": "출금 7,625원\n김*현님 12/04 01:47 695002-**-***734 세븐일레븐 FBS출금 7,625 잔액1,457,036",
       "android.subText": null,
       "android.infoText": null
     }
@@ -884,63 +191,8 @@
     "postTime": 1764899740000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/05 10:55 695002-**-***734 서울버스 FBS출금 1,350 잔액5,096,491",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764900984000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 12/05 11:16 695002-**-***734 스타벅스 FBS출금 2,000 잔액5,094,491",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764902543000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/05 11:42 695002-**-***734 야키토리잔잔마곡점 FBS출금 17,700 잔액5,076,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764946784000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 12/05 23:59 695002-**-***734 무신사 FBS출금 4,500 잔액5,072,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764976042000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 30,000원",
-      "android.bigText": "입금 30,000원\n김*현님 12/06 08:07 695002-**-***734 이체 FBS입금 30,000 잔액5,102,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764976414000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 200,000원",
-      "android.bigText": "입금 200,000원\n김*현님 12/06 08:13 695002-**-***734 ABC급여 FBS입금 200,000 잔액5,302,291",
+      "android.text": "출금 1,400원",
+      "android.bigText": "출금 1,400원\n김*현님 12/05 10:55 695002-**-***734 서울버스 FBS출금 1,400 잔액1,455,636",
       "android.subText": null,
       "android.infoText": null
     }
@@ -950,129 +202,8 @@
     "postTime": 1764980596000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 12/06 09:23 695002-**-***734 야키토리잔잔마곡점 FBS출금 2,500 잔액5,299,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764984519000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 12/06 10:28 695002-**-***734 투썸플레이스 FBS출금 12,900 잔액5,286,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764985088000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 390,000원",
-      "android.bigText": "출금 390,000원\n김*현님 12/06 10:38 695002-**-***734 택시 FBS출금 390,000 잔액4,896,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764992942000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 12/06 12:49 695002-**-***734 배달의민족 FBS출금 12,900 잔액4,883,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1764994714000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/06 13:18 695002-**-***734 통신요금 FBS출금 17,700 잔액4,866,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765015019000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 500,000원",
-      "android.bigText": "입금 500,000원\n김*현님 12/06 18:56 695002-**-***734 김성현 FBS입금 500,000 잔액5,366,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765018124000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 12/06 19:48 695002-**-***734 택시 FBS출금 8,900 잔액5,357,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765021395000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/06 20:43 695002-**-***734 올리브영 FBS출금 1,350 잔액5,356,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765022910000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 5,000원",
-      "android.bigText": "입금 5,000원\n김*현님 12/06 21:08 695002-**-***734 김정현 FBS입금 5,000 잔액5,361,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765025149000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/06 21:45 695002-**-***734 CU FBS출금 17,700 잔액5,343,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765026968000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 250,000원",
-      "android.bigText": "출금 250,000원\n김*현님 12/06 22:16 695002-**-***734 병원 FBS출금 250,000 잔액5,093,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765031321000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 12/06 23:28 695002-**-***734 이체 FBS입금 50,000 잔액5,143,341",
+      "android.text": "출금 8,679원",
+      "android.bigText": "출금 8,679원\n김*현님 12/06 09:23 695002-**-***734 버거킹 FBS출금 8,679 잔액1,446,957",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1082,8 +213,8 @@
     "postTime": 1765064406000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 12/07 08:40 695002-**-***734 카카오T FBS출금 8,900 잔액5,134,441",
+      "android.text": "출금 13,080원",
+      "android.bigText": "출금 13,080원\n김*현님 12/07 08:40 695002-**-***734 카카오T FBS출금 13,080 잔액1,433,877",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1093,85 +224,8 @@
     "postTime": 1765077036000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/07 12:10 695002-**-***734 넷플릭스 FBS출금 1,350 잔액5,133,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765078758000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 500,000원",
-      "android.bigText": "입금 500,000원\n김*현님 12/07 12:39 695002-**-***734 박민수 FBS입금 500,000 잔액5,633,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765085414000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 5,000원",
-      "android.bigText": "입금 5,000원\n김*현님 12/07 14:30 695002-**-***734 환급 FBS입금 5,000 잔액5,638,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765090595000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/07 15:56 695002-**-***734 메가박스 FBS출금 1,350 잔액5,636,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765095343000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/07 17:15 695002-**-***734 세븐일레븐 FBS출금 55,000 잔액5,581,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765106549000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 12/07 20:22 695002-**-***734 넷플릭스 FBS출금 2,500 잔액5,579,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765115451000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 30,000원",
-      "android.bigText": "입금 30,000원\n김*현님 12/07 22:50 695002-**-***734 ABC급여 FBS입금 30,000 잔액5,609,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765119257000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 12/07 23:54 695002-**-***734 약국 FBS출금 6,500 잔액5,602,741",
+      "android.text": "출금 16,338원",
+      "android.bigText": "출금 16,338원\n김*현님 12/07 12:10 695002-**-***734 넷플릭스 FBS출금 16,338 잔액1,417,539",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1181,85 +235,8 @@
     "postTime": 1765128926000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 12/08 02:35 695002-**-***734 택시 FBS출금 15,900 잔액5,586,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765146320000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/08 07:25 695002-**-***734 서브웨이 FBS출금 17,700 잔액5,569,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765172072000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/08 14:34 695002-**-***734 병원 FBS출금 1,350 잔액5,567,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765174205000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 12/08 15:10 695002-**-***734 버거킹 FBS출금 4,500 잔액5,563,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765182262000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/08 17:24 695002-**-***734 병원 FBS출금 55,000 잔액5,508,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765183184000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/08 17:39 695002-**-***734 롯데마트 FBS출금 22,000 잔액5,486,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765187827000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 12/08 18:57 695002-**-***734 지하철 FBS출금 8,900 잔액5,477,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765203385000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 12/08 23:16 695002-**-***734 신지은 FBS입금 300,000 잔액5,777,391",
+      "android.text": "출금 19,424원",
+      "android.bigText": "출금 19,424원\n김*현님 12/08 02:35 695002-**-***734 택시 FBS출금 19,424 잔액1,398,115",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1269,107 +246,8 @@
     "postTime": 1765232649000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 12/09 07:24 695002-**-***734 유튜브 프리미엄 FBS출금 12,900 잔액5,764,491",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765247946000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/09 11:39 695002-**-***734 네이버페이 FBS출금 17,700 잔액5,746,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765270117000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 12/09 17:48 695002-**-***734 네이버페이 FBS출금 32,000 잔액5,714,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765271951000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 12/09 18:19 695002-**-***734 넷플릭스 FBS출금 12,900 잔액5,701,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765273408000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 2,000원",
-      "android.bigText": "입금 2,000원\n김*현님 12/09 18:43 695002-**-***734 최준호 FBS입금 2,000 잔액5,703,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765278281000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/09 20:04 695002-**-***734 약국 FBS출금 22,000 잔액5,681,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765279143000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 12/09 20:19 695002-**-***734 카카오페이 FBS출금 4,900 잔액5,676,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765279529000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 12/09 20:25 695002-**-***734 지하철 FBS출금 4,500 잔액5,672,491",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765280543000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 12/09 20:42 695002-**-***734 지하철 FBS출금 3,900 잔액5,668,591",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765292056000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 390,000원",
-      "android.bigText": "출금 390,000원\n김*현님 12/09 23:54 695002-**-***734 투썸플레이스 FBS출금 390,000 잔액5,278,591",
+      "android.text": "출금 11,326원",
+      "android.bigText": "출금 11,326원\n김*현님 12/09 07:24 695002-**-***734 유튜브 프리미엄 FBS출금 11,326 잔액1,386,789",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1379,8 +257,8 @@
     "postTime": 1765328231000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 12/10 09:57 695002-**-***734 야키토리잔잔마곡점 FBS출금 4,500 잔액5,274,091",
+      "android.text": "출금 26,662원",
+      "android.bigText": "출금 26,662원\n김*현님 12/10 09:57 695002-**-***734 야키토리잔잔마곡점 FBS출금 26,662 잔액1,360,127",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1390,74 +268,8 @@
     "postTime": 1765336861000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 12/10 12:21 695002-**-***734 11번가 FBS출금 79,000 잔액5,195,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765337814000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 12/10 12:36 695002-**-***734 CU FBS출금 8,900 잔액5,186,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765341712000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 200,000원",
-      "android.bigText": "입금 200,000원\n김*현님 12/10 13:41 695002-**-***734 현희경 FBS입금 200,000 잔액5,386,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765361152000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/10 19:05 695002-**-***734 야키토리잔잔마곡점 FBS출금 22,000 잔액5,364,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765366725000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 120,000원",
-      "android.bigText": "출금 120,000원\n김*현님 12/10 20:38 695002-**-***734 CGV FBS출금 120,000 잔액5,244,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765375332000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 30,000원",
-      "android.bigText": "입금 30,000원\n김*현님 12/10 23:02 695002-**-***734 박민수 FBS입금 30,000 잔액5,274,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765408113000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 500,000원",
-      "android.bigText": "입금 500,000원\n김*현님 12/11 08:08 695002-**-***734 이서연 FBS입금 500,000 잔액5,774,191",
+      "android.text": "출금 8,491원",
+      "android.bigText": "출금 8,491원\n김*현님 12/10 12:21 695002-**-***734 11번가 FBS출금 8,491 잔액1,351,636",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1467,8 +279,8 @@
     "postTime": 1765446466000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/11 18:47 695002-**-***734 롯데마트 FBS출금 55,000 잔액5,719,191",
+      "android.text": "출금 17,071원",
+      "android.bigText": "출금 17,071원\n김*현님 12/11 18:47 695002-**-***734 롯데마트 FBS출금 17,071 잔액1,334,565",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1478,41 +290,8 @@
     "postTime": 1765450840000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/11 20:00 695002-**-***734 네이버페이 FBS출금 1,350 잔액5,717,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765452028000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 12/11 20:20 695002-**-***734 쿠팡 FBS출금 8,900 잔액5,708,941",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765463575000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 500,000원",
-      "android.bigText": "입금 500,000원\n김*현님 12/11 23:32 695002-**-***734 정유진 FBS입금 500,000 잔액6,208,941",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765534371000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 30,000원",
-      "android.bigText": "입금 30,000원\n김*현님 12/12 19:12 695002-**-***734 최준호 FBS입금 30,000 잔액6,238,941",
+      "android.text": "출금 10,908원",
+      "android.bigText": "출금 10,908원\n김*현님 12/11 20:00 695002-**-***734 네이버페이 FBS출금 10,908 잔액1,323,657",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1522,8 +301,8 @@
     "postTime": 1765540930000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 12/12 21:02 695002-**-***734 메가박스 FBS출금 3,900 잔액6,235,041",
+      "android.text": "출금 12,034원",
+      "android.bigText": "출금 12,034원\n김*현님 12/12 21:02 695002-**-***734 메가박스 FBS출금 12,034 잔액1,311,623",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1533,8 +312,8 @@
     "postTime": 1765543573000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/12 21:46 695002-**-***734 11번가 FBS출금 22,000 잔액6,213,041",
+      "android.text": "출금 19,209원",
+      "android.bigText": "출금 19,209원\n김*현님 12/12 21:46 695002-**-***734 11번가 FBS출금 19,209 잔액1,292,414",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1544,63 +323,8 @@
     "postTime": 1765544311000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/12 21:58 695002-**-***734 교보문고 FBS출금 17,700 잔액6,195,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765545841000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 12/12 22:24 695002-**-***734 서브웨이 FBS출금 15,900 잔액6,179,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765547724000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/12 22:55 695002-**-***734 야키토리잔잔마곡점 FBS출금 1,350 잔액6,178,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765548433000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 12/12 23:07 695002-**-***734 이디야커피 FBS출금 8,900 잔액6,169,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765582088000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 12/13 08:28 695002-**-***734 최준호 FBS입금 50,000 잔액6,219,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765583098000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 70,000원",
-      "android.bigText": "입금 70,000원\n김*현님 12/13 08:44 695002-**-***734 신지은 FBS입금 70,000 잔액6,289,191",
+      "android.text": "출금 19,968원",
+      "android.bigText": "출금 19,968원\n김*현님 12/12 21:58 695002-**-***734 교보문고 FBS출금 19,968 잔액1,272,446",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1610,8 +334,8 @@
     "postTime": 1765587153000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 12/13 09:52 695002-**-***734 야키토리잔잔마곡점 FBS출금 2,000 잔액6,287,191",
+      "android.text": "출금 14,387원",
+      "android.bigText": "출금 14,387원\n김*현님 12/13 09:52 695002-**-***734 연안식당 FBS출금 14,387 잔액1,258,059",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1621,8 +345,8 @@
     "postTime": 1765598643000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 12/13 13:04 695002-**-***734 스타벅스 강남점 FBS출금 4,500 잔액6,282,691",
+      "android.text": "출금 8,623원",
+      "android.bigText": "출금 8,623원\n김*현님 12/13 13:04 695002-**-***734 스타벅스 강남점 FBS출금 8,623 잔액1,249,436",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1632,41 +356,8 @@
     "postTime": 1765620399000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/13 19:06 695002-**-***734 다이소 FBS출금 55,000 잔액6,227,691",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765628907000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 12/13 21:28 695002-**-***734 스타벅스 강남점 FBS출금 32,000 잔액6,195,691",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765637456000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 12/13 23:50 695002-**-***734 서브웨이 FBS출금 8,900 잔액6,186,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765670901000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 100,000원",
-      "android.bigText": "입금 100,000원\n김*현님 12/14 09:08 695002-**-***734 오지훈 FBS입금 100,000 잔액6,286,791",
+      "android.text": "출금 8,232원",
+      "android.bigText": "출금 8,232원\n김*현님 12/13 19:06 695002-**-***734 다이소 FBS출금 8,232 잔액1,241,204",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1676,8 +367,8 @@
     "postTime": 1765675020000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 12/14 10:17 695002-**-***734 야키토리잔잔마곡점 FBS출금 7,900 잔액6,278,891",
+      "android.text": "출금 10,172원",
+      "android.bigText": "출금 10,172원\n김*현님 12/14 10:17 695002-**-***734 서브웨이 FBS출금 10,172 잔액1,231,032",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1687,52 +378,8 @@
     "postTime": 1765686372000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/14 13:26 695002-**-***734 버거킹 FBS출금 1,350 잔액6,277,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765687992000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 390,000원",
-      "android.bigText": "출금 390,000원\n김*현님 12/14 13:53 695002-**-***734 네이버페이 FBS출금 390,000 잔액5,887,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765701497000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 500,000원",
-      "android.bigText": "입금 500,000원\n김*현님 12/14 17:38 695002-**-***734 최준호 FBS입금 500,000 잔액6,387,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765708798000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/14 19:39 695002-**-***734 서브웨이 FBS출금 55,000 잔액6,332,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765720360000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 12/14 22:52 695002-**-***734 이서연 FBS입금 50,000 잔액6,382,541",
+      "android.text": "출금 13,179원",
+      "android.bigText": "출금 13,179원\n김*현님 12/14 13:26 695002-**-***734 연안식당 FBS출금 13,179 잔액1,217,853",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1742,8 +389,8 @@
     "postTime": 1765751001000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/15 07:23 695002-**-***734 병원 FBS출금 55,000 잔액6,327,541",
+      "android.text": "출금 7,217원",
+      "android.bigText": "출금 7,217원\n김*현님 12/15 07:23 695002-**-***734 병원 FBS출금 7,217 잔액1,210,636",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1753,63 +400,8 @@
     "postTime": 1765751849000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 12/15 07:37 695002-**-***734 치킨집 FBS출금 3,900 잔액6,323,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765791043000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 12/15 18:30 695002-**-***734 투썸플레이스 FBS출금 2,000 잔액6,321,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765800404000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 12/15 21:06 695002-**-***734 (주)우아한형제들 FBS출금 6,500 잔액6,315,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765808706000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 12/15 23:25 695002-**-***734 GS25 FBS출금 4,500 잔액6,310,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765837633000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 30,000원",
-      "android.bigText": "입금 30,000원\n김*현님 12/16 07:27 695002-**-***734 김정현 FBS입금 30,000 잔액6,340,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765856057000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 12/16 12:34 695002-**-***734 신지은 FBS입금 10,000 잔액6,350,641",
+      "android.text": "출금 11,842원",
+      "android.bigText": "출금 11,842원\n김*현님 12/15 07:37 695002-**-***734 버거킹 FBS출금 11,842 잔액1,198,794",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1819,19 +411,8 @@
     "postTime": 1765874697000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 12/16 17:44 695002-**-***734 메가박스 FBS출금 9,800 잔액6,340,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765887695000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 12/16 21:21 695002-**-***734 이마트 FBS출금 15,900 잔액6,324,941",
+      "android.text": "출금 23,420원",
+      "android.bigText": "출금 23,420원\n김*현님 12/16 17:44 695002-**-***734 메가박스 FBS출금 23,420 잔액1,175,374",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1841,8 +422,8 @@
     "postTime": 1765922908000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 12/17 07:08 695002-**-***734 11번가 FBS출금 12,900 잔액6,312,041",
+      "android.text": "출금 21,010원",
+      "android.bigText": "출금 21,010원\n김*현님 12/17 07:08 695002-**-***734 11번가 FBS출금 21,010 잔액1,154,364",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1852,96 +433,8 @@
     "postTime": 1765926985000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/17 08:16 695002-**-***734 올리브영 FBS출금 22,000 잔액6,290,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765929365000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/17 08:56 695002-**-***734 맥도날드 FBS출금 17,700 잔액6,272,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765931992000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 12/17 09:39 695002-**-***734 지하철 FBS출금 7,900 잔액6,264,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765959903000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 12/17 17:25 695002-**-***734 치킨집 FBS출금 32,000 잔액6,232,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765959925000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 12/17 17:25 695002-**-***734 병원 FBS출금 4,900 잔액6,227,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765967074000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 12/17 19:24 695002-**-***734 CU FBS출금 4,500 잔액6,223,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765968383000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 12/17 19:46 695002-**-***734 정유진 FBS입금 50,000 잔액6,273,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765972463000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 12/17 20:54 695002-**-***734 카카오페이 FBS출금 12,900 잔액6,260,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1765976190000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 12/17 21:56 695002-**-***734 CGV FBS출금 32,000 잔액6,228,141",
+      "android.text": "출금 12,299원",
+      "android.bigText": "출금 12,299원\n김*현님 12/17 08:16 695002-**-***734 올리브영 FBS출금 12,299 잔액1,142,065",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1951,8 +444,8 @@
     "postTime": 1766023495000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 12/18 11:04 695002-**-***734 서울버스 FBS출금 2,500 잔액6,225,641",
+      "android.text": "출금 1,400원",
+      "android.bigText": "출금 1,400원\n김*현님 12/18 11:04 695002-**-***734 서울버스 FBS출금 1,400 잔액1,140,665",
       "android.subText": null,
       "android.infoText": null
     }
@@ -1962,85 +455,8 @@
     "postTime": 1766040092000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 390,000원",
-      "android.bigText": "출금 390,000원\n김*현님 12/18 15:41 695002-**-***734 지하철 FBS출금 390,000 잔액5,835,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766047961000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/18 17:52 695002-**-***734 스타벅스 강남점 FBS출금 22,000 잔액5,813,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766054752000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 5,000원",
-      "android.bigText": "입금 5,000원\n김*현님 12/18 19:45 695002-**-***734 중고거래 FBS입금 5,000 잔액5,818,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766056321000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 12/18 20:12 695002-**-***734 서울버스 FBS출금 15,900 잔액5,802,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766057236000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 12/18 20:27 695002-**-***734 투썸플레이스 FBS출금 9,800 잔액5,792,941",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766067773000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 12/18 23:22 695002-**-***734 쿠팡 FBS출금 12,900 잔액5,780,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766069974000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 12/18 23:59 695002-**-***734 맥도날드 FBS출금 3,900 잔액5,776,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766077395000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 200,000원",
-      "android.bigText": "입금 200,000원\n김*현님 12/19 02:03 695002-**-***734 신지은 FBS입금 200,000 잔액5,976,141",
+      "android.text": "출금 2,547원",
+      "android.bigText": "출금 2,547원\n김*현님 12/18 15:41 695002-**-***734 지하철 FBS출금 2,547 잔액1,138,118",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2050,41 +466,8 @@
     "postTime": 1766108019000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 12/19 10:33 695002-**-***734 배달의민족 FBS출금 8,900 잔액5,967,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766108952000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 12/19 10:49 695002-**-***734 (주)우아한형제들 FBS출금 8,900 잔액5,958,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766137140000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/19 18:39 695002-**-***734 넷플릭스 FBS출금 22,000 잔액5,936,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766143549000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 12/19 20:25 695002-**-***734 이서연 FBS입금 10,000 잔액5,946,341",
+      "android.text": "출금 22,955원",
+      "android.bigText": "출금 22,955원\n김*현님 12/19 10:33 695002-**-***734 배달의민족 FBS출금 22,955 잔액1,115,163",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2094,74 +477,8 @@
     "postTime": 1766184123000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 12/20 07:42 695002-**-***734 치킨집 FBS출금 2,500 잔액5,943,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766191175000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/20 09:39 695002-**-***734 쿠팡 FBS출금 55,000 잔액5,888,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766224774000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 100,000원",
-      "android.bigText": "입금 100,000원\n김*현님 12/20 18:59 695002-**-***734 홍길동 FBS입금 100,000 잔액5,988,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766226493000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 12/20 19:28 695002-**-***734 맥도날드 FBS출금 32,000 잔액5,956,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766230436000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 12/20 20:33 695002-**-***734 넷플릭스 FBS출금 2,000 잔액5,954,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766238164000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/20 22:42 695002-**-***734 다이소 FBS출금 17,700 잔액5,937,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766243087000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 12/21 00:04 695002-**-***734 ABC급여 FBS입금 300,000 잔액6,237,141",
+      "android.text": "출금 15,591원",
+      "android.bigText": "출금 15,591원\n김*현님 12/20 07:42 695002-**-***734 본죽 FBS출금 15,591 잔액1,099,572",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2171,173 +488,8 @@
     "postTime": 1766272509000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/21 08:15 695002-**-***734 메가박스 FBS출금 22,000 잔액6,215,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766275602000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 12/21 09:06 695002-**-***734 넷플릭스 FBS출금 4,900 잔액6,210,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766281573000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/21 10:46 695002-**-***734 야키토리잔잔마곡점 FBS출금 22,000 잔액6,188,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766304670000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 5,000원",
-      "android.bigText": "입금 5,000원\n김*현님 12/21 17:11 695002-**-***734 오지훈 FBS입금 5,000 잔액6,193,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766305065000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 12/21 17:17 695002-**-***734 배달의민족 FBS출금 4,500 잔액6,188,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766311483000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 12/21 19:04 695002-**-***734 야키토리잔잔마곡점 FBS출금 2,000 잔액6,186,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766312438000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/21 19:20 695002-**-***734 이마트 FBS출금 55,000 잔액6,131,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766312993000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 390,000원",
-      "android.bigText": "출금 390,000원\n김*현님 12/21 19:29 695002-**-***734 (주)우아한형제들 FBS출금 390,000 잔액5,741,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766314959000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 200,000원",
-      "android.bigText": "입금 200,000원\n김*현님 12/21 20:02 695002-**-***734 김정현 FBS입금 200,000 잔액5,941,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766315363000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 12/21 20:09 695002-**-***734 쿠팡 FBS출금 7,900 잔액5,933,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766315390000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/21 20:09 695002-**-***734 쿠팡이츠 FBS출금 17,700 잔액5,916,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766324958000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/21 22:49 695002-**-***734 쿠팡이츠 FBS출금 17,700 잔액5,898,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766327821000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 12/21 23:37 695002-**-***734 박민수 FBS입금 10,000 잔액5,908,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766358946000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 12/22 08:15 695002-**-***734 박민수 FBS입금 10,000 잔액5,918,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766363966000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 500,000원",
-      "android.bigText": "입금 500,000원\n김*현님 12/22 09:39 695002-**-***734 김정현 FBS입금 500,000 잔액6,418,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766365316000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 2,000원",
-      "android.bigText": "입금 2,000원\n김*현님 12/22 10:01 695002-**-***734 홍길동 FBS입금 2,000 잔액6,420,441",
+      "android.text": "출금 24,502원",
+      "android.bigText": "출금 24,502원\n김*현님 12/21 08:15 695002-**-***734 메가박스 FBS출금 24,502 잔액1,075,070",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2347,8 +499,8 @@
     "postTime": 1766368706000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 12/22 10:58 695002-**-***734 다이소 FBS출금 4,500 잔액6,415,941",
+      "android.text": "출금 5,102원",
+      "android.bigText": "출금 5,102원\n김*현님 12/22 10:58 695002-**-***734 다이소 FBS출금 5,102 잔액1,069,968",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2358,63 +510,8 @@
     "postTime": 1766393100000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 12/22 17:45 695002-**-***734 11번가 FBS출금 4,900 잔액6,411,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766393372000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 12/22 17:49 695002-**-***734 통신요금 FBS출금 4,500 잔액6,406,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766398763000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 12/22 19:19 695002-**-***734 쿠팡이츠 FBS출금 4,900 잔액6,401,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766402195000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 12/22 20:16 695002-**-***734 11번가 FBS출금 79,000 잔액6,322,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766402653000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 12/22 20:24 695002-**-***734 맥도날드 FBS출금 9,800 잔액6,312,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766408961000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 12/22 22:09 695002-**-***734 쿠팡 FBS출금 7,900 잔액6,304,941",
+      "android.text": "출금 13,828원",
+      "android.bigText": "출금 13,828원\n김*현님 12/22 17:45 695002-**-***734 11번가 FBS출금 13,828 잔액1,056,140",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2424,96 +521,8 @@
     "postTime": 1766419830000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 12/23 01:10 695002-**-***734 스타벅스 강남점 FBS출금 7,900 잔액6,297,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766449329000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/23 09:22 695002-**-***734 (주)우아한형제들 FBS출금 1,350 잔액6,295,691",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766451097000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/23 09:51 695002-**-***734 약국 FBS출금 17,700 잔액6,277,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766453686000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 12/23 10:34 695002-**-***734 (주)우아한형제들 FBS출금 3,900 잔액6,274,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766461752000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 12/23 12:49 695002-**-***734 회사급여 FBS입금 10,000 잔액6,284,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766483244000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 2,000원",
-      "android.bigText": "입금 2,000원\n김*현님 12/23 18:47 695002-**-***734 김정현 FBS입금 2,000 잔액6,286,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766486659000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 12/23 19:44 695002-**-***734 맥도날드 FBS출금 2,500 잔액6,283,591",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766488244000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 200,000원",
-      "android.bigText": "입금 200,000원\n김*현님 12/23 20:10 695002-**-***734 환급 FBS입금 200,000 잔액6,483,591",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766493084000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 12/23 21:31 695002-**-***734 통신요금 FBS출금 12,900 잔액6,470,691",
+      "android.text": "출금 9,708원",
+      "android.bigText": "출금 9,708원\n김*현님 12/23 01:10 695002-**-***734 스타벅스 강남점 FBS출금 9,708 잔액1,046,432",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2523,41 +532,8 @@
     "postTime": 1766538071000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 12/24 10:01 695002-**-***734 서브웨이 FBS출금 6,500 잔액6,464,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766567762000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/24 18:16 695002-**-***734 쿠팡 FBS출금 17,700 잔액6,446,491",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766581666000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 12/24 22:07 695002-**-***734 (주)우아한형제들 FBS출금 4,500 잔액6,441,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766588046000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/24 23:54 695002-**-***734 세븐일레븐 FBS출금 17,700 잔액6,424,291",
+      "android.text": "출금 13,824원",
+      "android.bigText": "출금 13,824원\n김*현님 12/24 10:01 695002-**-***734 연안식당 FBS출금 13,824 잔액1,032,608",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2567,107 +543,8 @@
     "postTime": 1766591766000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/25 00:56 695002-**-***734 네이버페이 FBS출금 22,000 잔액6,402,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766597767000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/25 02:36 695002-**-***734 네이버페이 FBS출금 55,000 잔액6,347,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766635148000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 12/25 12:59 695002-**-***734 투썸플레이스 FBS출금 4,900 잔액6,342,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766636625000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 12/25 13:23 695002-**-***734 스타벅스 강남점 FBS출금 6,500 잔액6,335,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766644856000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 12/25 15:40 695002-**-***734 스타벅스 강남점 FBS출금 3,900 잔액6,331,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766650750000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 12/25 17:19 695002-**-***734 서브웨이 FBS출금 2,000 잔액6,329,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766653663000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 12/25 18:07 695002-**-***734 GS25 FBS출금 32,000 잔액6,297,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766660413000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 12/25 20:00 695002-**-***734 CGV FBS출금 7,900 잔액6,290,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766669075000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/25 22:24 695002-**-***734 이디야커피 FBS출금 1,350 잔액6,288,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766674137000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/25 23:48 695002-**-***734 배달의민족 FBS출금 22,000 잔액6,266,741",
+      "android.text": "출금 17,369원",
+      "android.bigText": "출금 17,369원\n김*현님 12/25 00:56 695002-**-***734 네이버페이 FBS출금 17,369 잔액1,015,239",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2677,8 +554,8 @@
     "postTime": 1766702957000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 12/26 07:49 695002-**-***734 배달의민족 FBS출금 4,900 잔액6,261,841",
+      "android.text": "출금 18,503원",
+      "android.bigText": "출금 18,503원\n김*현님 12/26 07:49 695002-**-***734 배달의민족 FBS출금 18,503 잔액996,736",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2688,19 +565,8 @@
     "postTime": 1766706097000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 12/26 08:41 695002-**-***734 서브웨이 FBS출금 2,500 잔액6,259,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766707761000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 12/26 09:09 695002-**-***734 ABC급여 FBS입금 50,000 잔액6,309,341",
+      "android.text": "출금 18,349원",
+      "android.bigText": "출금 18,349원\n김*현님 12/26 08:41 695002-**-***734 치킨집 FBS출금 18,349 잔액978,387",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2710,30 +576,8 @@
     "postTime": 1766721275000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 12/26 12:54 695002-**-***734 배달의민족 FBS출금 79,000 잔액6,230,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766738987000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 12/26 17:49 695002-**-***734 야키토리잔잔마곡점 FBS출금 12,900 잔액6,217,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766755291000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 12/26 22:21 695002-**-***734 치킨집 FBS출금 8,900 잔액6,208,541",
+      "android.text": "출금 17,519원",
+      "android.bigText": "출금 17,519원\n김*현님 12/26 12:54 695002-**-***734 배달의민족 FBS출금 17,519 잔액960,868",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2743,85 +587,8 @@
     "postTime": 1766805259000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/27 12:14 695002-**-***734 이마트 FBS출금 1,350 잔액6,207,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766805583000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 12/27 12:19 695002-**-***734 무신사 FBS출금 12,900 잔액6,194,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766829427000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 200,000원",
-      "android.bigText": "입금 200,000원\n김*현님 12/27 18:57 695002-**-***734 최준호 FBS입금 200,000 잔액6,394,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766830465000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 12/27 19:14 695002-**-***734 약국 FBS출금 9,800 잔액6,384,491",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766836259000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 12/27 20:50 695002-**-***734 (주)우아한형제들 FBS출금 7,900 잔액6,376,591",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766841924000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 12/27 22:25 695002-**-***734 맥도날드 FBS출금 79,000 잔액6,297,591",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766846795000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 12/27 23:46 695002-**-***734 지하철 FBS출금 7,900 잔액6,289,691",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766875664000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 30,000원",
-      "android.bigText": "입금 30,000원\n김*현님 12/28 07:47 695002-**-***734 신지은 FBS입금 30,000 잔액6,319,691",
+      "android.text": "출금 20,989원",
+      "android.bigText": "출금 20,989원\n김*현님 12/27 12:14 695002-**-***734 이마트 FBS출금 20,989 잔액939,879",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2831,129 +598,8 @@
     "postTime": 1766881534000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 12/28 09:25 695002-**-***734 스타벅스 FBS출금 12,900 잔액6,306,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766887880000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 12/28 11:11 695002-**-***734 쿠팡 FBS출금 3,900 잔액6,302,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766888720000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 12/28 11:25 695002-**-***734 쿠팡 FBS출금 4,900 잔액6,297,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766899557000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 200,000원",
-      "android.bigText": "입금 200,000원\n김*현님 12/28 14:25 695002-**-***734 홍길동 FBS입금 200,000 잔액6,497,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766910315000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 2,500,000원",
-      "android.bigText": "입금 2,500,000원\n김*현님 12/28 17:25 695002-**-***734 홍길동 FBS입금 2,500,000 잔액8,997,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766914307000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 12/28 18:31 695002-**-***734 치킨집 FBS출금 3,900 잔액8,994,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766917949000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/28 19:32 695002-**-***734 메가박스 FBS출금 55,000 잔액8,939,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766918840000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 12/28 19:47 695002-**-***734 유튜브 프리미엄 FBS출금 32,000 잔액8,907,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766920121000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 12/28 20:08 695002-**-***734 카카오T FBS출금 6,500 잔액8,900,591",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766922399000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 12/28 20:46 695002-**-***734 스타벅스 강남점 FBS출금 32,000 잔액8,868,591",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766923189000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/28 20:59 695002-**-***734 지하철 FBS출금 1,350 잔액8,867,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766959727000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 12/29 07:08 695002-**-***734 김성현 FBS입금 300,000 잔액9,167,241",
+      "android.text": "출금 6,245원",
+      "android.bigText": "출금 6,245원\n김*현님 12/28 09:25 695002-**-***734 스타벅스 FBS출금 6,245 잔액933,634",
       "android.subText": null,
       "android.infoText": null
     }
@@ -2963,52 +609,8 @@
     "postTime": 1766966437000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 12/29 09:00 695002-**-***734 다이소 FBS출금 79,000 잔액9,088,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766984127000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 12/29 13:55 695002-**-***734 쿠팡 FBS출금 9,800 잔액9,078,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1766988806000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 12/29 15:13 695002-**-***734 GS25 FBS출금 4,900 잔액9,073,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767012060000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 12/29 21:41 695002-**-***734 CU FBS출금 8,900 잔액9,064,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767018679000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 12/29 23:31 695002-**-***734 메가박스 FBS출금 1,350 잔액9,063,291",
+      "android.text": "출금 14,987원",
+      "android.bigText": "출금 14,987원\n김*현님 12/29 09:00 695002-**-***734 다이소 FBS출금 14,987 잔액918,647",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3018,74 +620,8 @@
     "postTime": 1767048925000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 12/30 07:55 695002-**-***734 치킨집 FBS출금 7,900 잔액9,055,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767051249000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/30 08:34 695002-**-***734 카카오T FBS출금 55,000 잔액9,000,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767076718000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 12/30 15:38 695002-**-***734 중고거래 FBS입금 300,000 잔액9,300,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767092679000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 12/30 20:04 695002-**-***734 택시 FBS출금 55,000 잔액9,245,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767095999000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 12/30 20:59 695002-**-***734 스타벅스 강남점 FBS출금 22,000 잔액9,223,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767105002000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 12/30 23:30 695002-**-***734 카카오T FBS출금 32,000 잔액9,191,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767106406000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 12/30 23:53 695002-**-***734 서브웨이 FBS출금 4,500 잔액9,186,891",
+      "android.text": "출금 19,900원",
+      "android.bigText": "출금 19,900원\n김*현님 12/30 07:55 695002-**-***734 편백찜 FBS출금 19,900 잔액898,747",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3095,8 +631,8 @@
     "postTime": 1767117520000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 180,000원",
-      "android.bigText": "출금 180,000원\n김*현님 12/31 02:58 695002-**-***734 롯데마트 FBS출금 180,000 잔액9,006,891",
+      "android.text": "출금 10,950원",
+      "android.bigText": "출금 10,950원\n김*현님 12/31 02:58 695002-**-***734 롯데마트 FBS출금 10,950 잔액887,797",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3106,96 +642,8 @@
     "postTime": 1767150079000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 12/31 12:01 695002-**-***734 유튜브 프리미엄 FBS출금 79,000 잔액8,927,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767164384000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 200,000원",
-      "android.bigText": "입금 200,000원\n김*현님 12/31 15:59 695002-**-***734 오지훈 FBS입금 200,000 잔액9,127,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767174373000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 12/31 18:46 695002-**-***734 11번가 FBS출금 2,000 잔액9,125,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767178548000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 12/31 19:55 695002-**-***734 세븐일레븐 FBS출금 8,900 잔액9,116,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767181390000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 12/31 20:43 695002-**-***734 카카오페이 FBS출금 79,000 잔액9,037,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767186080000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 12/31 22:01 695002-**-***734 박민수 FBS입금 300,000 잔액9,337,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767191283000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 12/31 23:28 695002-**-***734 카카오T FBS출금 17,700 잔액9,320,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767191515000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 12/31 23:31 695002-**-***734 이체 FBS입금 10,000 잔액9,330,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767192204000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 12/31 23:43 695002-**-***734 CGV FBS출금 12,900 잔액9,317,391",
+      "android.text": "출금 11,735원",
+      "android.bigText": "출금 11,735원\n김*현님 12/31 12:01 695002-**-***734 유튜브 프리미엄 FBS출금 11,735 잔액876,062",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3205,8 +653,8 @@
     "postTime": 1767224441000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 01/01 08:40 695002-**-***734 병원 FBS출금 4,900 잔액9,312,491",
+      "android.text": "출금 48,971원",
+      "android.bigText": "출금 48,971원\n김*현님 01/01 08:40 695002-**-***734 병원 FBS출금 48,971 잔액827,091",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3216,8 +664,8 @@
     "postTime": 1767227696000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "입금 2,500,000원",
-      "android.bigText": "입금 2,500,000원\n김*현님 01/01 09:34 695002-**-***734 회사급여 FBS입금 2,500,000 잔액11,812,491",
+      "android.text": "입금 200,000원",
+      "android.bigText": "입금 200,000원\n김*현님 01/01 09:34 695002-**-***734 회사급여 FBS입금 200,000 잔액1,027,091",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3227,41 +675,8 @@
     "postTime": 1767245532000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 01/01 14:32 695002-**-***734 다이소 FBS출금 32,000 잔액11,780,491",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767249174000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/01 15:32 695002-**-***734 CGV FBS출금 6,500 잔액11,773,991",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767255397000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 01/01 17:16 695002-**-***734 지하철 FBS출금 3,900 잔액11,770,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767278803000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 01/01 23:46 695002-**-***734 교보문고 FBS출금 79,000 잔액11,691,091",
+      "android.text": "출금 9,961원",
+      "android.bigText": "출금 9,961원\n김*현님 01/01 14:32 695002-**-***734 다이소 FBS출금 9,961 잔액1,017,130",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3271,8 +686,8 @@
     "postTime": 1767314191000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 01/02 09:36 695002-**-***734 맥도날드 FBS출금 79,000 잔액11,612,091",
+      "android.text": "출금 8,103원",
+      "android.bigText": "출금 8,103원\n김*현님 01/02 09:36 695002-**-***734 서브웨이 FBS출금 8,103 잔액1,009,027",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3282,30 +697,8 @@
     "postTime": 1767345612000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 01/02 18:20 695002-**-***734 약국 FBS출금 15,900 잔액11,596,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767348846000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 01/02 19:14 695002-**-***734 이디야커피 FBS출금 79,000 잔액11,517,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767349053000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 01/02 19:17 695002-**-***734 롯데마트 FBS출금 8,900 잔액11,508,291",
+      "android.text": "출금 7,406원",
+      "android.bigText": "출금 7,406원\n김*현님 01/02 18:20 695002-**-***734 약국 FBS출금 7,406 잔액1,001,621",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3315,30 +708,8 @@
     "postTime": 1767353165000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "입금 5,000원",
-      "android.bigText": "입금 5,000원\n김*현님 01/02 20:26 695002-**-***734 회사급여 FBS입금 5,000 잔액11,513,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767354968000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 01/02 20:56 695002-**-***734 배달의민족 FBS출금 12,900 잔액11,500,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767365949000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 01/02 23:59 695002-**-***734 박민수 FBS입금 300,000 잔액11,800,391",
+      "android.text": "입금 250,000원",
+      "android.bigText": "입금 250,000원\n김*현님 01/02 20:26 695002-**-***734 회사급여 FBS입금 250,000 잔액1,251,621",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3348,8 +719,8 @@
     "postTime": 1767393969000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 01/03 07:46 695002-**-***734 통신요금 FBS출금 9,800 잔액11,790,591",
+      "android.text": "출금 35,668원",
+      "android.bigText": "출금 35,668원\n김*현님 01/03 07:46 695002-**-***734 통신요금 FBS출금 35,668 잔액1,215,953",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3359,52 +730,8 @@
     "postTime": 1767402165000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 01/03 10:02 695002-**-***734 이디야커피 FBS출금 9,800 잔액11,780,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767411420000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 01/03 12:37 695002-**-***734 환급 FBS입금 10,000 잔액11,790,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767417671000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/03 14:21 695002-**-***734 버거킹 FBS출금 6,500 잔액11,784,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767436070000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 01/03 19:27 695002-**-***734 치킨집 FBS출금 1,350 잔액11,782,941",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767439291000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 01/03 20:21 695002-**-***734 지하철 FBS출금 4,900 잔액11,778,041",
+      "android.text": "출금 6,717원",
+      "android.bigText": "출금 6,717원\n김*현님 01/03 10:02 695002-**-***734 이디야커피 FBS출금 6,717 잔액1,209,236",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3414,140 +741,8 @@
     "postTime": 1767482862000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/04 08:27 695002-**-***734 교보문고 FBS출금 6,500 잔액11,771,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767485782000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 01/04 09:16 695002-**-***734 병원 FBS출금 79,000 잔액11,692,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767496110000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 01/04 12:08 695002-**-***734 11번가 FBS출금 79,000 잔액11,613,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767506996000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 250,000원",
-      "android.bigText": "출금 250,000원\n김*현님 01/04 15:09 695002-**-***734 투썸플레이스 FBS출금 250,000 잔액11,363,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767513731000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 01/04 17:02 695002-**-***734 신지은 FBS입금 10,000 잔액11,373,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767514082000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 01/04 17:08 695002-**-***734 올리브영 FBS출금 4,500 잔액11,369,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767517222000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 01/04 18:00 695002-**-***734 넷플릭스 FBS출금 8,900 잔액11,360,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767527267000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 01/04 20:47 695002-**-***734 박민수 FBS입금 10,000 잔액11,370,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767532895000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 01/04 22:21 695002-**-***734 치킨집 FBS출금 3,900 잔액11,366,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767533521000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 01/04 22:32 695002-**-***734 스타벅스 FBS출금 55,000 잔액11,311,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767535530000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 200,000원",
-      "android.bigText": "입금 200,000원\n김*현님 01/04 23:05 695002-**-***734 김정현 FBS입금 200,000 잔액11,511,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767537549000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 01/04 23:39 695002-**-***734 카카오T FBS출금 7,900 잔액11,503,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767537678000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 01/04 23:41 695002-**-***734 통신요금 FBS출금 15,900 잔액11,487,441",
+      "android.text": "출금 19,889원",
+      "android.bigText": "출금 19,889원\n김*현님 01/04 08:27 695002-**-***734 교보문고 FBS출금 19,889 잔액1,189,347",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3557,8 +752,8 @@
     "postTime": 1767577275000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 01/05 10:41 695002-**-***734 (주)우아한형제들 FBS출금 15,900 잔액11,471,541",
+      "android.text": "출금 20,539원",
+      "android.bigText": "출금 20,539원\n김*현님 01/05 10:41 695002-**-***734 (주)우아한형제들 FBS출금 20,539 잔액1,168,808",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3568,52 +763,8 @@
     "postTime": 1767592736000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 01/05 14:58 695002-**-***734 11번가 FBS출금 32,000 잔액11,439,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767601343000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 01/05 17:22 695002-**-***734 치킨집 FBS출금 7,900 잔액11,431,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767602658000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/05 17:44 695002-**-***734 야키토리잔잔마곡점 FBS출금 6,500 잔액11,425,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767604316000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 01/05 18:11 695002-**-***734 버거킹 FBS출금 79,000 잔액11,346,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767605201000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 01/05 18:26 695002-**-***734 유튜브 프리미엄 FBS출금 2,000 잔액11,344,141",
+      "android.text": "출금 18,383원",
+      "android.bigText": "출금 18,383원\n김*현님 01/05 14:58 695002-**-***734 11번가 FBS출금 18,383 잔액1,150,425",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3623,19 +774,8 @@
     "postTime": 1767653054000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 01/06 07:44 695002-**-***734 약국 FBS출금 15,900 잔액11,328,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767653513000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 70,000원",
-      "android.bigText": "입금 70,000원\n김*현님 01/06 07:51 695002-**-***734 정유진 FBS입금 70,000 잔액11,398,241",
+      "android.text": "출금 5,153원",
+      "android.bigText": "출금 5,153원\n김*현님 01/06 07:44 695002-**-***734 약국 FBS출금 5,153 잔액1,145,272",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3645,30 +785,8 @@
     "postTime": 1767655028000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 01/06 08:17 695002-**-***734 약국 FBS출금 2,000 잔액11,396,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767699003000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 01/06 20:30 695002-**-***734 카카오T FBS출금 2,500 잔액11,393,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767699771000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 01/06 20:42 695002-**-***734 버거킹 FBS출금 17,700 잔액11,376,041",
+      "android.text": "출금 8,660원",
+      "android.bigText": "출금 8,660원\n김*현님 01/06 08:17 695002-**-***734 약국 FBS출금 8,660 잔액1,136,612",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3678,96 +796,8 @@
     "postTime": 1767714857000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 01/07 00:54 695002-**-***734 롯데마트 FBS출금 15,900 잔액11,360,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767741912000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 01/07 08:25 695002-**-***734 약국 FBS출금 1,350 잔액11,358,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767747580000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 30,000원",
-      "android.bigText": "입금 30,000원\n김*현님 01/07 09:59 695002-**-***734 최준호 FBS입금 30,000 잔액11,388,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767748079000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 01/07 10:07 695002-**-***734 CU FBS출금 22,000 잔액11,366,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767774294000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 01/07 17:24 695002-**-***734 롯데마트 FBS출금 7,900 잔액11,358,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767774849000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 01/07 17:34 695002-**-***734 메가박스 FBS출금 4,500 잔액11,354,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767781006000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 01/07 19:16 695002-**-***734 이디야커피 FBS출금 79,000 잔액11,275,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767785428000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 01/07 20:30 695002-**-***734 지하철 FBS출금 22,000 잔액11,253,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767797303000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 01/07 23:48 695002-**-***734 병원 FBS출금 3,900 잔액11,249,491",
+      "android.text": "출금 17,346원",
+      "android.bigText": "출금 17,346원\n김*현님 01/07 00:54 695002-**-***734 롯데마트 FBS출금 17,346 잔액1,119,266",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3777,19 +807,8 @@
     "postTime": 1767826782000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 01/08 07:59 695002-**-***734 롯데마트 FBS출금 22,000 잔액11,227,491",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767830199000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 100,000원",
-      "android.bigText": "입금 100,000원\n김*현님 01/08 08:56 695002-**-***734 중고거래 FBS입금 100,000 잔액11,327,491",
+      "android.text": "출금 19,080원",
+      "android.bigText": "출금 19,080원\n김*현님 01/08 07:59 695002-**-***734 롯데마트 FBS출금 19,080 잔액1,100,186",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3799,8 +818,8 @@
     "postTime": 1767833690000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 01/08 09:54 695002-**-***734 치킨집 FBS출금 17,700 잔액11,309,791",
+      "android.text": "출금 12,570원",
+      "android.bigText": "출금 12,570원\n김*현님 01/08 09:54 695002-**-***734 맥도날드 FBS출금 12,570 잔액1,087,616",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3810,41 +829,8 @@
     "postTime": 1767834652000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 01/08 10:10 695002-**-***734 약국 FBS출금 8,900 잔액11,300,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767848688000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 01/08 14:04 695002-**-***734 유튜브 프리미엄 FBS출금 1,350 잔액11,299,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767864007000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 01/08 18:20 695002-**-***734 야키토리잔잔마곡점 FBS출금 15,900 잔액11,283,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767883423000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 01/08 23:43 695002-**-***734 택시 FBS출금 12,900 잔액11,270,741",
+      "android.text": "출금 3,610원",
+      "android.bigText": "출금 3,610원\n김*현님 01/08 10:10 695002-**-***734 약국 FBS출금 3,610 잔액1,084,006",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3854,74 +840,8 @@
     "postTime": 1767910602000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 01/09 07:16 695002-**-***734 통신요금 FBS출금 9,800 잔액11,260,941",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767930011000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/09 12:40 695002-**-***734 서브웨이 FBS출금 6,500 잔액11,254,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767930532000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 01/09 12:48 695002-**-***734 서울버스 FBS출금 55,000 잔액11,199,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767956780000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 01/09 20:06 695002-**-***734 오지훈 FBS입금 300,000 잔액11,499,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767957188000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/09 20:13 695002-**-***734 카카오T FBS출금 6,500 잔액11,492,941",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767961472000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 01/09 21:24 695002-**-***734 11번가 FBS출금 4,500 잔액11,488,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1767965518000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 01/09 22:31 695002-**-***734 이마트 FBS출금 12,900 잔액11,475,541",
+      "android.text": "출금 37,215원",
+      "android.bigText": "출금 37,215원\n김*현님 01/09 07:16 695002-**-***734 통신요금 FBS출금 37,215 잔액1,046,791",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3931,8 +851,8 @@
     "postTime": 1768001182000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 01/10 08:26 695002-**-***734 무신사 FBS출금 12,900 잔액11,462,641",
+      "android.text": "출금 34,529원",
+      "android.bigText": "출금 34,529원\n김*현님 01/10 08:26 695002-**-***734 무신사 FBS출금 34,529 잔액1,012,262",
       "android.subText": null,
       "android.infoText": null
     }
@@ -3942,85 +862,8 @@
     "postTime": 1768004796000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 01/10 09:26 695002-**-***734 (주)우아한형제들 FBS출금 17,700 잔액11,444,941",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768015702000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 01/10 12:28 695002-**-***734 카카오T FBS출금 12,900 잔액11,432,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768017197000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 70,000원",
-      "android.bigText": "입금 70,000원\n김*현님 01/10 12:53 695002-**-***734 신지은 FBS입금 70,000 잔액11,502,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768037807000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 30,000원",
-      "android.bigText": "입금 30,000원\n김*현님 01/10 18:36 695002-**-***734 환급 FBS입금 30,000 잔액11,532,041",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768044487000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 01/10 20:28 695002-**-***734 무신사 FBS출금 2,500 잔액11,529,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768045579000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 01/10 20:46 695002-**-***734 카카오T FBS출금 7,900 잔액11,521,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768047428000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 30,000원",
-      "android.bigText": "입금 30,000원\n김*현님 01/10 21:17 695002-**-***734 신지은 FBS입금 30,000 잔액11,551,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768054165000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 01/10 23:09 695002-**-***734 올리브영 FBS출금 2,000 잔액11,549,641",
+      "android.text": "출금 18,390원",
+      "android.bigText": "출금 18,390원\n김*현님 01/10 09:26 695002-**-***734 (주)우아한형제들 FBS출금 18,390 잔액993,872",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4030,8 +873,8 @@
     "postTime": 1768059054000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 01/11 00:30 695002-**-***734 야키토리잔잔마곡점 FBS출금 3,900 잔액11,545,741",
+      "android.text": "출금 13,062원",
+      "android.bigText": "출금 13,062원\n김*현님 01/11 00:30 695002-**-***734 본죽 FBS출금 13,062 잔액980,810",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4041,8 +884,8 @@
     "postTime": 1768095291000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 01/11 10:34 695002-**-***734 메가박스 FBS출금 2,000 잔액11,543,741",
+      "android.text": "출금 13,402원",
+      "android.bigText": "출금 13,402원\n김*현님 01/11 10:34 695002-**-***734 메가박스 FBS출금 13,402 잔액967,408",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4052,74 +895,8 @@
     "postTime": 1768095488000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 01/11 10:38 695002-**-***734 쿠팡 FBS출금 79,000 잔액11,464,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768102044000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 01/11 12:27 695002-**-***734 다이소 FBS출금 79,000 잔액11,385,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768108330000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 01/11 14:12 695002-**-***734 스타벅스 강남점 FBS출금 4,900 잔액11,380,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768127931000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 01/11 19:38 695002-**-***734 쿠팡 FBS출금 4,500 잔액11,376,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768130077000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 01/11 20:14 695002-**-***734 카카오페이 FBS출금 17,700 잔액11,358,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768131998000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 01/11 20:46 695002-**-***734 무신사 FBS출금 2,500 잔액11,356,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768133534000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 01/11 21:12 695002-**-***734 CU FBS출금 55,000 잔액11,301,141",
+      "android.text": "출금 11,319원",
+      "android.bigText": "출금 11,319원\n김*현님 01/11 10:38 695002-**-***734 쿠팡 FBS출금 11,319 잔액956,089",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4129,8 +906,8 @@
     "postTime": 1768170752000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 01/12 07:32 695002-**-***734 유튜브 프리미엄 FBS출금 15,900 잔액11,285,241",
+      "android.text": "출금 11,877원",
+      "android.bigText": "출금 11,877원\n김*현님 01/12 07:32 695002-**-***734 유튜브 프리미엄 FBS출금 11,877 잔액944,212",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4140,52 +917,8 @@
     "postTime": 1768177225000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 250,000원",
-      "android.bigText": "출금 250,000원\n김*현님 01/12 09:20 695002-**-***734 CGV FBS출금 250,000 잔액11,035,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768182651000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 500,000원",
-      "android.bigText": "입금 500,000원\n김*현님 01/12 10:50 695002-**-***734 ABC급여 FBS입금 500,000 잔액11,535,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768192303000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 70,000원",
-      "android.bigText": "입금 70,000원\n김*현님 01/12 13:31 695002-**-***734 현희경 FBS입금 70,000 잔액11,605,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768216428000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 390,000원",
-      "android.bigText": "출금 390,000원\n김*현님 01/12 20:13 695002-**-***734 교보문고 FBS출금 390,000 잔액11,215,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768258867000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 70,000원",
-      "android.bigText": "입금 70,000원\n김*현님 01/13 08:01 695002-**-***734 정유진 FBS입금 70,000 잔액11,285,241",
+      "android.text": "출금 12,469원",
+      "android.bigText": "출금 12,469원\n김*현님 01/12 09:20 695002-**-***734 CGV FBS출금 12,469 잔액931,743",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4195,41 +928,8 @@
     "postTime": 1768274348000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 01/13 12:19 695002-**-***734 치킨집 FBS출금 4,900 잔액11,280,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768300390000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 01/13 19:33 695002-**-***734 박민수 FBS입금 50,000 잔액11,330,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768307318000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 01/13 21:28 695002-**-***734 이서연 FBS입금 10,000 잔액11,340,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768343228000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 2,000원",
-      "android.bigText": "입금 2,000원\n김*현님 01/14 07:27 695002-**-***734 ABC급여 FBS입금 2,000 잔액11,342,341",
+      "android.text": "출금 8,741원",
+      "android.bigText": "출금 8,741원\n김*현님 01/13 12:19 695002-**-***734 서브웨이 FBS출금 8,741 잔액923,002",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4239,63 +939,8 @@
     "postTime": 1768348198000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 01/14 08:49 695002-**-***734 지하철 FBS출금 55,000 잔액11,287,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768348395000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 01/14 08:53 695002-**-***734 11번가 FBS출금 17,700 잔액11,269,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768359174000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 01/14 11:52 695002-**-***734 이마트 FBS출금 79,000 잔액11,190,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768359522000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 01/14 11:58 695002-**-***734 배달의민족 FBS출금 4,500 잔액11,186,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768394029000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 01/14 21:33 695002-**-***734 메가박스 FBS출금 15,900 잔액11,170,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768398206000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 01/14 22:43 695002-**-***734 중고거래 FBS입금 50,000 잔액11,220,241",
+      "android.text": "출금 2,464원",
+      "android.bigText": "출금 2,464원\n김*현님 01/14 08:49 695002-**-***734 지하철 FBS출금 2,464 잔액920,538",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4305,8 +950,8 @@
     "postTime": 1768405279000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 01/15 00:41 695002-**-***734 메가박스 FBS출금 12,900 잔액11,207,341",
+      "android.text": "출금 20,075원",
+      "android.bigText": "출금 20,075원\n김*현님 01/15 00:41 695002-**-***734 메가박스 FBS출금 20,075 잔액900,463",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4316,41 +961,8 @@
     "postTime": 1768430758000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 01/15 07:45 695002-**-***734 스타벅스 강남점 FBS출금 4,500 잔액11,202,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768457307000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 01/15 15:08 695002-**-***734 CU FBS출금 79,000 잔액11,123,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768464397000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 30,000원",
-      "android.bigText": "입금 30,000원\n김*현님 01/15 17:06 695002-**-***734 최준호 FBS입금 30,000 잔액11,153,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768478388000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 01/15 20:59 695002-**-***734 지하철 FBS출금 2,000 잔액11,151,841",
+      "android.text": "출금 10,270원",
+      "android.bigText": "출금 10,270원\n김*현님 01/15 07:45 695002-**-***734 스타벅스 강남점 FBS출금 10,270 잔액890,193",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4360,8 +972,8 @@
     "postTime": 1768524028000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 01/16 09:40 695002-**-***734 배달의민족 FBS출금 32,000 잔액11,119,841",
+      "android.text": "출금 17,763원",
+      "android.bigText": "출금 17,763원\n김*현님 01/16 09:40 695002-**-***734 배달의민족 FBS출금 17,763 잔액872,430",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4371,19 +983,8 @@
     "postTime": 1768524775000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 01/16 09:52 695002-**-***734 야키토리잔잔마곡점 FBS출금 55,000 잔액11,064,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768528787000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 01/16 10:59 695002-**-***734 홍길동 FBS입금 300,000 잔액11,364,841",
+      "android.text": "출금 12,834원",
+      "android.bigText": "출금 12,834원\n김*현님 01/16 09:52 695002-**-***734 홍콩반점0410 FBS출금 12,834 잔액859,596",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4393,85 +994,8 @@
     "postTime": 1768553729000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 01/16 17:55 695002-**-***734 서브웨이 FBS출금 17,700 잔액11,347,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768557065000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 2,500,000원",
-      "android.bigText": "입금 2,500,000원\n김*현님 01/16 18:51 695002-**-***734 김정현 FBS입금 2,500,000 잔액13,847,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768560278000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 01/16 19:44 695002-**-***734 신지은 FBS입금 10,000 잔액13,857,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768562056000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 01/16 20:14 695002-**-***734 정유진 FBS입금 50,000 잔액13,907,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768571353000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 01/16 22:49 695002-**-***734 롯데마트 FBS출금 7,900 잔액13,899,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768572708000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 01/16 23:11 695002-**-***734 약국 FBS출금 2,000 잔액13,897,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768573221000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 180,000원",
-      "android.bigText": "출금 180,000원\n김*현님 01/16 23:20 695002-**-***734 이마트 FBS출금 180,000 잔액13,717,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768601285000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 01/17 07:08 695002-**-***734 최준호 FBS입금 50,000 잔액13,767,241",
+      "android.text": "출금 13,742원",
+      "android.bigText": "출금 13,742원\n김*현님 01/16 17:55 695002-**-***734 연안식당 FBS출금 13,742 잔액845,854",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4481,118 +1005,8 @@
     "postTime": 1768603458000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 01/17 07:44 695002-**-***734 쿠팡이츠 FBS출금 12,900 잔액13,754,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768609892000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 3,900원",
-      "android.bigText": "출금 3,900원\n김*현님 01/17 09:31 695002-**-***734 무신사 FBS출금 3,900 잔액13,750,441",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768610859000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 01/17 09:47 695002-**-***734 야키토리잔잔마곡점 FBS출금 12,900 잔액13,737,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768615741000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 55,000원",
-      "android.bigText": "출금 55,000원\n김*현님 01/17 11:09 695002-**-***734 넷플릭스 FBS출금 55,000 잔액13,682,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768624344000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 01/17 13:32 695002-**-***734 통신요금 FBS출금 7,900 잔액13,674,641",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768625337000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 01/17 13:48 695002-**-***734 스타벅스 강남점 FBS출금 4,500 잔액13,670,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768627183000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 01/17 14:19 695002-**-***734 CGV FBS출금 32,000 잔액13,638,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768643421000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 01/17 18:50 695002-**-***734 홍길동 FBS입금 50,000 잔액13,688,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768658211000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 120,000원",
-      "android.bigText": "출금 120,000원\n김*현님 01/17 22:56 695002-**-***734 지하철 FBS출금 120,000 잔액13,568,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768661263000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 01/17 23:47 695002-**-***734 스타벅스 강남점 FBS출금 9,800 잔액13,558,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768662902000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 2,000원",
-      "android.bigText": "입금 2,000원\n김*현님 01/18 00:15 695002-**-***734 정유진 FBS입금 2,000 잔액13,560,341",
+      "android.text": "출금 14,294원",
+      "android.bigText": "출금 14,294원\n김*현님 01/17 07:44 695002-**-***734 쿠팡이츠 FBS출금 14,294 잔액831,560",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4602,8 +1016,8 @@
     "postTime": 1768689202000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 390,000원",
-      "android.bigText": "출금 390,000원\n김*현님 01/18 07:33 695002-**-***734 야키토리잔잔마곡점 FBS출금 390,000 잔액13,170,341",
+      "android.text": "출금 25,644원",
+      "android.bigText": "출금 25,644원\n김*현님 01/18 07:33 695002-**-***734 치킨집 FBS출금 25,644 잔액805,916",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4613,85 +1027,8 @@
     "postTime": 1768698693000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/18 10:11 695002-**-***734 11번가 FBS출금 6,500 잔액13,163,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768702237000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 01/18 11:10 695002-**-***734 약국 FBS출금 22,000 잔액13,141,841",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768705023000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 01/18 11:57 695002-**-***734 약국 FBS출금 17,700 잔액13,124,141",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768705940000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 01/18 12:12 695002-**-***734 투썸플레이스 FBS출금 12,900 잔액13,111,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768711848000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 100,000원",
-      "android.bigText": "입금 100,000원\n김*현님 01/18 13:50 695002-**-***734 김성현 FBS입금 100,000 잔액13,211,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768715880000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 100,000원",
-      "android.bigText": "입금 100,000원\n김*현님 01/18 14:58 695002-**-***734 중고거래 FBS입금 100,000 잔액13,311,241",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768732542000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 01/18 19:35 695002-**-***734 무신사 FBS출금 1,350 잔액13,309,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768794412000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 5,000원",
-      "android.bigText": "입금 5,000원\n김*현님 01/19 12:46 695002-**-***734 이서연 FBS입금 5,000 잔액13,314,891",
+      "android.text": "출금 10,142원",
+      "android.bigText": "출금 10,142원\n김*현님 01/18 10:11 695002-**-***734 11번가 FBS출금 10,142 잔액795,774",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4701,8 +1038,8 @@
     "postTime": 1768794596000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 01/19 12:49 695002-**-***734 투썸플레이스 FBS출금 4,500 잔액13,310,391",
+      "android.text": "출금 8,993원",
+      "android.bigText": "출금 8,993원\n김*현님 01/19 12:49 695002-**-***734 투썸플레이스 FBS출금 8,993 잔액786,781",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4712,63 +1049,8 @@
     "postTime": 1768819850000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/19 19:50 695002-**-***734 카카오T FBS출금 6,500 잔액13,303,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768820501000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 01/19 20:01 695002-**-***734 지하철 FBS출금 1,350 잔액13,302,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768823906000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 01/19 20:58 695002-**-***734 서울버스 FBS출금 1,350 잔액13,301,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768830834000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 7,900원",
-      "android.bigText": "출금 7,900원\n김*현님 01/19 22:53 695002-**-***734 유튜브 프리미엄 FBS출금 7,900 잔액13,293,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768831868000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 01/19 23:11 695002-**-***734 버거킹 FBS출금 2,500 잔액13,290,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768833413000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/19 23:36 695002-**-***734 통신요금 FBS출금 6,500 잔액13,284,291",
+      "android.text": "출금 6,204원",
+      "android.bigText": "출금 6,204원\n김*현님 01/19 19:50 695002-**-***734 카카오T FBS출금 6,204 잔액780,577",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4778,8 +1060,8 @@
     "postTime": 1768869771000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 01/20 09:42 695002-**-***734 이디야커피 FBS출금 2,000 잔액13,282,291",
+      "android.text": "출금 4,556원",
+      "android.bigText": "출금 4,556원\n김*현님 01/20 09:42 695002-**-***734 이디야커피 FBS출금 4,556 잔액776,021",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4789,8 +1071,8 @@
     "postTime": 1768902590000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/20 18:49 695002-**-***734 네이버페이 FBS출금 6,500 잔액13,275,791",
+      "android.text": "출금 5,562원",
+      "android.bigText": "출금 5,562원\n김*현님 01/20 18:49 695002-**-***734 네이버페이 FBS출금 5,562 잔액770,459",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4800,30 +1082,8 @@
     "postTime": 1768907651000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 2,000원",
-      "android.bigText": "출금 2,000원\n김*현님 01/20 20:14 695002-**-***734 쿠팡 FBS출금 2,000 잔액13,273,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768914641000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 01/20 22:10 695002-**-***734 올리브영 FBS출금 4,500 잔액13,269,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768951176000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 01/21 08:19 695002-**-***734 환급 FBS입금 50,000 잔액13,319,291",
+      "android.text": "출금 17,456원",
+      "android.bigText": "출금 17,456원\n김*현님 01/20 20:14 695002-**-***734 쿠팡 FBS출금 17,456 잔액753,003",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4833,30 +1093,8 @@
     "postTime": 1768965907000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 01/21 12:25 695002-**-***734 롯데마트 FBS출금 22,000 잔액13,297,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768968584000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 50,000원",
-      "android.bigText": "입금 50,000원\n김*현님 01/21 13:09 695002-**-***734 김정현 FBS입금 50,000 잔액13,347,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768984497000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 01/21 17:34 695002-**-***734 김성현 FBS입금 300,000 잔액13,647,291",
+      "android.text": "출금 16,895원",
+      "android.bigText": "출금 16,895원\n김*현님 01/21 12:25 695002-**-***734 롯데마트 FBS출금 16,895 잔액736,108",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4866,41 +1104,8 @@
     "postTime": 1768985414000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 01/21 17:50 695002-**-***734 네이버페이 FBS출금 12,900 잔액13,634,391",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1768995885000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 01/21 20:44 695002-**-***734 넷플릭스 FBS출금 17,700 잔액13,616,691",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769004593000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 120,000원",
-      "android.bigText": "출금 120,000원\n김*현님 01/21 23:09 695002-**-***734 스타벅스 FBS출금 120,000 잔액13,496,691",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769036553000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 70,000원",
-      "android.bigText": "입금 70,000원\n김*현님 01/22 08:02 695002-**-***734 홍길동 FBS입금 70,000 잔액13,566,691",
+      "android.text": "출금 22,050원",
+      "android.bigText": "출금 22,050원\n김*현님 01/21 17:50 695002-**-***734 네이버페이 FBS출금 22,050 잔액714,058",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4910,74 +1115,8 @@
     "postTime": 1769044675000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/22 10:17 695002-**-***734 11번가 FBS출금 6,500 잔액13,560,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769051771000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 500,000원",
-      "android.bigText": "입금 500,000원\n김*현님 01/22 12:16 695002-**-***734 김정현 FBS입금 500,000 잔액14,060,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769053639000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/22 12:47 695002-**-***734 택시 FBS출금 6,500 잔액14,053,691",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769079610000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 01/22 20:00 695002-**-***734 맥도날드 FBS출금 2,500 잔액14,051,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769081298000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/22 20:28 695002-**-***734 롯데마트 FBS출금 6,500 잔액14,044,691",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769082104000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 01/22 20:41 695002-**-***734 맥도날드 FBS출금 4,900 잔액14,039,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769083798000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 17,700원",
-      "android.bigText": "출금 17,700원\n김*현님 01/22 21:09 695002-**-***734 쿠팡이츠 FBS출금 17,700 잔액14,022,091",
+      "android.text": "출금 17,640원",
+      "android.bigText": "출금 17,640원\n김*현님 01/22 10:17 695002-**-***734 11번가 FBS출금 17,640 잔액696,418",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4987,8 +1126,8 @@
     "postTime": 1769096027000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 01/23 00:33 695002-**-***734 야키토리잔잔마곡점 FBS출금 32,000 잔액13,990,091",
+      "android.text": "출금 12,377원",
+      "android.bigText": "출금 12,377원\n김*현님 01/23 00:33 695002-**-***734 맥도날드 FBS출금 12,377 잔액684,041",
       "android.subText": null,
       "android.infoText": null
     }
@@ -4998,63 +1137,8 @@
     "postTime": 1769119252000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 79,000원",
-      "android.bigText": "출금 79,000원\n김*현님 01/23 07:00 695002-**-***734 맥도날드 FBS출금 79,000 잔액13,911,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769128181000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 01/23 09:29 695002-**-***734 메가박스 FBS출금 12,900 잔액13,898,191",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769142853000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 01/23 13:34 695002-**-***734 네이버페이 FBS출금 8,900 잔액13,889,291",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769166758000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 01/23 20:12 695002-**-***734 투썸플레이스 FBS출금 4,500 잔액13,884,791",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769173942000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 8,900원",
-      "android.bigText": "출금 8,900원\n김*현님 01/23 22:12 695002-**-***734 CU FBS출금 8,900 잔액13,875,891",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769176549000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 12,900원",
-      "android.bigText": "출금 12,900원\n김*현님 01/23 22:55 695002-**-***734 서울버스 FBS출금 12,900 잔액13,862,991",
+      "android.text": "출금 8,662원",
+      "android.bigText": "출금 8,662원\n김*현님 01/23 07:00 695002-**-***734 버거킹 FBS출금 8,662 잔액675,379",
       "android.subText": null,
       "android.infoText": null
     }
@@ -5064,85 +1148,8 @@
     "postTime": 1769206060000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 15,900원",
-      "android.bigText": "출금 15,900원\n김*현님 01/24 07:07 695002-**-***734 서브웨이 FBS출금 15,900 잔액13,847,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769214077000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 4,500원",
-      "android.bigText": "출금 4,500원\n김*현님 01/24 09:21 695002-**-***734 배달의민족 FBS출금 4,500 잔액13,842,591",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769217902000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 01/24 10:25 695002-**-***734 최준호 FBS입금 10,000 잔액13,852,591",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769220076000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 01/24 11:01 695002-**-***734 넷플릭스 FBS출금 2,500 잔액13,850,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769220788000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 01/24 11:13 695002-**-***734 이체 FBS입금 300,000 잔액14,150,091",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769227871000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 1,350원",
-      "android.bigText": "출금 1,350원\n김*현님 01/24 13:11 695002-**-***734 버거킹 FBS출금 1,350 잔액14,148,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769251522000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 01/24 19:45 695002-**-***734 정유진 FBS입금 300,000 잔액14,448,741",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769258536000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 32,000원",
-      "android.bigText": "출금 32,000원\n김*현님 01/24 21:42 695002-**-***734 카카오T FBS출금 32,000 잔액14,416,741",
+      "android.text": "출금 8,892원",
+      "android.bigText": "출금 8,892원\n김*현님 01/24 07:07 695002-**-***734 서브웨이 FBS출금 8,892 잔액666,487",
       "android.subText": null,
       "android.infoText": null
     }
@@ -5152,8 +1159,8 @@
     "postTime": 1769312369000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 4,900원",
-      "android.bigText": "출금 4,900원\n김*현님 01/25 12:39 695002-**-***734 올리브영 FBS출금 4,900 잔액14,411,841",
+      "android.text": "출금 10,694원",
+      "android.bigText": "출금 10,694원\n김*현님 01/25 12:39 695002-**-***734 올리브영 FBS출금 10,694 잔액655,793",
       "android.subText": null,
       "android.infoText": null
     }
@@ -5163,85 +1170,8 @@
     "postTime": 1769330884000,
     "extras": {
       "android.title": "KB국민은행",
-      "android.text": "출금 6,500원",
-      "android.bigText": "출금 6,500원\n김*현님 01/25 17:48 695002-**-***734 택시 FBS출금 6,500 잔액14,405,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769331404000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 120,000원",
-      "android.bigText": "출금 120,000원\n김*현님 01/25 17:56 695002-**-***734 CU FBS출금 120,000 잔액14,285,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769340419000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 22,000원",
-      "android.bigText": "출금 22,000원\n김*현님 01/25 20:26 695002-**-***734 병원 FBS출금 22,000 잔액14,263,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769342089000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 10,000원",
-      "android.bigText": "입금 10,000원\n김*현님 01/25 20:54 695002-**-***734 홍길동 FBS입금 10,000 잔액14,273,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769343665000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 30,000원",
-      "android.bigText": "입금 30,000원\n김*현님 01/25 21:21 695002-**-***734 오지훈 FBS입금 30,000 잔액14,303,341",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769347535000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 9,800원",
-      "android.bigText": "출금 9,800원\n김*현님 01/25 22:25 695002-**-***734 무신사 FBS출금 9,800 잔액14,293,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769351523000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "입금 300,000원",
-      "android.bigText": "입금 300,000원\n김*현님 01/25 23:32 695002-**-***734 김성현 FBS입금 300,000 잔액14,593,541",
-      "android.subText": null,
-      "android.infoText": null
-    }
-  },
-  {
-    "packageName": "com.kbstar.kbbank",
-    "postTime": 1769351975000,
-    "extras": {
-      "android.title": "KB국민은행",
-      "android.text": "출금 2,500원",
-      "android.bigText": "출금 2,500원\n김*현님 01/25 23:39 695002-**-***734 카카오페이 FBS출금 2,500 잔액14,591,041",
+      "android.text": "출금 9,213원",
+      "android.bigText": "출금 9,213원\n김*현님 01/25 17:48 695002-**-***734 택시 FBS출금 9,213 잔액646,580",
       "android.subText": null,
       "android.infoText": null
     }

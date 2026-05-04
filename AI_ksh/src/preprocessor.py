@@ -43,6 +43,43 @@ class LifeDataPreprocessor:
             "spending":    self._spending(target),
         }
 
+    def monthly_summary(self, year: int, month: int) -> dict:
+        import calendar as cal_mod
+        first_day = date(year, month, 1)
+        last_day  = date(year, month, cal_mod.monthrange(year, month)[1])
+
+        days, cursor = [], first_day
+        while cursor <= last_day:
+            days.append(self.daily_summary(cursor))
+            cursor += timedelta(days=1)
+
+        weekly_breakdown = []
+        for week_idx in range(0, len(days), 7):
+            chunk = days[week_idx : week_idx + 7]
+            sleep_list = [d["sleep"]["duration_hours"] for d in chunk if d["sleep"]]
+            weekly_breakdown.append({
+                "week":                    week_idx // 7 + 1,
+                "start":                   chunk[0]["date"],
+                "end":                     chunk[-1]["date"],
+                "sleep_avg_hours":         round(sum(sleep_list) / len(sleep_list), 1) if sleep_list else None,
+                "steps_daily_avg":         round(sum(d["steps"] for d in chunk) / len(chunk)),
+                "screentime_daily_avg_min": round(sum(d["screentime"]["total_min"] for d in chunk) / len(chunk)),
+                "spending_total":          sum(d["spending"]["total_spent"] for d in chunk),
+            })
+
+        return {
+            "period":           {"year": year, "month": month, "start": str(first_day), "end": str(last_day)},
+            "days_count":       len(days),
+            "sleep":            self._weekly_sleep(days),
+            "steps":            self._weekly_steps(days),
+            "screentime":       self._weekly_screentime(days),
+            "calendar":         self._weekly_calendar(days),
+            "weather":          self._weekly_weather(days),
+            "spending":         self._monthly_spending(days),
+            "weekly_breakdown": weekly_breakdown,
+            "daily_list":       days,
+        }
+
     def weekly_summary(self, start: str | date, end: str | date) -> dict:
         if isinstance(start, str): start = date.fromisoformat(start)
         if isinstance(end,   str): end   = date.fromisoformat(end)
@@ -277,6 +314,23 @@ class LifeDataPreprocessor:
             "avg_max_temp_c": round(sum(r["max_temp_c"] for r in records) / len(records), 1),
             "avg_min_temp_c": round(sum(r["min_temp_c"] for r in records) / len(records), 1),
             "avg_precip_pct": round(sum(r["max_precip_pct"] for r in records) / len(records)),
+        }
+
+    def _monthly_spending(self, days: list[dict]) -> dict:
+        total = 0
+        merchant_counts: dict[str, int] = defaultdict(int)
+        for d in days:
+            sp = d.get("spending", {})
+            total += sp.get("total_spent", 0)
+            for m in sp.get("top_merchants", []):
+                merchant_counts[m] += 1
+        top = sorted(merchant_counts.items(), key=lambda x: -x[1])[:3]
+        weeks_count = max(len(days) // 7, 1)
+        return {
+            "total_spent":     total,
+            "top_merchants":   [m for m, _ in top],
+            "daily_avg_spent": round(total / len(days)) if days else 0,
+            "weekly_avg_spent": round(total / weeks_count),
         }
 
     def _weekly_spending(self, days: list[dict]) -> dict:

@@ -127,7 +127,7 @@ class WeeklyReportGenerator:
 if __name__ == "__main__":
     import json, os
     from datetime import date
-    from llm_caller import LLMCaller, MockLLMCaller
+    from src.llm_caller import LLMCaller, MockLLMCaller
 
     DATA_DIR   = os.path.join(os.path.dirname(__file__), "data")
     USE_MOCK   = False      # True: 테스트 / False: 실제 Ollama
