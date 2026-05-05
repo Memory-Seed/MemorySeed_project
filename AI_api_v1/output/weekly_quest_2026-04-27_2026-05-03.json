@@ -1,0 +1,45 @@
+{
+  "period": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "greeting": "지난주 만보 달성은 하루도 안 됐는데 이번주는 4일 도전해볼까요멍!",
+  "quests": [
+    {
+      "id": 1,
+      "text": "4일 만보 달성",
+      "description": "지난주만 보는 하루도 없었으니 이번 주는 무려 4일을 목표로 걸어볼까요멍!",
+      "isDone": false,
+      "coinReward": 25,
+      "affinityReward": 5,
+      "type": "etc",
+      "period": "weekly",
+      "targetValue": 4,
+      "difficulty": "NORMAL"
+    },
+    {
+      "id": 2,
+      "text": "하루 3개 일정",
+      "description": "지난주에는 아무 일정도 없었지만 이번 주는 하루에 최소 3개의 일정을 계획해볼까요멍!",
+      "isDone": false,
+      "coinReward": 10,
+      "affinityReward": 5,
+      "type": "study",
+      "period": "weekly",
+      "targetValue": 3,
+      "difficulty": "EASY"
+    },
+    {
+      "id": 3,
+      "text": "스터디 일정 추가",
+      "description": "지난주에는 공부 일정이 없었는데 이번 주는 최소 1번은 스터디를 정해보자멍!",
+      "isDone": false,
+      "coinReward": 10,
+      "affinityReward": 5,
+      "type": "etc",
+      "period": "weekly",
+      "targetValue": 1,
+      "difficulty": "EASY"
+    }
+  ]
+}

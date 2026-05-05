@@ -1,0 +1,35 @@
+{
+  "date": "2025-12-10",
+  "overallScore": 75,
+  "dogComment": "오늘도 좋은 하루였구나멍! 조금은 부족했지만 개선하면 좋을 것 같아요멍!",
+  "items": {
+    "sleep": {
+      "score": 60,
+      "data": "23:52 취침 → 06:31 기상 (6.7시간)",
+      "feedback": "오늘 수면이 좀 짧았는데, 다음엔 조금 더 많이 자보자멍!"
+    },
+    "steps": {
+      "score": 98,
+      "data": "9,963보",
+      "feedback": "오늘은 만보를 거의 달성했어! 잘 걸었구나멍!"
+    },
+    "screentime": {
+      "score": 70,
+      "data": "총 276분 (상위3앱: com.apple.android.music 131분, com.google.android.apps.docs 71분, com.google.android.keep 59분)",
+      "feedback": "오락하는 앱을 많이 썼네... 조금 줄여보는 건 어떨까? 멍코치도 같이 노력할게요멍!"
+    },
+    "spending": {
+      "score": 60,
+      "data": "총 35,153원 (주요: 야키토리잔잔마곡점, 11번가)",
+      "feedback": "오늘은 꽤 많이 쓴 것 같아... 다음엔 좀 줄여보는 걸 추천해요멍!"
+    },
+    "schedule": {
+      "score": 85,
+      "data": "13:00 실습/랩, 19:00 여자친구 약속",
+      "feedback": "오늘 일정도 잘 소화했어! 다음엔 좀 더 안전하게 소화했으면 좋겠네요멍!"
+    }
+  },
+  "anomalyAlert": "수면 시간이 6.7시간으로 부족해요... 멍코치가 걱정돼요멍!",
+  "tomorrowWeather": "1.3~10.8°C (체감 -0.7~9.6°C), 강수확률 10%, 쌀쌀해요 (자켓, 가디건 필요)",
+  "tomorrowComment": "내일은 기온이 낮으니 따뜻한 옷을 입어주세요구나멍! 편안히 쉬세요!"
+}

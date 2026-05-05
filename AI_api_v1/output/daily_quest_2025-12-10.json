@@ -1,0 +1,32 @@
+{
+  "date": "2025-12-10",
+  "greeting": "어제는 만보를 걸어서 멍코치가 기뻐요멍!",
+  "quests": [
+    {
+      "id": 1,
+      "text": "오늘도 23,000보 달성해볼까요?",
+      "description": "어제 22,785보 걸었으니 오늘은 목표 23,000보로 도전해보자멍!",
+      "isDone": false,
+      "coinReward": 25,
+      "affinityReward": 5,
+      "type": "exercise",
+      "period": "daily",
+      "targetValue": 23000,
+      "difficulty": "NORMAL"
+    }
+  ],
+  "hiddenQuests": [
+    {
+      "id": 1,
+      "text": "우산 챙기기",
+      "description": "오늘 날씨가 일교차가 큼UNG! 우산을 꼭 챙겨보세요멍!",
+      "isDone": false,
+      "coinReward": 5,
+      "affinityReward": 5,
+      "type": "weather",
+      "period": "daily",
+      "targetValue": 1,
+      "difficulty": "HIDDEN"
+    }
+  ]
+}
