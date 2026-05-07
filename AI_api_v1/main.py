@@ -8,41 +8,76 @@ LifeQuest AI FastAPI 서버
   POST /report/monthly  → 월간 리포트 생성
 """
 
-import json
-import os
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from models import AnalyzeRequest, WeeklyReportRequest, MonthlyReportRequest
+from models import AnalyzeRequest, WeeklyReportRequest, MonthlyReportRequest, LifelogData
 from daily_quest import DailyQuestGenerator
 from weekly_report import WeeklyReportGenerator
 from monthly_report import MonthlyReportGenerator
 from src.preprocessor import LifeDataPreprocessor
 from src.llm_caller import LLMCaller
 
+KST = timezone(timedelta(hours=9))
 
-# ── 데이터 로드 ──────────────────────────────
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+# ── lifelog_data → LifeDataPreprocessor 변환 ──
 
-def load_json(filename: str):
-    path = os.path.join(DATA_DIR, filename)
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"데이터 파일 없음: {path}")
-    with open(path, encoding="utf-8") as f:
-        return json.load(f)
+def _kst_str(dt: datetime) -> str:
+    """naive datetime을 KST로 간주해 ISO 문자열로 변환"""
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=KST)
+    return dt.isoformat()
 
-def build_preprocessor() -> LifeDataPreprocessor:
+
+def build_preprocessor_from_lifelog(lifelog: LifelogData) -> LifeDataPreprocessor:
+    sleep_list = [
+        {"startTime": _kst_str(s.startTime), "endTime": _kst_str(s.endTime)}
+        for s in lifelog.sleeps
+    ]
+
+    steps_list = [
+        {"startTime": _kst_str(s.time), "count": s.stepCount}
+        for s in lifelog.steps
+    ]
+
+    screentime_list = [
+        {
+            "firstTimeStamp":       int((s.startTime.replace(tzinfo=KST) if s.startTime.tzinfo is None else s.startTime).timestamp() * 1000),
+            "packageName":          s.appPackage,
+            "totalTimeInForeground": s.durationSec * 1000,
+        }
+        for s in lifelog.screenTimes
+    ]
+
+    weather_list = [
+        {
+            "LocalObservationDateTime": _kst_str(w.time),
+            "Temperature":              {"Metric": {"Value": w.temperatureC}},
+            "RealFeelTemperature":      {"Metric": {"Value": w.temperatureC}},
+            "RelativeHumidity":         None,
+            "PrecipitationProbability": 0,
+            "WeatherText":              w.condition,
+        }
+        for w in lifelog.weathers
+    ]
+
+    transactions_list = [
+        {"timestamp": _kst_str(t.timestamp), "amountKrw": t.amountKrw, "merchant": t.merchant}
+        for t in lifelog.transactions
+    ]
+
     return LifeDataPreprocessor(
-        sleep=load_json("sleep.json"),
-        steps=load_json("steps.json"),
-        screentime=load_json("screentime.json"),
-        calendar=load_json("google_calendar.json"),
-        notification=load_json("notification.json"),
-        weather=load_json("accuweather.json"),
+        sleep=sleep_list,
+        steps=steps_list,
+        screentime=screentime_list,
+        calendar={"items": []},
+        notification=[],
+        weather=weather_list,
+        transactions=transactions_list,
     )
 
 
@@ -50,8 +85,7 @@ def build_preprocessor() -> LifeDataPreprocessor:
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    app.state.preprocessor = build_preprocessor()
-    app.state.llm_caller   = LLMCaller()
+    app.state.llm_caller = LLMCaller()
     print("✅ LifeQuest AI 서버 준비 완료")
     yield
 
@@ -100,7 +134,7 @@ async def analyze(req: AnalyzeRequest):
     - due_days < 7 → 백엔드에서 daily 처리
     """
     try:
-        pp     = app.state.preprocessor
+        pp     = build_preprocessor_from_lifelog(req.lifelog_data)
         caller = app.state.llm_caller
         target = req.target_date or date.today()
 
@@ -152,7 +186,7 @@ async def weekly_report(req: WeeklyReportRequest):
     - Response: weekly_summary, top_emotion, growth_tip, weekly_score
     """
     try:
-        pp     = app.state.preprocessor
+        pp     = build_preprocessor_from_lifelog(req.lifelog_data)
         caller = app.state.llm_caller
 
         if req.start_date and req.end_date:
@@ -180,7 +214,7 @@ async def monthly_report(req: MonthlyReportRequest):
     - Response: monthly_insight, main_keyword, monthly_score, cheering_message
     """
     try:
-        pp     = app.state.preprocessor
+        pp     = build_preprocessor_from_lifelog(req.lifelog_data)
         caller = app.state.llm_caller
 
         if req.year_month:

@@ -20,6 +20,7 @@ class LifeDataPreprocessor:
         calendar: dict,
         notification: list[dict],
         weather: list[dict],
+        transactions: list[dict] | None = None,
     ):
         self.sleep        = sleep
         self.steps        = steps
@@ -27,6 +28,7 @@ class LifeDataPreprocessor:
         self.cal_items    = calendar.get("items", [])
         self.notification = notification
         self.weather      = weather
+        self.transactions = transactions  # lifelog_data에서 직접 전달된 결제 데이터
 
     # ── 공개 메서드 ──────────────────────────
 
@@ -199,6 +201,27 @@ class LifeDataPreprocessor:
         }
 
     def _spending(self, target: date) -> dict:
+        if self.transactions is not None:
+            return self._spending_from_transactions(target)
+        return self._spending_from_notifications(target)
+
+    def _spending_from_transactions(self, target: date) -> dict:
+        total = 0
+        transactions = []
+        for t in self.transactions:
+            dt = datetime.fromisoformat(t["timestamp"]).astimezone(KST)
+            if dt.date() != target:
+                continue
+            total += t["amountKrw"]
+            transactions.append({"name": t["merchant"], "amount": t["amountKrw"]})
+        transactions.sort(key=lambda x: -x["amount"])
+        return {
+            "total_spent":   total,
+            "transactions":  transactions,
+            "top_merchants": [t["name"] for t in transactions[:3]],
+        }
+
+    def _spending_from_notifications(self, target: date) -> dict:
         total = 0
         transactions = []
         for n in self.notification:
