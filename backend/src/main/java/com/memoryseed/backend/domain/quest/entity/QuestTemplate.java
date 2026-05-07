@@ -45,7 +45,15 @@ public class QuestTemplate extends BaseTimeEntity {
     @Column(nullable = false)
     private Integer targetValue = 0;
 
+    // AI가 반환하는 난이도 (EASY/NORMAL/HARD/HIDDEN). 사용자 생성 퀘스트는 NORMAL
+    @Column(length = 10)
+    private String difficulty;
+
     public QuestTemplate(String code, String title, String description, QuestCategory category, int rewardCoin, int affinityReward, int targetValue) {
+        this(code, title, description, category, rewardCoin, affinityReward, targetValue, "NORMAL");
+    }
+
+    public QuestTemplate(String code, String title, String description, QuestCategory category, int rewardCoin, int affinityReward, int targetValue, String difficulty) {
         this.code = code;
         this.title = title;
         this.description = description;
@@ -53,6 +61,7 @@ public class QuestTemplate extends BaseTimeEntity {
         this.rewardCoin = rewardCoin;
         this.affinityReward = affinityReward;
         this.targetValue = targetValue;
+        this.difficulty = difficulty;
         this.active = true;
     }
 

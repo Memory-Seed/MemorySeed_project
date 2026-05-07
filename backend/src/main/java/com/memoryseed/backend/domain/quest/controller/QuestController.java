@@ -31,14 +31,14 @@ public class QuestController {
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 
-    // 2. AI 추천 퀘스트 생성 API
+    // 2. AI 추천 퀘스트 생성 API (여러 개 반환)
     @PostMapping("/ai-recommend")
-    public ResponseEntity<QuestResponse> createAiQuest(
+    public ResponseEntity<List<QuestResponse>> createAiQuests(
             Authentication authentication,
             @Valid @RequestBody AiQuestCreateRequest request
     ) {
         String providerId = authentication.getName();
-        QuestResponse response = questService.createAiQuest(providerId, request);
+        List<QuestResponse> response = questService.createAiQuests(providerId, request);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 

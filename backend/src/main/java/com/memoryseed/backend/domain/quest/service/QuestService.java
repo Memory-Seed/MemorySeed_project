@@ -1,5 +1,8 @@
 package com.memoryseed.backend.domain.quest.service;
 
+import com.memoryseed.backend.domain.ai.client.AiApiClient;
+import com.memoryseed.backend.domain.lifelog.dto.LifelogRawResponse;
+import com.memoryseed.backend.domain.lifelog.service.LifelogQueryService;
 import com.memoryseed.backend.domain.quest.dto.AiQuestCreateRequest;
 import com.memoryseed.backend.domain.quest.dto.QuestCreateRequest;
 import com.memoryseed.backend.domain.quest.dto.QuestResponse;
@@ -18,6 +21,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.UUID;
@@ -31,8 +35,9 @@ public class QuestService {
     private final UserQuestRepository userQuestRepository;
     private final QuestTemplateRepository questTemplateRepository;
     private final UserWalletRepository userWalletRepository;
+    private final AiApiClient aiApiClient;
+    private final LifelogQueryService lifelogQueryService;
 
-    private static final int USER_CREATED_QUEST_REWARD = 10; // 사용자 생성 퀘스트 고정 보상
     private static final int MANUAL_QUEST_REWARD = 10;
     private static final int AI_QUEST_REWARD = 20;
 
@@ -65,27 +70,86 @@ public class QuestService {
         return QuestResponse.from(userQuest);
     }
 
-        // 2. AI 추천 퀘스트 생성 로직
-    public QuestResponse createAiQuest(String providerId, AiQuestCreateRequest request) {
+    // 2. AI 추천 퀘스트 생성 로직 (다수 퀘스트 한 번에 저장)
+    public List<QuestResponse> createAiQuests(String providerId, AiQuestCreateRequest request) {
         User user = getUser(providerId);
-        QuestTemplate template = getOrCreateGenericTemplate("AI_QUEST", "AI 추천 퀘스트", request.category(), AI_QUEST_REWARD);
-       // TODO: 외부 AI API(OpenAI, Gemini 등) 호출 로직 구현 위치
-       // 임시 Mock 데이터 (추후 AI 응답값으로 대체)
-        String aiGeneratedTitle = "[AI 추천] " + request.category().name() + " 마스터하기!";
-        String aiGeneratedDesc = "AI가 유저의 최근 활동을 분석하여 추천하는 맞춤형 퀘스트입니다.";
 
+        // 오늘 lifelog 데이터 조회 (AI 분석용)
+        LocalDate today = LocalDate.now();
+        LifelogRawResponse lifelog = lifelogQueryService.getRawLifelogs(providerId, today, today);
+
+        // AI 서버 호출
+        List<AiApiClient.AiQuest> aiQuests = aiApiClient.recommendDaily(
+                request.category().name(),
+                request.diaryText(),
+                today,
+                lifelog
+        );
+
+        if (aiQuests.isEmpty()) {
+            // AI 서버 미연결 시 fallback 단건 생성
+            return List.of(saveFallbackQuest(user, request.category()));
+        }
+
+        // 모든 AI 퀘스트를 DB에 저장
+        List<QuestResponse> responses = new ArrayList<>();
+        for (AiApiClient.AiQuest aiQuest : aiQuests) {
+            QuestTemplate template = new QuestTemplate(
+                    "AI_" + UUID.randomUUID(),
+                    aiQuest.text(),
+                    aiQuest.description(),
+                    parseCategory(aiQuest.type(), request.category()),
+                    aiQuest.coinReward() != null ? aiQuest.coinReward() : AI_QUEST_REWARD,
+                    aiQuest.affinityReward() != null ? aiQuest.affinityReward() : 5,
+                    aiQuest.targetValue() != null ? aiQuest.targetValue() : 1,
+                    aiQuest.difficulty() != null ? aiQuest.difficulty() : "NORMAL"
+            );
+            questTemplateRepository.save(template);
+
+            UserQuest userQuest = new UserQuest(
+                    user,
+                    template,
+                    today,
+                    today.plusDays(1), // daily 고정
+                    aiQuest.text(),
+                    aiQuest.description(),
+                    aiQuest.targetValue() != null ? aiQuest.targetValue() : 1
+            );
+            userQuestRepository.save(userQuest);
+            responses.add(QuestResponse.from(userQuest));
+        }
+        return responses;
+    }
+
+    private QuestResponse saveFallbackQuest(User user, QuestCategory category) {
+        QuestTemplate template = new QuestTemplate(
+                "AI_" + UUID.randomUUID(),
+                "[AI 추천] " + category.name() + " 챌린지",
+                "AI 서버 미연결 - 임시 퀘스트입니다.",
+                category,
+                AI_QUEST_REWARD,
+                5,
+                1,
+                "NORMAL"
+        );
+        questTemplateRepository.save(template);
+
+        LocalDate today = LocalDate.now();
         UserQuest userQuest = new UserQuest(
-                user,
-                template,
-                LocalDate.now(),
-                LocalDate.now().plusDays(1),
-                aiGeneratedTitle,
-                aiGeneratedDesc,
-                1 // 임시 목표 수치 (나중에 AI가 주는 값으로 교체)
+                user, template, today, today.plusDays(1),
+                template.getTitle(), template.getDescription(), 1
         );
         userQuestRepository.save(userQuest);
-
         return QuestResponse.from(userQuest);
+    }
+
+    private QuestCategory parseCategory(String type, QuestCategory fallback) {
+        if (type == null) return fallback;
+        try {
+            return QuestCategory.valueOf(type.toUpperCase());
+        } catch (IllegalArgumentException e) {
+            return fallback;
+        }
     }
 
     @Transactional(readOnly = true)
@@ -133,21 +197,6 @@ public class QuestService {
     private User getUser(String providerId) {
         return userRepository.findByProviderId(providerId)
                 .orElseThrow(() -> new IllegalArgumentException("User not found with providerId: " + providerId));
-    }
-
-    private QuestTemplate getOrCreateGenericTemplate(String code, String defaultTitle, QuestCategory category, int rewardCoin) {
-        return questTemplateRepository.findByCode(code)
-                .orElseGet(() -> questTemplateRepository.save(
-                        new QuestTemplate(
-                                code,
-                                defaultTitle,
-                                "시스템 기본 템플릿",
-                                category,
-                                rewardCoin,
-                                5, // affinityReward (기본값)
-                                1  // targetValue (기본값)
-                        )
-                ));
     }
 
     public void deleteQuest(String providerId, Long questId) {
